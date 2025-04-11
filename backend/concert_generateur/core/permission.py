@@ -1,10 +1,29 @@
 # core/permissions.py
 from rest_framework.permissions import BasePermission
 
-class CanViewDashboardPermission(BasePermission):
+class HasPermissions(BasePermission):
     """
-    Permission personnalisée qui vérifie si l'utilisateur dispose de la permission 'core.can_view_dashboard'.
+    Vérifie que l'utilisateur possède les permissions définies dans l'attribut
+    `required_permissions` de la vue.
+
+    Tu peux définir en plus l'attribut `permission_logic` dans la vue :
+      - "all" (par défaut) : L'utilisateur doit avoir TOUTES les permissions listées.
+      - "any" : L'utilisateur doit avoir AU MOINS UNE des permissions listées.
     """
     def has_permission(self, request, view):
-        # Vérifiez que l'utilisateur est authentifié et qu'il possède la permission
-        return request.user and request.user.is_authenticated and request.user.has_perm('core.can_view_dashboard')
+        perms = getattr(view, 'required_permissions', [])
+        logic = getattr(view, 'permission_logic', 'all')
+        if not request.user or not request.user.is_authenticated:
+            return False
+
+        # Si aucune permission n'est spécifiée, autorise par défaut
+        if not perms:
+            return True
+
+        if logic == 'all':
+            return request.user.has_perms(perms)
+        elif logic == 'any':
+            return any(request.user.has_perm(perm) for perm in perms)
+        else:
+            # Si on donne un mode non reconnu, refuse l'accès
+            return False

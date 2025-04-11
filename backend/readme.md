@@ -41,6 +41,7 @@ pip install -r requirements.txt
 
 
 ```bash
+python manage.py import_demographics data/Demographic_stats_per_country.csv
 python manage.py makemigrations core
 python manage.py migrate
 ```
