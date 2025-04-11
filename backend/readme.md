@@ -28,7 +28,7 @@ python -m venv env
 # Windows
 env\Scripts\activate
 # macOS/Linux
-source env/bin/activate
+source env/Scripts/activate
 ```
 
 ### 3. Installer les dépendances
@@ -41,6 +41,7 @@ pip install -r requirements.txt
 
 
 ```bash
+python manage.py makemigrations core
 python manage.py migrate
 ```
 
