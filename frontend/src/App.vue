@@ -1,15 +1,16 @@
 <template>
-  <div class="p-4">
-    <h1>✨ PrimeVue 4 + Aura Theme</h1>
-    <Button label="Click me" icon="pi pi-check" />
-  </div>
+    <div :class="['main-container', { 'sidebar-hidden': !visible }]">
+      <HeaderComponent v-model:visible="visible" />
+      <div class="layout-main-container">
+        <!-- Your page content here -->
+      </div>
+    </div>
 </template>
 
 <script setup>
-</script>
+import { ref } from 'vue'
+import HeaderComponent from './components/HeaderComponent.vue'
 
-<style scoped>
-h1 {
-  margin-bottom: 1rem;
-}
-</style>
+const visible = ref(false)
+</script>
+  

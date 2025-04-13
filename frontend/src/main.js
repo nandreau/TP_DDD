@@ -1,21 +1,35 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import "primeicons/primeicons.css";
+import "./style.css";
+import "./flags.css";
 
-import PrimeVue from 'primevue/config'
-import Aura from '@primeuix/themes/aura'
+import { createApp } from "vue";
+import PrimeVue from "primevue/config";
+import ConfirmationService from 'primevue/confirmationservice'
+import DialogService from 'primevue/dialogservice'
+import ToastService from 'primevue/toastservice';
 
-import Button from 'primevue/button'
+import App from "./App.vue";
+import AppState from './plugins/appState.js';
+import HeaderComponent from './components/HeaderComponent.vue';
+import Noir from './presets/Noir.js';
 
-import 'primeicons/primeicons.css'
-
-const app = createApp(App)
+const app = createApp(App);
 
 app.use(PrimeVue, {
-  theme: {
-    preset: Aura
-  }
-})
+    theme: {
+        preset: Noir,
+        options: {
+            prefix: 'p',
+            darkModeSelector: '.p-dark',
+            cssLayer: false,
+        }
+    }
+});
+app.use(AppState);
+app.use(ConfirmationService);
+app.use(ToastService);
+app.use(DialogService);
 
-app.component('Button', Button)
+app.component('HeaderComponent', HeaderComponent);
 
-app.mount('#app')
+app.mount("#app");
