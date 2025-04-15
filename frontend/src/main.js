@@ -8,6 +8,7 @@ import ConfirmationService from 'primevue/confirmationservice'
 import DialogService from 'primevue/dialogservice'
 import ToastService from 'primevue/toastservice';
 
+import router from './router';
 import App from "./App.vue";
 import AppState from './plugins/appState.js';
 import HeaderComponent from './components/HeaderComponent.vue';
@@ -29,6 +30,7 @@ app.use(AppState);
 app.use(ConfirmationService);
 app.use(ToastService);
 app.use(DialogService);
+app.use(router);
 
 app.component('HeaderComponent', HeaderComponent);
 
