@@ -7,6 +7,7 @@ import PrimeVue from "primevue/config";
 import ConfirmationService from 'primevue/confirmationservice'
 import DialogService from 'primevue/dialogservice'
 import ToastService from 'primevue/toastservice';
+import Toast from 'primevue/toast';
 
 import router from './router';
 import App from "./App.vue";
@@ -32,6 +33,7 @@ app.use(ToastService);
 app.use(DialogService);
 app.use(router);
 
+app.component('Toast', Toast);
 app.component('HeaderComponent', HeaderComponent);
 
 app.mount("#app");
