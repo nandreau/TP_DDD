@@ -173,3 +173,16 @@ body {
         margin-left: 0 !important;
     }
 }
+
+/* PrimeVue */
+.p-drawer {
+    border: none !important;
+    box-shadow: none;
+}
+
+.p-button {
+    padding: 4px 10px !important;
+}
+.p-dialog {
+    min-width: 300px;
+}

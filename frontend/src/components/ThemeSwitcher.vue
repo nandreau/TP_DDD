@@ -1,65 +1,59 @@
 <template>
-    <ul class="flex list-none m-0 p-0 gap-2 items-center">
-        <li>
-            <button type="button"
-                class="layout-topbar-action"
-                @click="onThemeToggler">
-                <i :class="`dark:text-white pi ${iconClass}`" />
-            </button>
-        </li>
-        <li class="relative">
-            <button v-styleclass="{
-                selector: '@next',
-                enterFromClass: 'hidden',
-                enterActiveClass: 'animate-scalein',
-                leaveToClass: 'hidden',
-                leaveActiveClass: 'animate-fadeout',
-                hideOnOutsideClick: true,
-            }" type="button"
-                class="layout-topbar-action">
-                <i class="pi pi-palette dark:text-white"></i>
-            </button>
-            <div
-                class="absolute top-[2.5rem] right-0 hidden w-[16rem] p-3 bg-white dark:bg-surface-800 rounded-md shadow border border-surface-200 dark:border-surface-700 flex-col justify-start items-start gap-3.5 inline-flex origin-top z-10">
-                <div class="flex-col justify-start items-start gap-2 inline-flex pr-4">
-                    <span class="text-sm font-medium">Primary Colors</span>
-                    <div class="self-stretch justify-start items-start gap-2 inline-flex flex-wrap">
-                        <button v-for="primaryColor of primaryColors" :key="primaryColor.name" type="button"
-                            :title="primaryColor.name" @click="updateColors('primary', primaryColor)"
-                            class="outline outline-2 outline-offset-1 outline-transparent cursor-pointer p-0 rounded-[50%] w-5 h-5"
-                            :style="{
-                                backgroundColor: `${primaryColor.name === 'noir' ? 'var(--text-color)' : primaryColor.palette['500']}`,
-                                outlineColor: `${selectedPrimaryColor === primaryColor.name ? 'var(--p-primary-color)' : ''}`,
-                            }"></button>
-                    </div>
-                </div>
-                <div class="flex-col justify-start items-start gap-2 inline-flex pr-2">
-                    <span class="text-sm font-medium">Surface Colors</span>
-                    <div class="self-stretch justify-start items-start gap-2 inline-flex">
-                        <button v-for="surface of surfaces" :key="surface.name" type="button" :title="surface.name"
-                            @click="updateColors('surface', surface)"
-                            class="outline outline-2 outline-offset-1 outline-transparent cursor-pointer p-0 rounded-[50%] w-5 h-5"
-                            :style="{
-                                backgroundColor: `${surface.palette['500']}`,
-        outlineColor: `${selectedSurfaceColor === surface.name ? 'var(--p-primary-color)' : ''}`,
-                            }"></button>
-                    </div>
-                </div>
-                <div class="flex-col justify-start items-start gap-2 inline-flex w-full">
-                    <span class="text-sm font-medium">Preset</span>
-                    <div
-                        class="inline-flex p-[0.28rem] items-start gap-[0.28rem] rounded-[0.71rem] border border-[#00000003] w-full">
-                        <SelectButton v-model="$appState.theme" @update:modelValue="onPresetChange"
-                            :options="presets" :unselectable="false" />
-                    </div>
-                </div>
-                <div class="inline-flex flex-col justify-start items-start gap-2 w-full pt-4 pb-2">
-                    <span class="text-sm font-medium m-0">Ripple Effect</span>
-                    <ToggleSwitch :modelValue="rippleActive" @update:modelValue="onRippleChange" />
+    <li>
+        <button type="button"
+            class="layout-topbar-action"
+            @click="onThemeToggler">
+            <i :class="`dark:text-white pi ${iconClass}`" />
+        </button>
+    </li>
+    <li class="relative">
+        <button v-styleclass="{
+            selector: '@next',
+            enterFromClass: 'hidden',
+            enterActiveClass: 'animate-scalein',
+            leaveToClass: 'hidden',
+            leaveActiveClass: 'animate-fadeout',
+            hideOnOutsideClick: true,
+        }" type="button"
+            class="layout-topbar-action">
+            <i class="pi pi-palette dark:text-white"></i>
+        </button>
+        <div
+            class="absolute top-[2.5rem] right-0 hidden w-[16rem] p-3 bg-white dark:bg-surface-800 rounded-md shadow border border-surface-200 dark:border-surface-700 flex-col justify-start items-start gap-3.5 inline-flex origin-top z-10">
+            <div class="flex-col justify-start items-start gap-2 inline-flex pr-4">
+                <span class="text-sm font-medium">Primary Colors</span>
+                <div class="self-stretch justify-start items-start gap-2 inline-flex flex-wrap">
+                    <button v-for="primaryColor of primaryColors" :key="primaryColor.name" type="button"
+                        :title="primaryColor.name" @click="updateColors('primary', primaryColor)"
+                        class="outline outline-2 outline-offset-1 outline-transparent cursor-pointer p-0 rounded-[50%] w-5 h-5"
+                        :style="{
+                            backgroundColor: `${primaryColor.name === 'noir' ? 'var(--text-color)' : primaryColor.palette['500']}`,
+                            outlineColor: `${selectedPrimaryColor === primaryColor.name ? 'var(--p-primary-color)' : ''}`,
+                        }"></button>
                 </div>
             </div>
-        </li>
-    </ul>
+            <div class="flex-col justify-start items-start gap-2 inline-flex pr-2">
+                <span class="text-sm font-medium">Surface Colors</span>
+                <div class="self-stretch justify-start items-start gap-2 inline-flex">
+                    <button v-for="surface of surfaces" :key="surface.name" type="button" :title="surface.name"
+                        @click="updateColors('surface', surface)"
+                        class="outline outline-2 outline-offset-1 outline-transparent cursor-pointer p-0 rounded-[50%] w-5 h-5"
+                        :style="{
+                            backgroundColor: `${surface.palette['500']}`,
+    outlineColor: `${selectedSurfaceColor === surface.name ? 'var(--p-primary-color)' : ''}`,
+                        }"></button>
+                </div>
+            </div>
+            <div class="flex-col justify-start items-start gap-2 inline-flex w-full">
+                <span class="text-sm font-medium">Preset</span>
+                <div
+                    class="inline-flex p-[0.28rem] items-start gap-[0.28rem] rounded-[0.71rem] border border-[#00000003] w-full">
+                    <SelectButton v-model="$appState.theme" @update:modelValue="onPresetChange"
+                        :options="presets" :unselectable="false" />
+                </div>
+            </div>
+        </div>
+    </li>
 </template>
 
 <script>
@@ -78,10 +72,9 @@ export default {
         return {
             iconClass: 'pi-moon',
             presets: Object.keys(presets),
-            selectedPrimaryColor: 'noir',
+            selectedPrimaryColor: 'emerald',
             selectedSurfaceColor: null,
             primaryColors: [
-                { name: 'noir', palette: {} },
                 {
                     name: 'emerald',
                     palette: {
@@ -618,8 +611,13 @@ export default {
             }
         },
         updateColors(type, color) {
-            if (type === 'primary') this.selectedPrimaryColor = color.name;
-            else if (type === 'surface') this.selectedSurfaceColor = color.name;
+            if (type === 'primary') {
+                this.selectedPrimaryColor = color.name;
+                localStorage.setItem('selectedPrimaryColor', color.name);
+            } else if (type === 'surface') {
+                this.selectedSurfaceColor = color.name;
+                localStorage.setItem('selectedSurfaceColor', color.name);
+            }
 
             this.applyTheme(type, color);
         },
@@ -630,11 +628,9 @@ export default {
                 updateSurfacePalette(color.palette);
             }
         },
-        onRippleChange(value) {
-            this.$primevue.config.ripple = value;
-        },
         onPresetChange(value) {
             this.$appState.theme = value;
+            localStorage.setItem('selectedPreset', value); 
             const preset = presets[value];
             const surfacePalette = this.surfaces.find(
                 (s) => s.name === this.selectedSurfaceColor
@@ -647,9 +643,39 @@ export default {
                 .use({ useDefaultOptions: true });
         }
     },
-    computed: {
-        rippleActive() {
-            return this.$primevue.config.ripple;
+    mounted() {
+        const savedPrimary = localStorage.getItem('selectedPrimaryColor');
+        const savedSurface = localStorage.getItem('selectedSurfaceColor');
+        const savedPreset = localStorage.getItem('selectedPreset');
+
+        if (savedPrimary) {
+            this.selectedPrimaryColor = savedPrimary;
+            const primary = this.primaryColors.find(p => p.name === savedPrimary);
+            if (primary) {
+                this.applyTheme('primary', primary);
+            }
+        }
+
+        if (savedSurface) {
+            this.selectedSurfaceColor = savedSurface;
+            const surface = this.surfaces.find(s => s.name === savedSurface);
+            if (surface) {
+                this.applyTheme('surface', surface);
+            }
+        }
+
+        if (savedPreset) {
+            this.$appState.theme = savedPreset;
+            const preset = presets[savedPreset];
+            const surfacePalette = this.surfaces.find(
+                (s) => s.name === this.selectedSurfaceColor
+            )?.palette;
+
+            $t()
+                .preset(preset)
+                .preset(this.getPresetExt())
+                .surfacePalette(surfacePalette)
+                .use({ useDefaultOptions: true });
         }
     }
 };

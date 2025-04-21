@@ -13,13 +13,14 @@ import router from './router';
 import App from "./App.vue";
 import AppState from './plugins/appState.js';
 import HeaderComponent from './components/HeaderComponent.vue';
-import Noir from './presets/Noir.js';
+import Emerald from './presets/Emerald.js';
 
 const app = createApp(App);
 
 app.use(PrimeVue, {
+    ripple: true,
     theme: {
-        preset: Noir,
+        preset: Emerald,
         options: {
             prefix: 'p',
             darkModeSelector: '.p-dark',

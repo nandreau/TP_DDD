@@ -1,13 +1,20 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 import HeaderComponent from '../../components/HeaderComponent.vue'
 
 const visible = ref(false)
 
+const updateVisibility = () => {
+  visible.value = window.innerWidth > 991
+}
+
 onMounted(() => {
-  if (window.innerWidth > 991) {
-    visible.value = true
-  }
+  updateVisibility()
+  window.addEventListener('resize', updateVisibility)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateVisibility)
 })
 </script>
 
