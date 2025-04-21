@@ -3,7 +3,6 @@ from core.models.countries import Country
 
 class CountryDemographics(models.Model):
     country = models.OneToOneField(Country, primary_key=True, on_delete=models.CASCADE, related_name='demographics')
-
     average_online_ticket_purchase_rate = models.FloatField(null=True, blank=True)
     average_concert_participation_rate = models.FloatField(null=True, blank=True)
     quintile_average_cultural_spending_per_capita = models.FloatField(null=True, blank=True)

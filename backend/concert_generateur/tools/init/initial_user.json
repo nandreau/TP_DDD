@@ -1,0 +1,22 @@
+[
+  {
+    "username": "admin",
+    "password": "azerty",
+    "email": "admin@example.com",
+    "role": "admin",
+    "is_staff": true,
+    "is_superuser": true
+  },
+  {
+    "username": "testuser",
+    "password": "motdepasse123",
+    "email": "artist@example.com",
+    "role": "artist"
+  },
+  {
+    "username": "testuser2",
+    "password": "motdepasse123",
+    "email": "organizer@example.com",
+    "role": "organizer"
+  }
+]
