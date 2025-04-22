@@ -98,7 +98,7 @@ const selectedUserId = ref(null);
 const loadUsers = async () => {
     try {
         const response = await ApiService.get('/admin/users');
-        users.value = response.data;
+        users.value = response.data.results;
     } catch (error) {
         toast.add({ severity: 'error', summary: 'Error', detail: 'Failed to load users', life: 3000 });
     }
@@ -133,7 +133,7 @@ const saveUserUpdate = async () => {
     }
 
     try {
-        await ApiService.patch(`/admin/users/${selectedUserId.value}`, { ...formUser.value });
+        await ApiService.patch(`/admin/users/${selectedUserId.value}/`, { ...formUser.value });
         toast.add({ severity: 'success', summary: 'Success', detail: 'User updated', life: 3000 });
         visibleUpdate.value = false;
         await loadUsers();
@@ -156,7 +156,7 @@ const deleteUsers = () => {
         accept: async () => {
             try {
                 const promises = selectedUsers.value.map(user =>
-                    ApiService.delete(`/admin/users/${user.id}`)
+                    ApiService.delete(`/admin/users/${user.id}/`)
                 );
                 await Promise.all(promises);
                 toast.add({ severity: 'success', summary: 'Deleted', detail: 'User(s) deleted', life: 3000 });
