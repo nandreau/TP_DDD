@@ -1,7 +1,8 @@
 # core/models/event.py
 from django.db import models
-from django.conf import settings  # Pour récupérer le modèle utilisateur
+from django.conf import settings
 from core.models.concerthall import ConcertHall
+from core.models.artists import Artist
 
 class Event(models.Model):
     id = models.AutoField(primary_key=True)
@@ -20,7 +21,7 @@ class Event(models.Model):
     )
 
     artists = models.ManyToManyField(
-        settings.AUTH_USER_MODEL,
+        Artist,
         blank=True,
         related_name='events'
     )

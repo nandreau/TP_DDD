@@ -19,7 +19,7 @@ from core.views.tokens import TokenProxyView
 from core.views.artists import ArtistListCreateView, AdminArtistDetailView, PublicArtistListView, PublicArtistDetailView
 from core.views.tracks import TrackListView, TrackDetailView, TrackByArtistView
 from core.views.genres import GenreAdminViewSet, GenreFamilyAdminViewSet, GenreListView, GenreFamilyListView
-
+from core.views.generate import GenerateEventView, ValidateEventView
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -89,6 +89,9 @@ urlpatterns = [
     path('genres/', GenreListView.as_view({'get': 'list'}), name='genre-list'),
     path('genrefamilies/', GenreFamilyListView.as_view({'get': 'list'}), name='genrefamily-list'),
 
+    # Endpoint pour générer un événement
+    path('generate-event/', GenerateEventView.as_view(), name='generate-event'),
+    path('validate-event/', ValidateEventView.as_view(), name='validate-event'),
     # Endpoint pour le token proxy (admin)
     path('token-proxy/', TokenProxyView.as_view(), name='token-proxy'),
 

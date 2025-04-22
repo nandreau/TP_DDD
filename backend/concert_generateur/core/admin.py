@@ -12,7 +12,7 @@ from core.models.tracks import Track
 
 class CustomUserAdmin(UserAdmin):
     model = CustomUser
-    list_display = ['username', 'email', 'first_name', 'last_name', 'role', 'is_staff']
+    list_display = ['id', 'username', 'email', 'first_name', 'last_name', 'role', 'is_staff']
     list_filter = ['role', 'is_staff', 'is_superuser', 'is_active']
 
     fieldsets = UserAdmin.fieldsets + (
@@ -23,8 +23,8 @@ class CustomUserAdmin(UserAdmin):
         (None, {'fields': ('role',)}),
     )
 
-    search_fields = ['username', 'email']
-    ordering = ['username']
+    search_fields = ['id', 'username', 'email']
+    ordering = ['id']
 
 
 admin.site.register(CustomUser, CustomUserAdmin)
@@ -45,42 +45,42 @@ class CountryDemographicsAdmin(admin.ModelAdmin):
 # === Admin ConcertHall ===
 @admin.register(ConcertHall)
 class ConcertHallAdmin(admin.ModelAdmin):
-    list_display = ['name', 'city', 'capacity', 'country_code']
-    search_fields = ['name', 'city', 'country_code']
+    list_display = ['id', 'name', 'city', 'capacity', 'country_code']
+    search_fields = ['id', 'name', 'city', 'country_code']
 
 # === Admin Event ===
 @admin.register(Event)
 class EventAdmin(admin.ModelAdmin):
-    list_display = ['title', 'event_start', 'event_end', 'concert_hall']
-    search_fields = ['title']
+    list_display = ['id', 'title', 'event_start', 'event_end', 'concert_hall']
+    search_fields = ['id', 'title']
     list_filter = ['concert_hall']
     autocomplete_fields = ['concert_hall']
 
 # === Admin Genre ===
 @admin.register(Genre)
 class GenreAdmin(admin.ModelAdmin):
-    list_display = ['name', 'family']
-    search_fields = ['name']
+    list_display = ['id', 'name', 'family']
+    search_fields = ['id', 'name']
     list_filter = ['family']
     autocomplete_fields = ['family']
 
 # === Admin GenreFamily ===
 @admin.register(GenreFamily)
 class GenreFamilyAdmin(admin.ModelAdmin):
-    list_display = ['name', 'age_group_streams']
-    search_fields = ['name']
+    list_display = ['id', 'name', 'age_group_streams']
+    search_fields = ['id', 'name']
 
 # === Admin Artist ===
 @admin.register(Artist)
 class ArtistAdmin(admin.ModelAdmin):
-    list_display = ['name', 'genre', 'genre_family', 'followers', 'spotify_popularity', 'longevity', 'top_chart_presence', 'spotify_streams_total']
-    search_fields = ['name']
+    list_display = ['id', 'name', 'genre', 'genre_family', 'followers', 'spotify_popularity', 'longevity', 'top_chart_presence', 'spotify_streams_total']
+    search_fields = ['id', 'name']
     list_filter = ['genre', 'genre_family']
 
 # === Admin Track ===
 @admin.register(Track)
 class TrackAdmin(admin.ModelAdmin):
-    list_display = ['title', 'artist', 'release_date', 'entry_date', 'entry_rank', 'current_rank', 'peak_rank', 'peak_date', 'appearances', 'consecutive_appearances', 'streams', 'source_date']
-    search_fields = ['name']
+    list_display = ['id', 'title', 'artist', 'release_date', 'entry_date', 'entry_rank', 'current_rank', 'peak_rank', 'peak_date', 'appearances', 'consecutive_appearances', 'streams', 'source_date']
+    search_fields = ['id', 'name']
     list_filter = ['artist']
     autocomplete_fields = ['artist']
