@@ -39,10 +39,20 @@ pip install -r requirements.txt
 
 ### 4. Configurer la base de données
 
+#### Version rapide (load backup)
+
+```bash
+python manage.py load_latest_backup
+python manage.py makemigrations core
+python manage.py migrate
+```
+
+#### Version lente (load data)
 
 ```bash
 python manage.py import_demographics data/Demographic_stats_per_country.csv
 python manage.py import_events_concerts --concert_hall="data/ConcertHall.csv" --event="data/EventsData.csv"
+python manage.py import_music_data
 python manage.py makemigrations core
 python manage.py migrate
 ```
@@ -64,6 +74,47 @@ python manage.py runserver
 - Le projet sera disponible à : http://127.0.0.1:8000
 - Interface admin : http://127.0.0.1:8000/admin/
 - API navigable : endpoints sous /api/
+
+## Générer un événement
+
+Dans Postman, créer une requête POST sur l'endpoint : http://127.0.0.1:8000/api/generate-event/
+
+avec un body JSON :
+
+```json
+{
+  "country_code": "FR",
+  "concert_hall_id": 369,
+  "genre_family_name": "Electro",
+  "event_start": "2025-05-18T20:00:00",
+  "taille_casting": 2,
+  "quality_score": 5,
+  "custom_title": "SWAG FESTOCHE"
+}
+```
+
+Puis pour le valider, créer une requête POST sur l'endpoint : http://127.0.0.1:8000/api/validate-event/
+
+avec un body JSON :
+
+```json
+{
+  "title": "le SWAG FESTOCHE",
+  "event_start": "2025-05-18T20:00:00",
+  "event_end": "2025-05-18T21:54:00",
+  "concert_hall_id": 369,
+  "country": "FR",
+  "artist_ids": [3834, 4236]
+}
+```
+
+En sortie :
+
+```json
+{
+    "message": "Event proposal validated successfully"
+}
+```
 
 ## Structure
 

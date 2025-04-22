@@ -44,6 +44,7 @@ media/
 # === FICHIERS DJANGO SECRET ===
 secret*.json
 settings_local.py
+tokens.json
 
 # === COVERAGE / TESTS ===
 htmlcov/
@@ -64,3 +65,7 @@ Pipfile.lock
 
 # === GIT ===
 *.orig
+
+# === POSTMAN ===
+*.postman_collection.json
+tools/tokens.json
