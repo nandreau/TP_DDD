@@ -1,0 +1,284 @@
+[
+  { "name": "Get Country by Code", "method": "GET", "path": "/country/FR", "expected_status": 200 },
+  {
+    "name": "Get Countries (admin)",
+    "method": "GET",
+    "path": "/admin/countries/",
+    "expected_status": 403
+  },
+  {
+    "name": "Create Country (admin)",
+    "method": "POST",
+    "path": "/admin/countries/",
+    "expected_status": 403
+  },
+  {
+    "name": "Create Country (public)",
+    "method": "POST",
+    "path": "/countries/",
+    "expected_status": 405
+  },
+  {
+    "name": "Delete Country (admin)",
+    "method": "DELETE",
+    "path": "/admin/countries/TST/",
+    "expected_status": 403
+  },
+  {
+    "name": "Delete Country (public)",
+    "method": "DELETE",
+    "path": "/countries/TST/",
+    "expected_status": 405
+  },
+  {
+    "name": "Update Country (admin)",
+    "method": "PATCH",
+    "path": "/admin/countries/TST/",
+    "expected_status": 403
+  },
+  {
+    "name": "Update Country (public)",
+    "method": "PATCH",
+    "path": "/countries/TST/",
+    "expected_status": 405
+  },
+
+  {
+    "name": "Get All Demographics (admin)",
+    "method": "GET",
+    "path": "/admin/demographics/",
+    "expected_status": 403
+  },
+  {
+    "name": "Get All Demographics (public)",
+    "method": "GET",
+    "path": "/demographics/",
+    "expected_status": 403
+  },
+  {
+    "name": "Get Demographics by Code (admin)",
+    "method": "GET",
+    "path": "/admin/demographics/FR",
+    "expected_status": 403
+  },
+  {
+    "name": "Update Demographics (Admin)",
+    "method": "PATCH",
+    "path": "/admin/demographics/FR/",
+    "expected_status": 403
+  },
+  {
+    "name": "Update Demographics (public)",
+    "method": "PATCH",
+    "path": "/demographics/FR/",
+    "expected_status": 405
+  },
+
+  { "name": "Get Groups (admin)", "method": "GET", "path": "/admin/groups", "expected_status": 403 },
+  { "name": "Get Groups (public)", "method": "GET", "path": "/groups", "expected_status": 405 },
+  { "name": "Create Group (admin)", "method": "POST", "path": "/admin/groups/", "expected_status": 403 },
+  { "name": "Create Group (public)", "method": "POST", "path": "/groups/", "expected_status": 405 },
+  { "name": "Update Group (admin)", "method": "PATCH", "path": "/admin/groups/1/", "expected_status": 403 },
+  { "name": "Update Group (public)", "method": "PATCH", "path": "/groups/1/", "expected_status": 405 },
+  { "name": "Delete Group (admin)", "method": "DELETE", "path": "/admin/groups/1/", "expected_status": 403 },
+  { "name": "Delete Group (public)", "method": "DELETE", "path": "/groups/1/", "expected_status": 405 },
+
+  { "name": "Get Tokens (admin)", "method": "GET", "path": "/admin/token-proxy", "expected_status": 403 },
+  { "name": "Get Tokens (public)", "method": "GET", "path": "/token-proxy", "expected_status": 405 },
+
+  { "name": "Get All Users (admin)", "method": "GET", "path": "/admin/users", "expected_status": 403 },
+  { "name": "Get All Users (public)", "method": "GET", "path": "/users", "expected_status": 405 },
+  { "name": "Get User by ID (admin)", "method": "GET", "path": "/admin/users/2/", "expected_status": 403 },
+  { "name": "Get User by ID (public)", "method": "GET", "path": "/users/2/", "expected_status": 405 },
+  { "name": "Create User (admin)", "method": "POST", "path": "/admin/users/", "expected_status": 403 },
+  { "name": "Create User (public)", "method": "POST", "path": "/users/", "expected_status": 405 },
+  { "name": "Update User (admin)", "method": "PATCH", "path": "/admin/users/2/", "expected_status": 403 },
+  { "name": "Update User (public)", "method": "PATCH", "path": "/users/2/", "expected_status": 405 },
+  { "name": "Delete User (admin)", "method": "DELETE", "path": "/admin/users/2/", "expected_status": 403 },
+  { "name": "Delete User (public)", "method": "DELETE", "path": "/users/2/", "expected_status": 405 },
+
+  { "name": "Get Profile (public)", "method": "GET", "path": "/profile/", "expected_status": 200 },
+  { "name": "Get Profile (admin)", "method": "GET", "path": "/admin/profile/", "expected_status": 403 },
+  {
+    "name": "Update Profile (public)",
+    "method": "PATCH",
+    "path": "/profile/",
+    "expected_status": 200,
+    "body": { "first_name": "Test", "last_name": "Artist" }
+  },
+  {
+    "name": "Update Profile (admin)",
+    "method": "PATCH",
+    "path": "/admin/profile/",
+    "expected_status": 403
+  },
+
+
+  { "name": "Get All Events (public)", "method": "GET", "path": "/events", "expected_status": 200 },
+  { "name": "Get All Events (admin)", "method": "GET", "path": "/admin/events", "expected_status": 403 },
+  { "name": "Get Event by ID (public)", "method": "GET", "path": "/events/14754/", "expected_status": 404 },
+  { "name": "Get Event by ID (admin)", "method": "GET", "path": "/admin/events/14754/", "expected_status": 403 },
+  { "name": "Get Events by Country (public)", "method": "GET", "path": "/events/by-country/FR", "expected_status": 200 },
+  { "name": "Get Events by Country (admin)", "method": "GET", "path": "/admin/events/by-country/FR", "expected_status": 403 },
+  { "name": "Create Event (admin)", "method": "POST", "path": "/admin/events/", "expected_status": 403 },
+  { "name": "Create Event (public)", "method": "POST", "path": "/events/", "expected_status": 405 },
+  { "name": "Update Event (admin)", "method": "PATCH", "path": "/admin/events/1/", "expected_status": 403 },
+  { "name": "Update Event (public)", "method": "PATCH", "path": "/events/1/", "expected_status": 405 },
+  { "name": "Delete Event (admin)", "method": "DELETE", "path": "/admin/events/1/", "expected_status": 403 },
+  { "name": "Delete Event (public)", "method": "DELETE", "path": "/events/1/", "expected_status": 405 },
+
+  {
+    "name": "Get All Concert Halls (public)",
+    "method": "GET",
+    "path": "/concerthalls",
+    "expected_status": 200
+  },
+  { "name": "Get All Concert Halls (admin)", "method": "GET", "path": "/admin/concerthalls", "expected_status": 403 },
+  {
+    "name": "Get Concert Hall by ID (public)",
+    "method": "GET",
+    "path": "/concerthalls/806/",
+    "expected_status": 200
+  },
+  { "name": "Get Concert Hall by ID (admin)", "method": "GET", "path": "/admin/concerthalls/806/", "expected_status": 403 },
+  { "name": "Get Concert Halls by Country (public)", "method": "GET", "path": "/concerthalls/by-country/FR", "expected_status": 200 },
+  { "name": "Get Concert Halls by Country (admin)", "method": "GET", "path": "/admin/concerthalls/by-country/FR", "expected_status": 403 },
+  { "name": "Create Concert Hall (admin)", "method": "POST", "path": "/admin/concerthalls/", "expected_status": 403 },
+  { "name": "Create Concert Hall (public)", "method": "POST", "path": "/concerthalls/", "expected_status": 405 },
+  { "name": "Update Concert Hall (admin)", "method": "PATCH", "path": "/admin/concerthalls/806/", "expected_status": 403 },
+  { "name": "Update Concert Hall (public)", "method": "PATCH", "path": "/concerthalls/806/", "expected_status": 405 },
+  { "name": "Delete Concert Hall (admin)", "method": "DELETE", "path": "/admin/concerthalls/806/", "expected_status": 403 },
+  { "name": "Delete Concert Hall (public)", "method": "DELETE", "path": "/concerthalls/806/", "expected_status": 405 },
+  {
+    "name": "Get All Tracks (public)",
+    "method": "GET",
+    "path": "/tracks",
+    "expected_status": 200
+  },
+  {
+    "name": "Get All Tracks (admin)",
+    "method": "GET",
+    "path": "/admin/tracks",
+    "expected_status": 403
+  },
+  {
+    "name": "Get Track by ID (public)",
+    "method": "GET",
+    "path": "/tracks/1",
+    "expected_status": 200
+  },
+  {
+    "name": "Get Track by ID (admin)",
+    "method": "GET",
+    "path": "/admin/tracks/1",
+    "expected_status": 403
+  },
+  {
+    "name": "Get Tracks by Artist (public)",
+    "method": "GET",
+    "path": "/tracks/by-artist/Ed Sheeran",
+    "expected_status": 200
+  },
+  {
+    "name": "Get Tracks by Artist (admin)",
+    "method": "GET",
+    "path": "/admin/tracks/by-artist/Ed Sheeran",
+    "expected_status": 403
+  },
+  {
+    "name": "Create Track (admin)",
+    "method": "POST",
+    "path": "/admin/tracks/",
+    "expected_status": 403
+  },
+  {
+    "name": "Create Track (public)",
+    "method": "POST",
+    "path": "/tracks/",
+    "expected_status": 405
+  },
+  {
+    "name": "Update Track (admin)",
+    "method": "PATCH",
+    "path": "/admin/tracks/1",
+    "expected_status": 403
+  },
+  {
+    "name": "Update Track (public)",
+    "method": "PATCH",
+    "path": "/tracks/1",
+    "expected_status": 405
+  },
+  {
+    "name": "Delete Track (admin)",
+    "method": "DELETE",
+    "path": "/admin/tracks/1",
+    "expected_status": 403
+  },
+  {
+    "name": "Delete Track (public)",
+    "method": "DELETE",
+    "path": "/tracks/1",
+    "expected_status": 405
+  },
+  {
+    "name": "Get All Artists (public)",
+    "method": "GET",
+    "path": "/artists",
+    "expected_status": 200
+  },
+  {
+    "name": "Get All Artists (admin)",
+    "method": "GET",
+    "path": "/admin/artists",
+    "expected_status": 403
+  },
+  {
+    "name": "Get Artist by Name (public)",
+    "method": "GET",
+    "path": "/artists/Ed Sheeran",
+    "expected_status": 200
+  },
+  {
+    "name": "Get Artist by Name (admin)",
+    "method": "GET",
+    "path": "/admin/artists/Ed Sheeran/",
+    "expected_status": 403
+  },
+  {
+    "name": "Create Artist (Admin)",
+    "method": "POST",
+    "path": "/admin/artists/",
+    "expected_status": 403
+  },
+  {
+    "name": "Create Artist (Public)",
+    "method": "POST",
+    "path": "/artists/",
+    "expected_status": 405
+  },
+  {
+    "name": "Update Artist (Admin)",
+    "method": "PATCH",
+    "path": "/admin/artists/Ed Sheeran/",
+    "expected_status": 403
+  },
+  {
+    "name": "Update Artist (Public)",
+    "method": "PATCH",
+    "path": "/artists/Ed Sheeran/",
+    "expected_status": 405
+  },
+  {
+    "name": "Delete Artist (Admin)",
+    "method": "DELETE",
+    "path": "/admin/artists/Ed Sheeran/",
+    "expected_status": 403
+  },
+  {
+    "name": "Delete Artist (Public)",
+    "method": "DELETE",
+    "path": "/artists/Ed Sheeran/",
+    "expected_status": 405
+  }
+]

@@ -1,0 +1,810 @@
+ConcertHallId,ConcertHallName,Capacity,City,State,Country,CountryCode,PostalCode,Address,Latitude,Longitude,ImageUrl
+KovZpZA7AAEA,Madison Square Garden,20789,New York,New York,United States Of America,US,10001,7th Ave & 32nd Street,40.7497062,-73.9916006,https://s1.ticketm.net/dbimages/23135v.jpg
+KovZpa3hje,Bank of America Stadium,75523,Charlotte,North Carolina,United States Of America,US,28202,800 South Mint Street,35.225789,-80.852829,https://s1.ticketm.net/dbimages/22383v.jpg
+KovZpa2M7e,United Center,23500,Chicago,Illinois,United States Of America,US,60612,1901 W Madison,41.88124412,-87.67427375,https://s1.ticketm.net/dbimages/22961v.jpg
+KovZ917Ax7n,Allegiant Stadium,71835,Las Vegas,Nevada,United States Of America,US,89118,3333 Al Davis Way,36.0909,-115.1833,https://s1.ticketm.net/dbimages/23729v.jpg
+KovZpakS7e,MetLife Stadium,82500,East Rutherford,New Jersey,United States Of America,US,07073,One MetLife Stadium Drive,40.81359,-74.074493,https://s1.ticketm.net/dbimages/22874v.jpg
+KovZpa2Xke,State Farm Arena,21000,Atlanta,Georgia,United States Of America,US,30303,One State Farm Drive,33.757796,-84.394569,https://s1.ticketm.net/dbimages/22348v.jpg
+KovZpZAJ67eA,American Airlines Center,21146,Dallas,Texas,United States Of America,US,75219,2500 Victory Avenue,32.79067196,-96.81081803,https://s1.ticketm.net/dbimages/22994v.jpg
+KovZpZAFaeIA,State Farm Stadium,78600,Glendale,Arizona,United States Of America,US,85305,1 Cardinals Drive,33.527308,-112.262258,
+KovZpZAJtFaA,Kaseya Center,20021,Miami,Florida,United States Of America,US,33132,601 Biscayne Blvd,25.781232,-80.187805,
+KovZ917A25V,Little Caesars Arena,22000,Detroit,Michigan,United States Of America,US,48201,2645 Woodward,42.341089,-83.055434,https://s1.ticketm.net/dbimages/23263v.jpg
+KovZpZA6taAA,Bridgestone Arena,20000,Nashville,Tennessee,United States Of America,US,37203,501 Broadway,36.159949,-86.77857,https://s1.ticketm.net/dbimages/14487v.jpg
+KovZpZA6k7IA,Amalie Arena,21500,Tampa,Florida,United States Of America,US,33602,401 Channelside Dr,27.942743,-82.451772,https://s1.ticketm.net/dbimages/16606v.jpg
+KovZpaKuJe,Capital One Arena,20356,Washington,District of Columbia,United States Of America,US,20004,601 F Street NW,38.897412,-77.020029,https://s1.ticketm.net/dbimages/23045v.jpg
+KovZpZAEdFeA,NRG Stadium,80000,Houston,Texas,United States Of America,US,77054,One NRG Park,29.684885,-95.410875,https://s1.ticketm.net/dbimages/23377v.jpg
+KovZpZAFaJeA,Ball Arena,21000,Denver,Colorado,United States Of America,US,80204,1000 Chopper Circle,39.74724,-105.010166,https://s1.ticketm.net/dbimages/22044v.jpg
+KovZpZA6AEIA,Spectrum Center,20200,Charlotte,North Carolina,United States Of America,US,28202,333 East Trade Street,35.225222,-80.839921,https://s1.ticketm.net/dbimages/18670v.jpg
+KovZpZAEvEEA,Kia Center,20000,Orlando,Florida,United States Of America,US,32801,400 W Church St.,28.539293,-81.383957,https://s1.ticketm.net/dbimages/22947v.jpg
+KovZ917AiMF,Wells Fargo Center,21000,Philadelphia,Pennsylvania,United States Of America,US,19148,3601 South Broad St,39.904551,-75.1736273,
+KovZpa3Wne,Empower Field At Mile High,85000,Denver,Colorado,United States Of America,US,80204,1701 Bryant St.,39.743853,-105.020127,https://s1.ticketm.net/dbimages/21318v.jpg
+KovZpa2MCe,Allstate Arena,22000,Rosemont,Illinois,United States Of America,US,60018,6920 North Mannheim Road,42.00499247,-87.88750024,https://s1.ticketm.net/dbimages/21465v.jpg
+KovZpa6MXe,Moda Center,21538,Portland,Oregon,United States Of America,US,97227,"One Center Court, Suite 100",45.53118896,-122.66645813,https://s1.ticketm.net/dbimages/23155v.jpg
+KovZpa2yme,Lincoln Financial Field,67594,Philadelphia,Pennsylvania,United States Of America,US,19148,One Lincoln Financial Way,39.900706,-75.167406,https://s1.ticketm.net/dbimages/22350v.jpg
+KovZ917ARXn,First Horizon Coliseum,22000,Greensboro,North Carolina,United States Of America,US,27403,1921 West Gate City Blvd,36.06003,-79.82579,https://s1.ticketm.net/dbimages/23524v.jpg
+KovZpZA6AJdA,Xcel Energy Center,20554,Saint Paul,Minnesota,United States Of America,US,55102,199 Kellogg Blvd,44.94489438,-93.10121819,https://s1.ticketm.net/dbimages/23313v.jpg
+KovZpZAJaFkA,Levi's® Stadium,68500,Santa Clara,California,United States Of America,US,95054,4900 Marie P. DeBartolo Way,37.40367671,-121.97034311,https://s1.ticketm.net/dbimages/15991v.jpg
+KovZ917ACh0,SoFi Stadium,100240,Inglewood,California,United States Of America,US,90301,1001 S. Stadium Dr,33.950529,-118.343767,https://s1.ticketm.net/dbimages/23376v.jpg
+KovZpZA6t77A,Yankee Stadium,54251,Bronx,New York,United States Of America,US,10451,1 East 161st Street,40.8285237,-73.9276264,https://s1.ticketm.net/dbimages/16603v.jpg
+KovZpa2DJe,Enterprise Center,22000,Saint Louis,Missouri,United States Of America,US,63103,1401 Clark Ave,38.626432,-90.202617,https://s1.ticketm.net/dbimages/20586v.jpg
+KovZpakX1e,Ford Field,78000,Detroit,Michigan,United States Of America,US,48226,2000 Brush St.,42.339924,-83.045543,https://s1.ticketm.net/dbimages/FordField_MI_65869_4Z.gif
+KovZpZA1JJdA,Neyland Stadium,101915,Knoxville,Tennessee,United States Of America,US,37996,1235 Phillip Fulmer Way,35.9543865,-83.9259874,
+KovZpa3awe,Lambeau Field,81441,Green Bay,Wisconsin,United States Of America,US,54304,1265 Lombardi Avenue,44.5012386,-88.0622376,https://s1.ticketm.net/dbimages/8467v.gif
+KovZpZAEkvtA,Hard Rock Stadium,75000,Miami,Florida,United States Of America,US,33056,347 Don Shula Drive,25.957928,-80.238866,https://s1.ticketm.net/dbimages/20496v.jpg
+KovZpZAdakJA,Lenovo Center,21000,Raleigh,North Carolina,United States Of America,US,27607,1400 Edwards Mill Road,35.803242,-78.722936,https://s1.ticketm.net/dbimages/23478v.jpg
+KovZpZAdEJEA,Lucas Oil Stadium,70000,Indianapolis,Indiana,United States Of America,US,46225,500 S. Capitol Ave.,39.76007,-86.163821,https://s1.ticketm.net/dbimages/8617v.gif
+KovZpZAF6tIA,Soldier Field,66944,Chicago,Illinois,United States Of America,US,60605,1410 S. Museum Campus Drive,41.86205404,-87.61682143,https://s1.ticketm.net/dbimages/7047v.jpg
+KovZpZAaaI7A,Fenway Park,37755,Boston,Massachusetts,United States Of America,US,02215,4 Jersey Street,42.3464072,-71.0986584,
+KovZpZAFa6nA,Acrisure Stadium,68400,Pittsburgh,Pennsylvania,United States Of America,US,15212,100 Art Rooney Avenue,40.446093,-80.015884,https://s1.ticketm.net/dbimages/22395v.jpg
+KovZpZAF6ttA,U.S. Bank Stadium,73000,Minneapolis,Minnesota,United States Of America,US,55415,401 Chicago Avenue,44.973617,-93.257528,https://s1.ticketm.net/dbimages/23301v.jpg
+KovZ917A3c0,BMO Stadium,22000,Los Angeles,California,United States Of America,US,90037,3939 S. Figueroa St,34.012879,-118.284926,https://s1.ticketm.net/dbimages/22510v.jpg
+KovZpZAFnl1A,Raymond James Stadium,75000,Tampa,Florida,United States Of America,US,33607,4201 North Dale Mabry Highway,27.975976,-82.503474,https://s1.ticketm.net/dbimages/5858v.gif
+KovZpZA6kelA,Nationwide Arena,20000,Columbus,Ohio,United States Of America,US,43215,200 West Nationwide Blvd.,39.96939661,-83.00636203,https://s1.ticketm.net/dbimages/23165v.jpg
+KovZpZAEdJaA,Mercedes-Benz Stadium,75000,Atlanta,Georgia,United States Of America,US,30313,1 AMB Drive NW,33.755389,-84.400823,https://s1.ticketm.net/dbimages/21772v.jpg
+KovZpZAdJ1vA,Highmark Stadium,62000,Orchard Park,New York,United States Of America,US,14127,1 Bills Drive,42.773743,-78.786955,https://s1.ticketm.net/dbimages/23101v.jpg
+KovZpZAF7E1A,GEHA Field at Arrowhead Stadium,79451,Kansas City,Missouri,United States Of America,US,64129,1 Arrowhead Dr,39.04921048,-94.48417065,https://s1.ticketm.net/dbimages/22134v.png
+KovZ917Ahxb,The Met Presented by Highmark,62000,Philadelphia,Pennsylvania,United States Of America,US,19130,858 N Broad St,39.969938,-75.160278,https://s1.ticketm.net/dbimages/22991v.jpg
+KovZpZAEAAeA,Ohio Stadium,102780,Columbus,Ohio,United States Of America,US,43210,411 Woody Hayes Dr.,40.004003,-83.019363,https://s1.ticketm.net/dbimages/16470v.jpg
+KovZpa2WZe,North Island Credit Union Amphitheatre,20500,Chula Vista,California,United States Of America,US,91911,2050 Entertainment Circle,32.58830386,-117.00640802,https://s1.ticketm.net/dbimages/22262v.jpg
+KovZpZAFFE7A,WAMU Theater,72000,Seattle,Washington,United States Of America,US,98134,800 Occidental Ave S,47.596704,-122.332085,https://s1.ticketm.net/dbimages/19828v.jpg
+KovZpZA6kvlA,Gillette Stadium,68756,Foxborough,Massachusetts,United States Of America,US,02035,1 Patriot Place,42.090918,-71.264321,https://s1.ticketm.net/dbimages/23010v.jpg
+KovZpZAEdntA,Crypto.com Arena,21000,Los Angeles,California,United States Of America,US,90015,1111 S. Figueroa St,34.043003,-118.267253,https://s1.ticketm.net/dbimages/23241v.jpg
+KovZpaFnje,KFC Yum! Center,22090,Louisville,Kentucky,United States Of America,US,40202,1 Arena Plaza,38.25713,-85.753958,https://s1.ticketm.net/dbimages/23122v.jpg
+KovZ917A-X0,Globe Life Field,40300,Arlington,Texas,United States Of America,US,76011,734 Stadium Drive,32.747242,-97.083796,
+KovZpZAEknnA,Lumen Field,72000,Seattle,Washington,United States Of America,US,98134,800 Occidental Ave S,47.595083,-122.331607,
+KovZpa3zGe,Tacoma Dome,21000,Tacoma,Washington,United States Of America,US,98421,2727 East D St,47.23634,-122.426834,https://s1.ticketm.net/dbimages/23254v.jpg
+KovZpZAEA66A,Rose Bowl,89702,Pasadena,California,United States Of America,US,91103,1001 Rose Bowl Drive,34.16146505,-118.16751312,
+KovZpa4cFe,Petco Park,42691,San Diego,California,United States Of America,US,92101,100 Park Blvd,32.70709659,-117.15680771,
+KovZpZAE6vJA,Talking Stick Resort Amphitheatre,20106,Phoenix,Arizona,United States Of America,US,85035,2121 N 83rd Ave,33.470823,-112.232875,https://s1.ticketm.net/dbimages/23258v.jpg
+KovZpZAJEF1A,Circuit of The Americas,120000,Austin,Texas,United States Of America,US,78617,9201 Circuit of The Americas Blvd,30.13526827,-97.63566001,https://s1.ticketm.net/dbimages/23061v.jpg
+KovZpZA1l1dA,Sun Bowl Stadium,52000,El Paso,Texas,United States Of America,US,79902,2501 Sun Bowl Drive,31.8082647,-106.5018386,https://s1.ticketm.net/dbimages/7535v.gif
+KovZpZAFkelA,Paycor Stadium,65515,Cincinnati,Ohio,United States Of America,US,45202,One Paycor Stadium,39.0955556,-84.5161111,https://s1.ticketm.net/dbimages/22772v.jpg
+KovZpZAFdEJA,Huntington Bank Field,67431,Cleveland,Ohio,United States Of America,US,44114,100 Alfred Lerner Way,41.50603554,-81.69956958,https://s1.ticketm.net/dbimages/23438v.jpg
+KovZpZA7elEA,Stanford Stadium,90000,Stanford,California,United States Of America,US,94305,625 Nelson Rd.,37.4325584,-122.1606275,
+KovZpakwYe,JMA Wireless Dome ,56250,Syracuse,New York,United States Of America,US,13244,900 Irving Avenue,43.03626312,-76.1361305,https://s1.ticketm.net/dbimages/18449v.jpg
+KovZpZA6A1EA,Schottenstein Center,20000,Columbus,Ohio,United States Of America,US,43210,555 Borror Drive,40.0080079,-83.0249081,https://s1.ticketm.net/dbimages/23209v.jpg
+KovZpZAEAAvA,Ohio Expo Center & State Fair,20000,Columbus,Ohio,United States Of America,US,43211,717 East 17th Avenue,40.004578,-82.990338,
+KovZpZAIF7aA,Los Angeles Memorial Coliseum,93607,Los Angeles,California,United States Of America,US,90037,3911 S. Figueroa St,34.014053,-118.287865,https://s1.ticketm.net/dbimages/22702v.jpg
+KovZ917AEuk,Miami International Autodrome,65000,Miami Gardens,Florida,United States Of America,US,33056,347 Don Shula Drive,25.957928,-80.238866,
+KovZpZAFa6lA,Rupp Arena,23000,Lexington,Kentucky,United States Of America,US,40507,432 W Vine St,38.049148,-84.5010377,https://s1.ticketm.net/dbimages/22254v.jpg
+KovZpZA6ta1A,Shoreline Amphitheatre,22500,Mountain View,California,United States Of America,US,94043,One Amphitheatre Parkway,37.426718,-122.080722,https://s1.ticketm.net/dbimages/21935v.jpg
+KovZpZAEkIEA,Alamodome,77000,San Antonio,Texas,United States Of America,US,78203,100 Montana St,29.41705466,-98.4791514,https://s1.ticketm.net/dbimages/21814v.jpg
+KovZpZA1eE1A,Food City Center,24535,Knoxville,Tennessee,United States Of America,US,37996,1600 Phillip Fulmer Way,35.9517627,-83.925366,https://s1.ticketm.net/dbimages/22943v.jpg
+KovZ917AIoi,Snapdragon Stadium,55000,San Diego,California,United States Of America,US,92108,2101 Stadium Way,32.78451,-117.1212,https://s1.ticketm.net/dbimages/22413v.jpg
+KovZpZAJFAkA,Camping World Stadium,65194,Orlando,Florida,United States Of America,US,32805,1 Citrus Bowl Place,28.538255,-81.402071,https://s1.ticketm.net/dbimages/23062v.jpg
+KovZpZA1lleA,Utah First Credit Union Amphitheatre,25000,West Valley City,Utah,United States Of America,US,84118,5150 South 6055 West,40.65743789,-112.04072602,https://s1.ticketm.net/dbimages/22976v.jpg
+KovZpZAE7evA,Target Center,20500,Minneapolis,Minnesota,United States Of America,US,55403,600 1st Avenue North,44.979657,-93.274889,https://s1.ticketm.net/dbimages/24439v.jpg
+KovZpZA1FnJA,Memorial Stadium - Lincoln,87147,Lincoln,Nebraska,United States Of America,US,68588,One Memorial Stadium,40.820588,-96.7055596,
+KovZpZA6tdtA,Chase Field,49033,Phoenix,Arizona,United States Of America,US,85004,401 E. Jefferson,33.444799,-112.066662,
+KovZpZAEkJ7A,EverBank Stadium ,82000,Jacksonville,Florida,United States Of America,US,32202,1 EverBank Stadium Drive,30.323887,-81.637357,https://s1.ticketm.net/dbimages/23226v.jpg
+KovZpa6Npe,Autzen Stadium,60000,Eugene,Oregon,United States Of America,US,97401,2700 MLK Jr. BLVD,44.055925,-123.0629993,https://s1.ticketm.net/dbimages/21181v.jpg
+KovZpZAEAFeA,Dos Equis Pavilion,20000,Dallas,Texas,United States Of America,US,75210,3839 S Fitzhugh,32.77507215,-96.75646586,https://s1.ticketm.net/dbimages/22185v.jpg
+KovZpZA7dkIA,Angel Stadium of Anaheim,69008,Anaheim,California,United States Of America,US,92806,2000 Gene Autry Way,33.800308,-117.88278,
+KovZpZAFFelA,Chase Stadium,21550,Fort Lauderdale,Florida,United States Of America,US,33309,5201 NW 12th Avenue,26.1911447,-80.159484,
+KovZpZA7AnJA,Nissan Stadium,69149,Nashville,Tennessee,United States Of America,US,37213,One Titans Way,36.166208,-86.771413,
+KovZpZAJF7EA,Oracle Park,45000,San Francisco,California,United States Of America,US,94107,24 Willie Mays Plaza,37.77840589,-122.38944009,
+KovZ917A8Q0,Audi Field,20000,Washington,District of Columbia,United States Of America,US,20024,100 Potomac Ave. SW,38.867998,-77.013642,https://s1.ticketm.net/dbimages/21883v.jpg
+KovZpa2W1e,Dodger Stadium,56000,Los Angeles,California,United States Of America,US,90012,1000 Elysian Park Ave,34.07359365,-118.23992227,
+KovZ917AxaG,Kidd Brewer Stadium,30000,Boone,North Carolina,United States Of America,US,28607,270  Stadium Drive,36.211692,-81.685399,
+KovZpaoU8e,Hersheypark Stadium,30000,Hershey,Pennsylvania,United States Of America,US,17033,100 W Hersheypark Dr,40.290715,-76.660281,https://s1.ticketm.net/dbimages/22391v.jpg
+KovZpZAFFdnA,Charlotte Motor Speedway,95000,Concord,North Carolina,United States Of America,US,28027,5555 Concord Parkway South,35.350853,-80.683615,https://s1.ticketm.net/dbimages/23054v.jpg
+KovZpZAa1elA,Oriole Park At Camden Yards,48876,Baltimore,Maryland,United States Of America,US,21201,333 West Camden Street,39.28196765,-76.6222465,
+KovZpZA1nE6A,PNC Park,38747,Pittsburgh,Pennsylvania,United States Of America,US,15212,115 Federal Street,40.446857,-80.005658,
+KovZpapBwe,Busch Stadium,47514,Saint Louis,Missouri,United States Of America,US,63102,700 Clark Street,38.6239783,-90.1940498,
+KovZpZAEFdaA,Las Vegas Festival Grounds,85000,Las Vegas,Nevada,United States Of America,US,89109,2594 South Las Vegas Blvd,36.141833,-115.158757,
+KovZpZAa1neA,Citizens Bank Park,43651,Philadelphia,Pennsylvania,United States Of America,US,19148,One Citizens Bank Way,39.9594667,-75.2249542,
+KovZpZAdJl7A,Ben Hill Griffin Stadium,88548,Gainesville,Florida,United States Of America,US,32611,157 Gale Lemerand Dr,29.6521198,-82.349749,
+KovZpZAdEt6A,Rice-Eccles Stadium,51444,Salt Lake City,Utah,United States Of America,US,84112,451 South 1400 East,40.7596422,-111.850261,
+KovZpZAEkFnA,Xfinity Theatre,30000,Hartford,Connecticut,United States Of America,US,06120,61 Savitt Way,41.7801718,-72.6693191,https://s1.ticketm.net/dbimages/22988v.jpg
+KovZpZAJe77A,Clemson Memorial Stadium,81500,Clemson,South Carolina,United States Of America,US,29634,G St & Champion Ave.,34.67880745,-82.84331468,
+KovZpZA1EatA,Washington-Grizzly Stadium,25217,Missoula,Montana,United States Of America,US,59812,32 Campus Drive,46.8605725,-113.9821243,
+KovZ917AJ9n,Q2 Stadium,20500,Austin,Texas,United States Of America,US,78758,10414 McKalla Place,30.38629,-97.71877,
+KovZpZAJJAtA,Daikin Park,42060,Houston,Texas,United States Of America,US,77002,501 Crawford,29.757,-95.356607,https://s1.ticketm.net/dbimages/9048v.
+KovZpZA1FlkA,American Family Field ,41900,Milwaukee,Wisconsin,United States Of America,US,53214,One Brewers Way,43.02785131,-87.97128506,
+KovZpZAJF7nA,XL CENTER,20500,Hartford,Connecticut,United States Of America,US,06103,One Civic Center Plaza,41.768353,-72.676384,https://s1.ticketm.net/dbimages/22789v.png
+KovZpZAEk7JA,Kroger Field,67942,Lexington,Kentucky,United States Of America,US,40506,1540 University Dr,38.021822,-84.509457,https://s1.ticketm.net/dbimages/18128v.jpg
+KovZpZAdEatA,Comerica Park,41681,Detroit,Michigan,United States Of America,US,48201,2100 Woodward Ave,42.338753,-83.048487,https://s1.ticketm.net/dbimages/5698v.gif
+KovZpZA6tdIA,Great American Ball Park,43500,Cincinnati,Ohio,United States Of America,US,45202,100 Joe Nuxhall Way,39.09755226,-84.50756335,
+KovZpZAFlktA,Wrigley Field,41649,Chicago,Illinois,United States Of America,US,60613,1060 West Addison,41.947304,-87.656447,
+KovZpZA16dnA,Arizona Stadium,57803,Tucson,Arizona,United States Of America,US,85719,545 N. National Championship Drive,32.228776,-110.948855,
+KovZpZA6AJeA,The Dome at America's Center,67277,Saint Louis,Missouri,United States Of America,US,63101,701 Convention Plaza,38.630801,-90.191488,https://s1.ticketm.net/dbimages/18309v.jpg
+KovZpZA1EFkA,Notre Dame Stadium,80795,South Bend,Indiana,United States Of America,US,46556,2010 Moose Krause Circle,41.6943284,-86.2252711,
+KovZpZAEA7IA,Huntington Bank Pavilion at Northerly Island,30000,Chicago,Illinois,United States Of America,US,60605,1300 S. Linn White Drive,41.86426286,-87.60883784,https://s1.ticketm.net/dbimages/22770v.png
+KovZpZA1J67A,Nationals Park,41373,Washington,District of Columbia,United States Of America,US,20003,"1500 South Capitol Street, SE",38.873005,-77.007412,
+KovZpZA1nkEA,Mountain America Stadium,53599,Tempe,Arizona,United States Of America,US,85287,500 E. Veterans Way,33.42672078,-111.93259348,
+KovZ917Aai7,NYCFC at Yankee Stadium,54251,Bronx,New York,United States Of America,US,10451,1 East 161st Street,40.828819,-73.926569,
+KovZpZAdnvIA,Williams-Brice Stadium,80250,Columbia,South Carolina,United States Of America,US,29208,1174 George Rogers Blvd ,33.9732109,-81.0192584,https://s1.ticketm.net/dbimages/23371v.jpg
+KovZpa94Xe,Bobby Dodd Stadium,58121,Atlanta,Georgia,United States Of America,US,30332,"150 Bobby Dodd Way, NW",33.7739414,-84.3956986,
+KovZpaFr8e,High Point Solutions Stadium,52454,Piscataway,New Jersey,United States Of America,US,08854,1 Scarlet Knight Way,40.513675,-74.465572,
+KovZpZAEkk1A,Gorge Amphitheatre,27500,George,Washington,United States Of America,US,98848,754 Silica Road NW,47.0959472,-119.982652,https://s1.ticketm.net/dbimages/22974v.jpg
+KovZpZAEkA7A,MIDFLORIDA Credit Union Amphitheatre at the FL State Fairgrounds,20000,Tampa,Florida,United States Of America,US,33610,4802 US Highway 301 North,27.993244,-82.36499,https://s1.ticketm.net/dbimages/22183v.jpg
+KovZpZAFFFJA,FBC Mortgage Stadium,45323,Orlando,Florida,United States Of America,US,32816,4465 Knights Victory Way,28.5999712,-81.2043071,https://s1.ticketm.net/dbimages/15111v.jpg
+KovZpZAEA6eA,Glen Helen Amphitheater,65000,San Bernardino,California,United States Of America,US,92407,2575 Glen Helen Parkway,34.20880115,-117.40970283,https://s1.ticketm.net/dbimages/22471v.jpg
+KovZpZAaJetA,Indianapolis Motor Speedway,400000,Indianapolis,Indiana,United States Of America,US,46222,4790 W. 16th St.,39.790062,-86.2337413,https://s1.ticketm.net/dbimages/21924v.jpg
+KovZ917APWk,Protective Stadium,47100,Birmingham,Alabama,United States Of America,US,35203,1020 24TH Street North,33.52736,-86.80729,
+KovZpZAatEaA,Sports Illustrated Stadium,25000,Harrison,New Jersey,United States Of America,US,07029,600 Cape May Street,40.73698153,-74.15038968,https://s1.ticketm.net/dbimages/23914v.jpg
+KovZpZAF76IA,Fargodome,26700,Fargo,North Dakota,United States Of America,US,58102,1800 N University Drive,46.9022578,-96.7980617,
+KovZ917AmN0,The Strip at Las Vegas Motor Speedway,80000,Las Vegas,Nevada,United States Of America,US,89115,7000 Las Vegas Motor Speedway,36.27274,-115.01042,
+KovZpZA1J6lA,Nippert Stadium,40124,Cincinnati,Ohio,United States Of America,US,45221,2700 Bearcats Way,39.13035,-84.515077,
+KovZ917AtOJ,zMAX Dragway,95000,Concord,North Carolina,United States Of America,US,28027,6570 Bruton Smith Blvd,35.36400407,-80.68138683,
+KovZpaGbme,Hayward Field,25000,Eugene,Oregon,United States Of America,US,97403,1580 E 15th Ave,44.0520691,-123.0867536,
+KovZpZAaEnkA,Gerald J Ford Stadium,32000,Dallas,Texas,United States Of America,US,75205,5801 Airline Rd,32.83768015,-96.78337916,
+KovZpZA6tdnA,Caesars Superdome ,76468,New Orleans,Louisiana,United States Of America,US,70112,1500 Poydras St,29.950971,-90.081091,https://s1.ticketm.net/dbimages/22212v.jpg
+KovZpZAdEtkA,Delta Center,20000,Salt Lake City,Utah,United States Of America,US,84101,301 West South Temple,40.767798,-111.901096,https://s1.ticketm.net/dbimages/22791v.jpg
+KovZpZAEAIEA,Freedom Mortgage Pavilion ,25488,Camden,New Jersey,United States Of America,US,08103,1 Harbour Blvd,39.940917,-75.12875,https://s1.ticketm.net/dbimages/24359v.jpg
+KovZpaKuYe,Las Vegas Motor Speedway,80000,Las Vegas,Nevada,United States Of America,US,89115,7000 Las Vegas Boulevard North,36.271265,-115.001879,https://s1.ticketm.net/dbimages/23126v.jpg
+KovZpZAEkeaA,Coastal Credit Union Music Park at Walnut Creek,20601,Raleigh,North Carolina,United States Of America,US,27610,3801 Rock Quarry Road,35.75054,-78.578298,https://s1.ticketm.net/dbimages/24344v.jpg
+KovZpa2XQe,Greensboro Complex,35000,Greensboro,North Carolina,United States Of America,US,27403,1921 West Gate City Blvd.,36.058332,-79.825534,https://s1.ticketm.net/dbimages/23539v.jpg
+KovZpZAFkdIA,Memorial Coliseum,93607,Lexington,Kentucky,United States Of America,US,40506,201 Avenue of Champions,38.0395545,-84.5016901,https://s1.ticketm.net/dbimages/18126v.jpg
+KovZ917AiNY,The Torch at LA Coliseum,93607,Los Angeles,California,United States Of America,US,90037,3911 S. Figueroa Street,34.01468,-118.28297,https://s1.ticketm.net/dbimages/22697v.jpg
+KovZpZAEkvEA,iTHINK Financial Amphitheatre ,20000,West Palm Beach,Florida,United States Of America,US,33411,601-7 Sansburys Way,26.685439,-80.18676,https://s1.ticketm.net/dbimages/22490v.jpg
+KovZpZAa11lA,Bristol Motor Speedway,146000,Bristol,Tennessee,United States Of America,US,37620,151 Speedway Blvd,36.517383,-82.25801,https://s1.ticketm.net/dbimages/23037v.jpg
+KovZ917APYJ,GEODIS Park,30109,Nashville,Tennessee,United States Of America,US,37204,501 S. Benton Ave,36.134157,-86.760978,https://s1.ticketm.net/dbimages/24444v.jpg
+KovZpZA6taJA,Arthur Ashe Stadium,23771,Flushing,New York,United States Of America,US,11368,Flushing Meadows Corona Park,40.7428054,-73.8448469,https://s1.ticketm.net/dbimages/19057v.jpg
+KovZ917AJUY,TQL Stadium,26000,Cincinnati,Ohio,United States Of America,US,45214,1501 Central Pkwy,39.1110972,-84.522255,
+KovZpZAEAnaA,Hollywood Casino Amphitheater,28739,Maryland Heights,Missouri,United States Of America,US,63043,14141 Riverport Dr,38.7456419,-90.469956,https://s1.ticketm.net/dbimages/24459v.jpg
+KovZ917AttV,Energizer Park,22423,Saint Louis,Missouri,United States Of America,US,63103,2100 Market St,38.6312,-90.2105,
+KovZpZAE61EA,America First Field,20213,Sandy,Utah,United States Of America,US,84070,9256 State St,40.582849,-111.893307,
+KovZpZAEeAIA,Albertsons Stadium,36387,Boise,Idaho,United States Of America,US,83725,1910 University Drive,43.602799,-116.201993,https://s1.ticketm.net/dbimages/17327v.jpg
+KovZpZAFAnvA,Boone Pickens Stadium,60218,Stillwater,Oklahoma,United States Of America,US,74078,200-299 Hester St,36.1188933,-97.0668039,
+KovZpa3b1e,Marshall Health Network Arena (formerly Mountain Health Arena),22090,Huntington,West Virginia,United States Of America,US,25701,1 Civic Center Plaza,38.4207661,-82.4438879,https://s1.ticketm.net/dbimages/23011v.jpg
+KovZpZAEAtAA,Blossom Music Center,23000,Cuyahoga Falls,Ohio,United States Of America,US,44223,1145 W Steels Corners Rd.,41.1913469,-81.5607834,https://s1.ticketm.net/dbimages/24099v.png
+KovZpvEk7A,Ruoff Music Center,24790,Noblesville,Indiana,United States Of America,US,46060,12880 E. 146th St.,40.00373203,-85.93427182,https://s1.ticketm.net/dbimages/21856v.jpg
+KovZpZAtv11A,Truist Park,41149,Atlanta,Georgia,United States Of America,US,30339,755 Battery Avenue,33.890304,-84.468127,https://s1.ticketm.net/dbimages/21892v.jpg
+KovZpZAEeIFA,Churchill Downs,170000,Louisville,Kentucky,United States Of America,US,40208,700 Central Ave,38.2058021,-85.7734158,https://s1.ticketm.net/dbimages/21987v.jpg
+KovZpZA7keEA,Alerus Center,21000,Grand Forks,North Dakota,United States Of America,US,58201,1200 42nd Street South,47.910141,-97.091102,https://s1.ticketm.net/dbimages/18230v.jpg
+KovZpZAJedaA,Toyota Stadium,22500,Frisco,Texas,United States Of America,US,75033,9200 World Cup Way,33.157082,-96.838495,https://s1.ticketm.net/dbimages/15662v.jpg
+KovZpZAJ6kEA,Northwest Stadium,91704,Landover,Maryland,United States Of America,US,20785,1600 Ring Rd,38.907729,-76.864433,https://s1.ticketm.net/dbimages/24144v.jpg
+KovZpZA6A1JA,Progressive Field,34631,Cleveland,Ohio,United States Of America,US,44115,2401 Ontario Street,41.496107,-81.685195,
+KovZpZAEk71A,The Pavilion at Star Lake,23000,Burgettstown,Pennsylvania,United States Of America,US,15021,665 Route 18,40.4197818,-80.4342124,https://s1.ticketm.net/dbimages/24089v.jpg
+KovZpa3d7e,Iowa Speedway,30000,Newton,Iowa,United States Of America,US,50208,3333 Rusty Wallace Dr.,41.6778549,-93.0131725,https://s1.ticketm.net/dbimages/23984v.jpg
+KovZ917AJ1C,Lower.com Field,20371,Columbus,Ohio,United States Of America,US,43215,96 Columbus Crew Way,39.967471,-83.016672,
+KovZpZAF7t7A,CH Mayo Presentation Hall at Mayo Civic Center,73000,Rochester,Minnesota,United States Of America,US,55904,30 Civic Center Drive SE,44.0225094,-92.4601108,https://s1.ticketm.net/dbimages/21551v.jpg
+KovZ917Amc8,The Sound Amphitheater,20000,Gautier,Mississippi,United States Of America,US,39553,3855 Dolphin Drive,30.39371926,-88.6559,https://s1.ticketm.net/dbimages/23007v.jpg
+KovZpZAJelaA,FAMU Bragg Memorial Stadium,25500,Tallahassee,Florida,United States Of America,US,32307,1500 Wahnish Way,30.4289136,-84.2896991,
+KovZpZAa17IA,Sonoma Raceway,47000,Sonoma,California,United States Of America,US,95476,Highways 37 & 121,38.1508775,-122.4492141,https://s1.ticketm.net/dbimages/23107v.jpg
+KovZpZAaal7A,Aloha Stadium,50000,Honolulu,Hawaii,United States Of America,US,96820,99-500 Salt Lake Blvd.,21.37246732,-157.93103214,
+KovZpZAalvtA,Citi Field,45000,Queens,New York,United States Of America,US,11368,41 Seaver Way,40.758005,-73.844599,
+KovZpZAEAIdA,Veterans United Home Loans Amphitheater at Virginia Beach,20000,Virginia Beach,Virginia,United States Of America,US,23456,3550 Cellar Door Way,36.769107,-76.103685,https://s1.ticketm.net/dbimages/22335v.jpg
+Z7r9jZa7vL,Campo Argentino de Polo,30000,Buenos Aires,Buenos Aires,Argentina,AR,1001,Avenida del Libertador and Avenida Dorrego,0.0,0.0,
+Z7r9jZad8A,Estadio Gigante de Arroyito,46955,Rosario,Santa Fe,Argentina,AR,2000,"Cordiviola 1100, S2000COQ, Rosario, Santa Fe",0.0,0.0,
+ZFr9jZ1ak1,Estadio Jose Amalfitani,49540,Buenos Aires,Buenos Aires,Argentina,AR,1407,Av Juan B. Justo 8900,0.0,0.0,
+ZFr9jZFFv1,Estadio Alberto J Armando,57200,La Boca,Buenos Aires,Argentina,AR,Nuevo Leon,Brandsen 805 CP 1161,0.0,0.0,
+ZFr9jZa77F,Estadio del Bicentenario,25286,San Juan,Buenos Aires,Argentina,AR,5400,Ruta 40,0.0,0.0,
+ZFr9jZae61,Malvinas Argentinas,42000,Mendoza,Mendoza,Argentina,AR,M5500,R. Sao Francisco de Assis,0.0,0.0,
+ZFr9jZae66,Estadio 23 de Agosto,25000,San Salvador de Jujuy,Salta,Argentina,AR,JUJU-AR,North of Argentina,0.0,0.0,
+ZFr9jZae6A,Estadio Mario Alberto Kempes,57000,Cordoba,C??rdoba,Argentina,AR,1 978,Central Argentina,0.0,0.0,
+ZFr9jZae6a,Brigadier General Estanislao Lopez,30835,Santa Fe,Santa Fe,Argentina,AR,3000,R. Juan Jose Paso e Boulevard,0.0,0.0,
+ZFr9jZae6k,Estadio Padre Ernesto Martearena,21000,Salta,Salta,Argentina,AR,SALT-AR,Northwest Argentina,0.0,0.0,
+ZFr9jZaeFe,Ingeniero Hilario Sanchez,26500,San Juan Province,San Juan,Argentina,AR,620023,"Rua Mendoza Norte, 1164",0.0,0.0,
+ZFr9jZaeFv,Antonio Vespucio Liberti,85018,Buenos Aires,Buenos Aires,Argentina,AR,BUEN-AR,Av. Figueroa Alcorta e Udaonda,0.0,0.0,
+ZFr9jZav6F,Estadio Unico de La Plata,53000,La Plata,Buenos Aires,Argentina,AR,B1900,"La Plata, Argentina",0.0,0.0,
+ZFr9jZk7k1,Estadio Monumental Antonio Vespucio Liberti,85018,Buenos Aires,Buenos Aires,Argentina,AR,1001,,0.0,0.0,
+KovZ917A-Ej,Queensland Country Bank Stadium,25000,Townsville,Queensland,Australia,AU,4810,2 Pride Close,-19.26606859,146.8164731,https://s1.ticketm.net/dbimages/22115v.png
+KovZ917A88V,Optus Stadium,70000,Burswood,Western Australia,Australia,AU,6100,333 Victoria Park Drive,-31.951204,115.889132,https://s1.ticketm.net/dbimages/20615v.jpg
+KovZ917AI6x,Flemington Racecourse,120000,Flemington,Victoria,Australia,AU,3031,448 Epsom Rd,-37.79097454,144.91191072,https://s1.ticketm.net/dbimages/22356v.jpg
+KovZ917AOhX,ENGIE Stadium,23500,Olympic Park,New South Wales,Australia,AU,2127,Grand Parade,-33.843016,151.067664,
+KovZ917AOl3,WACA Ground,20000,East Perth,Western Australia,Australia,AU,6004,Nelson Crescent ,-31.958709,115.877923,https://s1.ticketm.net/dbimages/22873v.jpg
+KovZ917AQf7,Perth Stadium,70000,Burswood,Western Australia,Australia,AU,6100,333 Victoria Park Drive,-31.951204,115.889132,https://s1.ticketm.net/dbimages/20614v.jpg
+KovZ917AcTw,Cbus Super Stadium,27690,Robina Gold Coast,Queensland,Australia,AU,4226,Centreline Place,-28.06754693,153.37997245,https://s1.ticketm.net/dbimages/22941v.png
+KovZ917AxgQ,CommBank Stadium,30000,Parramatta,New South Wales,Australia,AU,2150,11-13 O'Connell Street,-33.808133,150.999678,
+KovZpZA66AlA,The Gabba,37478,Woolloongabba,Queensland,Australia,AU,4102,411 Vulture St,-27.485866,153.038246,https://s1.ticketm.net/dbimages/14037v.jpg
+KovZpZA6FndA,HBF Park ,20500,Perth,Western Australia,Australia,AU,6000,310 Pier Street,-31.950538,115.865022,https://s1.ticketm.net/dbimages/22741v.jpg
+KovZpZA6lvlA,GMHBA Stadium,40000,South Geelong,Victoria,Australia,AU,3220,370 Moorabool Street,-38.157783,144.354562,https://s1.ticketm.net/dbimages/19990v.jpg
+KovZpZAJ7EeA,Albert Park Grand Prix Circuit,125000,Albert Park,Victoria,Australia,AU,3206,Aughtie Drive,-37.84683992,144.96626334,https://s1.ticketm.net/dbimages/22474v.jpg
+KovZpZAJ7F1A,McDonald Jones Stadium,30000,Newcastle,New South Wales,Australia,AU,2305,294 Turton Rd,-32.916649,151.726257,https://s1.ticketm.net/dbimages/23869v.png
+KovZpZAJIklA,Sydney Showground,23500,Sydney Olympic Park,New South Wales,Australia,AU,2127,Showground Rd,-33.846283,151.067227,
+KovZpZAaAt7A,SILVERDOME,82000,Prospect,Tasmania,Australia,AU,7250,55 Oakden Road,-41.471809,147.134336,
+KovZpa363e,Accor Stadium,115000,Sydney Olympic Park,New South Wales,Australia,AU,2127,15 Edwin Flack Avenue,-33.848603,151.061717,https://s1.ticketm.net/dbimages/22341v.jpg
+KovZpa423e,WIN Stadium,23750,Wollongong,New South Wales,Australia,AU,2520,Corner Of Crown & Harbour Streets,-34.4272334,150.90241326,https://s1.ticketm.net/dbimages/21931v.jpg
+KovZpa4kbe,Brisbane Showgrounds,25490,Bowen Hills,Queensland,Australia,AU,4006,600 Gregory Terrace,-27.450171,153.032867,
+KovZpa8zbe,Adelaide Showground,35000,Wayville,South Australia,Australia,AU,5034,Goodwood Road,-34.957844,138.590021,https://s1.ticketm.net/dbimages/16532v.jpg
+KovZpaf5re,Suncorp Stadium,52500,Milton,Queensland,Australia,AU,4064,40 Castlemaine Street,-27.46497419,153.00849912,
+KovZpafgGe,Ascot Racecourse,80000,Ascot,Western Australia,Australia,AU,6104,Grandstand Road,-31.937514,115.920701,https://s1.ticketm.net/dbimages/20633v.jpg
+KovZpaooxe,Marvel Stadium,56347,Docklands,Victoria,Australia,AU,3008,Harbour Esplanade,-37.816518,144.94554,https://s1.ticketm.net/dbimages/21451v.jpg
+ZFr9jZA771,Melbourne Cricket Ground,100024,East Melbourne,Victoria,Australia,AU,3002,Brunton Avenue,0.0,0.0,
+KovZ917A-EY,John Reid Pavilion Brisbane Showgrounds,25490,Bowen Hills,Queensland,Australia,AU,4006,Brisbane Showgrounds,-27.450786,153.033037,
+KovZ917A-Hb,Stadium Park at Optus Stadium,70000,Burswood,Western Australia,Australia,AU,6100,"333 Victoria Park Dr, Burswood WA 6100",-31.951038,115.889375,
+KovZ917A-I7,Kings Beach Ampitheatre,20000,Kings Beach,Queensland,Australia,AU,4551,DeVene Avenue,-26.801396,153.142655,
+KovZ917A1xV,Claremont Showground,40000,Claremont,Western Australia,Australia,AU,6010,1 Graylands Road,-31.974173,115.785694,
+KovZ917A2jV,Memorial Park Showgrounds,25490,Deniliquin,New South Wales,Australia,AU,2710,Memorial Drive,-35.533472,144.971814,
+KovZ917A3BV,Melbourne Rectangular Stadium,30050,Melbourne,Victoria,Australia,AU,3000,Olympic Blvd,-37.825154,144.983777,
+KovZ917AAf0,Leichhardt Oval,20000,Lilyfield,New South Wales,Australia,AU,2040,Mary St,-33.868673,151.154016,
+KovZ917AE_j,Henson Park,30000,Marrickville,New South Wales,Australia,AU,2204,22 Centennial St,-33.90409788,151.15765978,
+KovZ917AEqG,River View Room at Optus Stadium,70000,Burswood,Western Australia,Australia,AU,6100,333 Victoria Park Drive,-31.95115472,115.88906172,
+KovZ917AORG,HBF Park - Leeds Open Training,20500,Perth,Western Australia,Australia,AU,6000,310 Pier Street,-31.945542,115.869135,
+KovZ917ARV6,All Seasons Resort Hotel Bendigo,24485,Strathdale,Victoria,Australia,AU,3550,171/183 McIvor Highway,-36.75875912,144.31091605,
+KovZ917AR_r,The Dome - Sydney Olympic Park,21032,Sydney,New South Wales,Australia,AU,2127,1 Showground Rd,-33.8458504,151.06766121,
+KovZ917AmNz,"William Inglis & Son Ltd, Oaklands Junction",20099,Oaklands Junction,Victoria,Australia,AU,3063,285 Oaklands Road,-37.61216177,144.83950183,
+KovZ917AmX3,Secret Brisbane Venue,48500,Brisbane,Queensland,Australia,AU,4000,TBA,-27.46999617,153.04745816,
+KovZ917Apbf,Reid Oval,53500,Warrnambool,Victoria,Australia,AU,3280,42 Cramer St,-38.379934,142.490689,
+KovZ917Atb1,Western Sydney Wanderers Football Park,30000,Rooty Hill,New South Wales,Australia,AU,2766,81 Eastern Rd,-33.77244854,150.85389861,
+KovZ917Axuz,"Halls 3 and 4, Sydney Showground",23500,Sydney Olympic Park,New South Wales,Australia,AU,2127,1 Showground Road,-33.845001,151.070188,
+KovZpZA616JA,The Venue,100240,Townsville City,Queensland,Australia,AU,4810,719-741 Flinders St,-19.266781,146.809174,
+Z598xZ5rZevke,Stadion Hohe Warte,85000,Vienna,,Austria,AT,1190,Klabundgasse 11,48.24877,16.35751,
+ZFr9jZ76a6,Ernst Happel Stadium - Vienna,68500,Vienna,Vienna,Austria,AT,1020,,0.0,0.0,
+ZFr9jZkdd1,Worthersee Stadion,32000,Klagenfurt,Kaernten,Austria,AT,9020,S??dring 207,0.0,0.0,
+Z698xZC2Zaeyv,Baku Crystal Hall,27000,Baku,,Azerbaijan,AZ,,,40.344128,49.850301,
+Z7r9jZadR0,Baku Olympic Stadium,69870,Baku,Azerbaijan,Azerbaijan,AZ,AZ1000,"Baku, Azerbaijan",0.0,0.0,
+Z7r9jZaeU_,Thomas A. Robinson National Stadium,23000,Nassau,Bahamas,Bahamas,BS,SP 64113,Thompson Boulevard,0.0,0.0,
+ZFr9jZFFv6,Bahrain International Circuit,70000,Sakhir,Al Manamah,Bahrain,BH,26381,Gate 255 Gulf of Bahrain Avenue,0.0,0.0,
+ZFr9jZAFdk,Kensington Oval,30549,Bridgetown,Barbados,Barbados,BB,0000,St. Michael Parish,0.0,0.0,
+Z598xZG2Zdve7,Lotto Arena Antwerpen,23001,Merksem (Antwerpen),,Belgium,BE,2170,Schijnpoortweg 119,51.23024,4.44176,https://media.ticketmaster.eu/belgium/36b84b14389ae7f5ce6f0df8a29f08fe.jpg
+Z598xZG2Zdvek,Sportpaleis Antwerpen,23001,Merksem (Antwerpen),,Belgium,BE,2170,Schijnpoortweg 119,51.23024,4.44176,https://media.ticketmaster.eu/belgium/8a1b61a53be8689fea667fe18402f15d.jpg
+Z598xZG2Zev1e,Circuit de Spa-Francorchamps,70000,Francorchamps,,Belgium,BE,4970,"Route du Circuit, 55",50.43704,5.9681,https://media.ticketmaster.eu/belgium/153d3893cbf117e62774d54757db2258.jpg
+Z198xZG2ZA67,Parc de 7 heures,59186,Spa,,Belgium,BE,4900,Place Royale,50.49281,5.86035,
+Z198xZG2Ze7k,King Baudouin Stadium,50093,Brussels,,Belgium,BE,1020,Marathonlaan 135 Avenue du Marathon,50.89596,4.33413,https://media.ticketmaster.eu/belgium/b60813bd0d6bc0cd2dcd46c4d0ce8bc4.jpg
+Z198xZG2ZeF7,Graspop Festival,55000,Dessel,,Belgium,BE,2480,Kastelsedijk,51.23251,5.07752,https://media.ticketmaster.eu/belgium/ddfb9f24279ae8c6d2f79623c0d4dd90.jpg
+Z198xZG2ZkdF,Parking Decock,21000,Charleroi,,Belgium,BE,6000,Ancien ACEC,50.40273,4.42663,
+Z598xZG2Zd771,Parking Lotto Arena,80000,Merksem (Antwerpen),,Belgium,BE,,Schijnpoortweg 119,51.23024,4.44176,
+Z598xZG2Zdda1,Cali Club,42000,Drogenbos,,Belgium,BE,1620,Grand Route 234,50.78798,4.31434,
+Z598xZG2Zdea7,Club 26 Genk,23718,Genk,,Belgium,BE,3600,Europalaan 26,50.96584,5.49221,
+Z598xZG2Ze167,Ghelamco Arena,20185,Ghent,,Belgium,BE,9000,Ottergemsesteenweg Zuid 808,51.0156,3.73322,
+Z598xZG2Ze6vk,Parking Decock,21000,Marcinelle,,Belgium,BE,6001,Avenue Emile Rousseaux,50.40265,4.42672,
+Z598xZG2Ze7FF,Onze-Lieve-Vrouwekathedraal,25000,Antwerp,,Belgium,BE,2000,Groenplaats 21,51.21963,4.40139,
+Z598xZG2ZeAa7,Birmingham Palace,25486,Anderlecht,,Belgium,BE,1070,Rue de Birmingham 112,50.84474,4.32227,
+Z598xZG2Zed67,De Schorre,200000,Boom,,Belgium,BE,2850,"Ter hoogte van Kapelstraat, 143",51.08506,4.38149,
+Z598xZG2Zev67,Constant Vanden Stock Stadium,22500,Anderlecht,,Belgium,BE,1070,Avenue Theo Verbeeck 2,50.83491,4.29824,
+Z598xZbpZea1k,Sportpaleis Antwerpen,23001,Antwerp,,Belgium,BE,,Schijnpoortweg 119,51.23132,4.44256,
+ZFr9jZ7dek,Spa-Francorchamps,70000,Francochamps,"Wallonne, R??gion",Belgium,BE,4970,,0.0,0.0,
+ZFr9jZk7F6,Sports Paleis,23001,Antwerp,Antwerpen,Belgium,BE,2170,Schijnpoortweg 119,0.0,0.0,
+KovZ917AR-F,Pedreira Paulo Leminski,24000,Curitiba,Paraná,Brazil,BR,82130-010,"R. João Gava, 970",-25.387682,-49.2687985,
+KovZ917ARcI,Autodromo de Interlagos,60000,Sao Paulo,São Paulo,Brazil,BR,04801-010,"Av. Sen. Teotonio Vilela, 261 - Interlagos",-23.70316716,-46.70027935,
+KovZ917ARx7,Estádio Couto Pereira,40502,Curitiba,Paraná,Brazil,BR,80060-195,"R. Ubaldino do Amaral, 63",-25.4215196,-49.2605025,
+KovZ917ARxi,Estádio Nilton Santos (Engenhão),70000,Rio de Janeiro,Rio de Janeiro,Brazil,BR,20770-001,"Rua José dos Reis, 425",-22.8797788,-43.2216954,
+KovZ917ARxx,Estádio MorumBis,72039,São Paulo,São Paulo,Brazil,BR,05653-070,"Praça Roberto Gomes Pedrosa, 1",-23.6002654,-46.7210506,
+KovZ917AROO,Parque Maeda,200000,Itu,São Paulo,Brazil,BR,13300-000,Rod. Dep. Archimedes Lammoglia - Km 18,-23.304039,-47.3319497,
+KovZ917ARY9,Arena Corinthians,68727,São Paulo,São Paulo,Brazil,BR,08295-005,"Av. Miguel Ignácio Curi, 111",-23.54536527,-46.47511694,
+KovZ917ARYl,Arena MRV,44892,Belo Horizonte,Minas Gerais,Brazil,BR,30855-440,"Rua Cristina Maria de Assis, 202",-19.92980282,-44.01389734,
+KovZ917ARYu,Centro de Eventos do Ceará,30000,Ceará,Ceará,Brazil,BR,60811-341,"Av. Washington Soares, 999",-3.1072804,-38.59885687,
+KovZ917ARct,Arena BRB Mane Garrincha,69910,Brasilia,Distrito Federal,Brazil,BR,70070-701,Asa Norte,-15.7827547,-47.89937334,
+KovZ917ARcw,Arena do Gremio,60540,Porto Alegre,Rio Grande do Sul,Brazil,BR,90250-590,"Av. Padre Leopoldo Brentano, 110 - Farrapos",-29.97375358,-51.19486111,
+KovZ917ARjj,Neo Química Arena,68727,São Paulo,São Paulo,Brazil,BR,08295-005,Av. Miguel Ignácio Curi,-23.5453134,-46.4742292,
+KovZ917ARm5,Allianz Parque,55000,São Paulo,São Paulo,Brazil,BR,05001-200,"Av. Francisco Matarazzo, 1705 - Água Branca",-23.526558,-46.673547,
+KovZ917ARmk,Casa de Apostas Arena Fonte Nova,47915,Salvador,Bahia,Brazil,BR,40050-565,"Ladeira da Fonte das Pedras, s/n - Nazaré",-12.978048,-38.506188,
+KovZ917ARmv,Arena Castelão,57867,Fortaleza,Ceará,Brazil,BR,60861-211,"Av. Alberto Craveiro, 2901 - Castelão",-3.799218,-38.519093,
+KovZ917ARq7,Ginásio Nilson Nelson,24286,Brasília,Distrito Federal,Brazil,BR,70297-400,SRPN - Brasilia,-15.8361382,-47.9164227,
+KovZ917ARxC,Estádio Mangueirão,55000,Belém,Pará,Brazil,BR,66640-000,"Rod. Augusto Montenegro, s/n",-22.989149,-48.44909,
+KovZ917ARxb,Estádio Mineirão,66658,Belo Horizonte,Minas Gerais,Brazil,BR,31275-000,"Av. Antônio Abrahão Caram, 1001",-19.8636771,-43.9720372,
+Z7r9jZa7vN,Estadio do Morumbi,72039,Sao Paulo,S??o Paulo,Brazil,BR,05653,Pra??a Roberto Gomes Pedrosa,0.0,0.0,
+Z7r9jZadxX,Mane Garrincha Stadium,69910,Asa Norte,Distrito Federal,Brazil,BR,70070-701,"SRPN-Asa Norte, Brasilia, Federal District",0.0,0.0,
+Z7r9jZaeYI,Arena do Gremio,60540,Porto Alegre,Rio de Janeiro,Brazil,BR,90000,Avenida Padre Leopoldo Brentano,0.0,0.0,
+Z7r9jZaecT,Estadio Nilton Santos,70000,Rio de Janeiro,Rio de Janeiro,Brazil,BR,20770-062,425 Rua Jos?? dos Reis,0.0,0.0,
+Z7r9jZaez1,Arena Corinthians,68727,Sao Paulo,S??o Paulo,Brazil,BR,01000-000,"Miguel In??cio Curi Avenue, 111",0.0,0.0,
+ZFr9jZ17a6,Arena da Baixada - Curitiba,42372,Curitiba,Paran??,Brazil,BR,80000,"R. Madre Maria dos Anjos, 1071",0.0,0.0,
+ZFr9jZ17a7,Arena das Dunas - Natal,31375,Natal,Rio Grande do Norte,Brazil,BR,59000,Centro Administrativo Rio Grande do Norte,0.0,0.0,
+ZFr9jZ17aA,Arena Pernambuco - Recife,45440,Recife,Pernambuco,Brazil,BR,50000,"Pernambuco - Recife, Brazil",0.0,0.0,
+ZFr9jZ17ad,Arena Pantanal - Cuiaba,42788,Cuiaba,Mato Grosso,Brazil,BR,78000,"Av. Prof. Ranulfo Paes de Barros, 478",0.0,0.0,
+ZFr9jZ17ae,Arena Amazonia - Manaus,42924,Manaus,Amazonas,Brazil,BR,4611,Av. Constantino Nery,0.0,0.0,
+ZFr9jZ17ak,Estadio Beira-Rio - Porto Alegre,50848,Porto Alegre,Rio de Janeiro,Brazil,BR,90000,"Av. Padre Cacique, 621-1571",0.0,0.0,
+ZFr9jZ1akk,Allianz Parque,55000,San Paulo,S??o Paulo,Brazil,BR,04801,,0.0,0.0,
+ZFr9jZ1d6v,Estadio Castelao Fortaleza,57867,fortaleza,Cear??,Brazil,BR,60860,"Avenida Alberto Craveiro, 2901",0.0,0.0,
+ZFr9jZ1dk1,National Stadium - Brasilia,69910,Brasilia,Distrito Federal,Brazil,BR,70670100,SRPN Est??dio Nacional de Bras??lia,0.0,0.0,
+ZFr9jZ1dk6,Itaquera Arena,68727,Sao Paulo,S??o Paulo,Brazil,BR,01000-000,"Itaquera, Sso Paulo, Brazil",0.0,0.0,
+ZFr9jZ1dkF,Mineirao Stadium,66658,Belo Horizonte,Minas Gerais,Brazil,BR,31275,Avenida Ant??nio Abrah??o Caram 1001,0.0,0.0,
+ZFr9jZ1dka,Arena Fonte Nova,47915,Salvador,Bahia,Brazil,BR,07849,R. Lions Club,0.0,0.0,
+ZFr9jZ6d71,Maracana Stadium,73139,Rio de Janeiro,Rio de Janeiro,Brazil,BR,00000,Rua Professor Eurico Rabelo,0.0,0.0,
+ZFr9jZ6ea7,Morumbi Stadium,72039,Sao Paulo,S??o Paulo,Brazil,BR,01000-000,Praca Roberto Gomes Pedrosa No.1,0.0,0.0,
+ZFr9jZak6v,Engenhao Stadium,70000,Rio de Janeiro,Rio de Janeiro,Brazil,BR,20000,Rio de Janeiro,0.0,0.0,
+ZFr9jZakA1,Circuito Anhembi,30000,Sao Paulo,S??o Paulo,Brazil,BR,02012,Av. Olavo Fontoura,0.0,0.0,
+ZFr9jZkdFv,Autodromo Jose Carlos Pace,60000,San Paulo,S??o Paulo,Brazil,BR,04801,Avenue Senador Teotonio Vilela,0.0,0.0,
+ZFr9jZ6vF1,Vasil Levski National Stadium,43230,Sofia,Bulgaria,Bulgaria,BG,1504,Evlogi Georgiev Blvd No 38,0.0,0.0,
+KovZ917AEMB,Esplanade du Parc olympique,67394,Montreal,Quebec,Canada,CA,H1V0B2,4545 ave. Pierre-De Coubertin,45.5566376,-73.55125068,
+KovZ917ARzt,Rogers Stadium,50000,Toronto,Ontario,Canada,CA,M3K0A1,YZD: Pedestrian access located at 105 Carl Hall Road,43.75055585,-79.47158231,https://s1.ticketm.net/dbimages/23499v.jpg
+KovZ917AmoB,Parc Olympique,59186,Montreal,Quebec,Canada,CA,H1V 0B2,"4141, avenue Pierre-De Coubertin",45.61930212,-73.5397584,
+KovZpZA7dnJA,Canadian Tire Centre,21153,Kanata,Ontario,Canada,CA,K2V 1A5,1000 Palladium Drive,45.2965202,-75.9271956,https://s1.ticketm.net/dbimages/23044v.jpg
+KovZpZAE77aA,BMO Field,28180,Toronto,Ontario,Canada,CA,M6K 3C3,170 Princes' Blvd,43.6326489,-79.4202924,https://s1.ticketm.net/dbimages/16593v.jpg
+KovZpZAEev1A,Centre Videotron,20396,Quebec,Quebec,Canada,CA,G1L5A7,250 boulevard Wilfrid-Hamel,46.824958,-71.24762,https://s1.ticketm.net/dbimages/23050v.jpg
+KovZpZAFFAEA,Circuit Gilles Villeneuve,100000,Montreal,Quebec,Canada,CA,H3C6A1,"222, Circuit Gilles-Villeneuve",45.5082618,-73.5271237,
+KovZpZAFFE1A,Scotiabank Arena,20511,Toronto,Ontario,Canada,CA,M5J 2L2,"50 Bay Street, Suite 500",43.6439254,-79.3783234,https://s1.ticketm.net/dbimages/23211v.jpg
+KovZpZAFFllA,Mosaic Stadium,40000,Regina,Saskatchewan,Canada,CA,S4T 1K1,1734 Elphinstone Street,50.45181695,-104.63317218,https://s1.ticketm.net/dbimages/6988v.gif
+KovZpZAFlvtA,Burl's Creek Event Grounds,100000,Oro-Medonte,Ontario,Canada,CA,L0L 2E0,240 Line 8 South,44.481087,-79.5158622,https://s1.ticketm.net/dbimages/19374v.jpg
+KovZpZAIdaaA,Rogers Place,20734,Edmonton,Alberta,Canada,CA,T5J 0H6,10220 - 104 Avenue,53.546911,-113.497237,https://s1.ticketm.net/dbimages/23200v.jpg
+KovZpZAJ6E1A,Mattamy Athletic Centre,615746,Toronto,Ontario,Canada,CA,M5B 1J2,50 Carlton Street,43.662182,-79.38037,https://s1.ticketm.net/dbimages/22494v.jpg
+KovZpZAJdn6A,BC Place,54500,Vancouver,British Columbia,Canada,CA,V6B 4Y8,777 Pacific Blvd.,49.2760688,-123.1127117,https://s1.ticketm.net/dbimages/23190v.jpg
+KovZpZAJkveA,Hamilton Stadium,23218,Hamilton,Ontario,Canada,CA,L8L0C3,64 Melrose Ave N,43.2528622,-79.8284359,
+KovZpZAa6elA,Parc Jean Drapeau,100000,Montreal,Quebec,Canada,CA,H3C 1A9,296 Chemin du Tour de l'isle,45.506426,-73.526001,
+KovZpa3Bbe,Rogers Centre,55000,Toronto,Ontario,Canada,CA,M5V 1J3,1 Blue Jays Way,43.6417384,-79.3917447,https://s1.ticketm.net/dbimages/18307v.jpg
+KovZpaFN8e,Princess Auto Stadium,32343,Winnipeg,Manitoba,Canada,CA,R3T 1Z2,315 Chancellor Matheson Road,49.807748,-97.143098,https://s1.ticketm.net/dbimages/23156v.jpg
+KovZpaFOFe,The Stadium at TD Place,30927,Ottawa,Ontario,Canada,CA,K1S 3W7,1015 Bank Street,45.39911174,-75.68335822,https://s1.ticketm.net/dbimages/24134v.jpg
+KovZpaKVne,McMahon Stadium,46020,Calgary,Alberta,Canada,CA,T2M 4R6,1817 Crowchild Trail NW,51.0688845,-114.1180341,https://s1.ticketm.net/dbimages/mcmahon_van_139350_4Z.gif
+KovZpaKwZe,The Venue,100240,Peterborough,Ontario,Canada,CA,K9J3H2,286 George Street North,44.302253,-78.319498,
+KovZpafrie,Club Roma,70634,St. Catharines,Ontario,Canada,CA,L2S 3W4,125 Vansicle Road,43.1225458,-79.2694394,
+KovZpauRJe,Centre Bell,22114,Montreal,Quebec,Canada,CA,H3B5E8,1909 avenue des Canadiens-de-Montréal,45.496129,-73.570472,https://s1.ticketm.net/dbimages/9294v.gif
+ZFr9jZae7d,Under the White Big Top - Vancouver,27500,Vancouver,British Columbia,Canada,CA,V6Z 2R6,Pacific Blvd.,0.0,0.0,
+KovZ917A4ZV,Downtown Community Arena,20734,Edmonton,Alberta,Canada,CA,T5J 0H6,10245 – 105 Avenue NW,53.547429,-113.496157,
+KovZ917AGbf,Ripley's Aquarium of Canada,2840000,Toronto,Ontario,Canada,CA,M5V 3L9,288 Bremner Blvd,43.642452,-79.386124,
+KovZ917AGrV,University of Manitoba Stadium,32343,Winnipeg,Manitoba,Canada,CA,R3T 2N2,66 Chancellor Matheson Road,49.806705,-97.146204,
+KovZ917AGx0,2017 Canada Summer Games - Various Venues,100240,Winnipeg,Manitoba,Canada,CA,R3C 0J7,240-270 Graham Avenue,49.887822,-97.130508,https://s1.ticketm.net/dbimages/18853v.jpg
+KovZ917AL0V,La Primavera Event Space,75000,Vaughan,Ontario,Canada,CA,L4L 7Y6,77 Woodstream Blvd,43.774905,-79.60358,
+Z7r9jZadAN,Estadio Nacional Julio Martinez Pradanos,46190,Regi??n Metropolitana,Regi??n Metropolitana de Santiago,Chile,CL,00000,"Av. Grecia 2001, ??u??oa,",0.0,0.0,
+Z7r9jZaetA,Estadio Regional de Antofagasta,35000,antofagasta,Antofagasta,Chile,CL,1270043,"Galleguillos Lorca, Antofagasta, Chile",0.0,0.0,
+Z7r9jZaetd,Estadio Municipal de Concepcion,30448,concepcion,B??o-B??o,Chile,CL,4051145,"Concepci??n, B??o B??o Region, Chile",0.0,0.0,
+Z7r9jZaetk,Estadio Sausalito,23423,Vina del Mar,Valpara??so,Chile,CL,05109,"Vi??a del Mar, Valpara??so Region, Chile",0.0,0.0,
+Z7r9jZaetv,Estadio Elias Figueroa Brander,20575,Valparaiso,Valpara??so,Chile,CL,05101,"Valpara??so, Chile",0.0,0.0,
+ZFr9jZ11ke,Estadio Monumental Santiago,47347,Santiago,Regi??n Metropolitana de Santiago,Chile,CL,8320000,Av. Marathon 5300,0.0,0.0,
+ZFr9jZ1vF7,Estadio Nacional de Chile,46190,Nunoa,SANTIAGO,Chile,CL,7780464,Grecia 2001,0.0,0.0,
+Z7r9jZaAyA,Roberto Melendez Metropolitan Stadium,46788,Barranquilla,Atlantico,Colombia,CO,080001,Avenida Murillo con circunvalar,0.0,0.0,
+ZFr9jZ1aka,Estadio El Campin,39512,Bogota,Amazonas,Colombia,CO,00000,Avenida Carrera 24 # Calle 54 y Calle 58 con Aveni,0.0,0.0,
+ZFr9jZ1vFA,Estadio Atanasio Girardot,44826,Medellin,Amazonas,Colombia,CO,001221,"Estadio, Medell??n, Antioquia",0.0,0.0,
+ZFr9jZFdaF,Estadio Ricardo Saprissa - Costa Rica,23112,San Juan,San Jose,Costa Rica,CR,11301,San Juan de Tibas,0.0,0.0,
+ZFr9jZak71,Estadio Nacional de Costa Rica,35062,San Jose,San Jose,Costa Rica,CR,1225,"San Jose, Costa Rica",0.0,0.0,
+Z7r9jZaeHj,Arena Zagreb,23000,Zagreb,Croatia,Croatia,HR,10000,"8, Ul. Vice Vukova",0.0,0.0,
+ZFr9jZ1d1a,Stadion Poljud,33987,Split,Croatia,Croatia,HR,21000,8. Mediteranskih igara 2,0.0,0.0,
+Z7r9jZa71L,GSP Stadium,22859,Strovolos,Cyprus,Cyprus,CY,00000,"Pangyprion Avenue, 1501 Nicosia",0.0,0.0,
+Z598xZu0Zdv61,O2 Arena,20000,Praha 9,,Czech Republic,CZ,19000,Českomoravská 2345/17a,50.10479,14.49377,https://media.ticketmaster.eu/czechrepublic/b18a88b1506370ac889a0bd8d26da3bb.jpg
+Z198xZu0Z161,BVV - Pavilon P,30000,Brno,,Czech Republic,CZ,60300,Výstaviště 405/1,49.18746,16.57997,
+Z598xZu0Zd7v1,Parking Garage - O2 arena,21000,Praha 9,,Czech Republic,CZ,19000,Lisabonská 2422,50.10376,14.49706,https://media.ticketmaster.eu/czechrepublic/d6f6796a3b9aa3c95d6994846fc7b8a7.jpg
+ZFr9jZ6eek,O2 Arena - Prague,20000,Prague,Karlovy Vary,Czech Republic,CZ,190 93,Ocelarska Street No. 460/2,0.0,0.0,
+Z198xZC4ZA77,Brøndby-Hallen,28000,Brøndby,,Denmark,DK,2605,Brøndby Stadion 10,55.64589,12.41771,
+Z598xZC4ZkddF,Parken,38190,København Ø,,Denmark,DK,2100,Øster Allé 50,55.70295,12.57069,
+Z698xZC4ZaeXv,Herfølge Hallen,28000,Herfølge,,Denmark,DK,4681,Vordingborgvej 124,55.41311,12.13498,
+Z198xZu3Z16F,Parken Stadion,38190,København Ø,,Denmark,DK,2100,Per Henrik Lings Allé 2,55.70315,12.57163,
+Z7r9jZa7P5,Felix Sanchez Olympic Stadium,50000,Santo Domingo,Santo Domingo,Dominican Republic,DO,10122,Centro Olimpico,0.0,0.0,
+Z7r9jZadA0,Estadio Olimpico Atahualpa,35258,Quito,Ecuador,Ecuador,EC,170135,Avenida 6 de Diciembre y Naciones,0.0,0.0,
+ZFr9jZFkAv,Helsinki Olympic Stadium,36251,Helsinki,Oulun l????ni,Finland,FI,00250,Paavo Nurmen Tie 1,0.0,0.0,
+KovZ9177ZF7,Stade Chaban-Delmas ,34462,Bordeaux,,France,FR,33000,Place Johnston,,,
+Z598xZG2Ze717,Stade de France,81338,Saint Denis,,France,FR,93216,,48.918,2.351,
+KovZ917AG00,Accorhotels Arena,20300,Paris,,France,FR,75012,8 Boulevard de Bercy,48.838721,2.378568,
+KovZ917ALU1,Paris La Defense Arena,45000,Paris,,France,FR,BT7 9HJ,99 Jardins de l'Arche,,,
+Z598xZG2ZedFF,Stade Pierre Mauroy,50186,Villeneuve-d'Ascq,,France,FR,59656,"261, Boulevard de Tournai CS 70678",50.61191,3.1305,
+Z598xZG2Zeddk,Stade Pierre-Mauroy,50186,Villeneuve-d'Ascq,,France,FR,59650,261 Boulevard de Tournai,50.61191,3.1305,
+Z698xZC2Zaelh,Circuit Paul Richard HTTT,90000,Le Castellet,,France,FR,83330,2760 Route des Hauts du Camp,43.25178,5.77996,
+Z698xZC2Zaelu,Circuit Paul Ricard HTTT,90000,Le Castellet,,France,FR,83330,2760 Route des Hauts du Camp,43.25178,5.77996,
+Z7r9jZa7fL,Longchamp Racecourse,50000,Paris,Paris,France,FR,75016,2 Route des Tribunes,0.0,0.0,
+Z7r9jZad5E,Paris La D??fense Arena,40000,Nanterre,Hauts-de-Seine,France,FR,92000,"Les Jardins de l'Arche, 92000 Nanterre-Paris",0.0,0.0,
+Z7r9jZadsB,Stade de la Mosson,33556,Montpellier,Languedoc-Roussillon,France,FR,34080,345 Avenue de Heidelberg,0.0,0.0,
+Z7r9jZadsS,Stade Auguste-Delaune,21029,Reims,Marne,France,FR,51100,"Chaussee Bocquaine, 51100 Reims",0.0,0.0,
+Z7r9jZadsV,Roazhon Park,29778,Rennes,Ille-et-Vilaine,France,FR,35000,111 Rue de Lorient,0.0,0.0,
+Z7r9jZadsz,Stade du Hainaut,35000,Valenciennes,Nord-Pas-de-Calais,France,FR,59300,Avenue des Sports,0.0,0.0,
+Z7r9jZaeSJ,Stade des Lumieres,59186,Decines Charpieu,Rh??ne,France,FR,69150,Chemin du Montout,0.0,0.0,
+ZFr9jZ1Ave,Grand Stade Lille Metropole,50186,Villeneuve d'Ascq,Nord,France,FR,59650,261 Boulevard de Tournai,0.0,0.0,
+ZFr9jZ7v6e,Nevers Magny - Cours,139112,Saint-Parize-le-Ch??tel,Paris,France,FR,58470,,0.0,0.0,
+ZFr9jZA677,Stade Geoffroy Guichard Stadium,41965,Saint-Etienne,Franche-Comt??,France,FR,42000,Rue Paul-et-Piere-Guichard,0.0,0.0,
+ZFr9jZA6dF,Beaujoire Stadium,35318,Nantes,Loire-Atlantique,France,FR,44300,Route de Saint Joseph 44300,0.0,0.0,
+ZFr9jZA6dd,Toulouse Stadium,33150,Toulouse,Midi-Pyr??n??es,France,FR,31400,Pont de la Croix de Pierre,0.0,0.0,
+ZFr9jZA6dk,Bordeaux Stadium,42115,Bordeaux,Bouches-du-Rh??ne,France,FR,33000,Cours Jules Ladoumegue,0.0,0.0,
+ZFr9jZA6dv,Lyon Stadium,59186,Lyon,Franche-Comt??,France,FR,69007,"353, Avenue Jean-Jaur??s,",0.0,0.0,
+ZFr9jZA766,Parc des Princes,48229,Paris,Paris,France,FR,75017,,0.0,0.0,
+ZFr9jZA77F,Circuit de Nevers Magny-Cours,139112,Nevers Magny-Cours,Bourgogne,France,FR,58470,58470 Magny-Cours Technopole,0.0,0.0,
+ZFr9jZddav,Stade de France - Paris,81338,Saint Denis,Seine-Saint-Denis,France,FR,93210,Avenue du Pr??sident Wilson,0.0,0.0,
+ZFr9jZdeF7,Le Bercy,20300,Paris,Paris,France,FR,75012,193 Rue Bercy,0.0,0.0,
+Z7r9jZaesk,Boris Paichadze Dinamo Arena,54202,Tbilisi,Georgia,Georgia,GE,0105,Didube-Chugureti,0.0,0.0,
+Z698xZC2Za72N,Paul-Greifzu-Stadion,20000,Dessau-Roßlau,,Germany,DE,06842,Helmut-Kohl-Straße 69,51.82344,12.25067,
+Z698xZC2Za7Yc,Volksparkstadion,57000,Hamburg,,Germany,DE,22525,Uwe-Seeler-Allee 7,53.58782,9.8986,
+Z698xZC2Za7sR,RheinEnergieSTADION,49698,Cologne,,Germany,DE,50933,Aachener Straße,50.9346,6.87535,
+Z698xZC2ZaALL,Heinz von Heiden Arena,49000,Hannover,,Germany,DE,30169,Robert-Enke-Straße 1,52.36009,9.73102,
+Z698xZC2ZaApd,Weserstadion,42100,Bremen,,Germany,DE,28205,Franz-Böhmert-Straße 1,53.06546,8.83907,
+Z698xZC2ZaFVR,Stadion am Bieberer Berg,20500,Offenbach am Main,,Germany,DE,63071,Waldemar-Klein-Platz 1,50.09458,8.79873,
+Z698xZC2ZaFuT,Allianz Arena,75024,Munich,,Germany,DE,80939,Werner-Heisenberg-Allee 25,48.21853,11.62503,
+Z698xZC2ZaFwv,MHP Arena,60058,Stuttgart,,Germany,DE,70372,Mercedesstraße 87,48.79164,9.2313,
+Z698xZC2ZadKo,Festwiese,47800,Ladenburg,,Germany,DE,68526,Neckarstraße,49.46562,8.60812,
+Z698xZC2ZadgD,Lausitzring,120000,Klettwitz,,Germany,DE,01998,Lausitzallee 1,51.54278,13.895,
+Z698xZC2ZadgM,Hockenheimring,70000,Hockenheim,,Germany,DE,68766,Am Motodrom,49.31955,8.54986,
+KovZ917A5f0,HDI Arena,49000,Hannover,,Germany,DE,,Robert-Enke-Straße 1,52.361993,9.73371,
+Z598xZC2ZadFe,Hauptstadion,40000,Aachen,,Germany,DE,,Albert-Servais-Allee 50,50.79536,6.09171,
+Z598xZC2ZeAek,Festwiese,47800,Born auf dem Darß,,Germany,DE,18375,Kirchweg,54.386342,12.531407,
+Z698xZC2Za7CK,Fanstand Heimspiel,47800,Rimpar,,Germany,DE,,,49.852376,9.960348,
+Z698xZC2Za7Ea,Waldbühne,22290,Berlin,,Germany,DE,14053,Am Glockenturm 1,52.51318,13.22987,
+Z698xZC2ZaFDv,Festwiese,47800,Tangstedt,,Germany,DE,20359,Brummerackerweg 2-10,53.67622,9.84864,
+Z698xZC2ZaFMc,PSV Stuttgart e.V.,35000,Stuttgart,,Germany,DE,70372,Fritz-Walter-Weg 10,48.79183,9.23453,
+KovZ9177-Bf,Home Park Stadium,27000,Plymouth,,Great Britain,GB,PL2 3DQ,Plymouth Argyle FC,50.387401,-4.151701,
+KovZ9177-E0,John Smith's Stadium,24121,Huddersfield,,Great Britain,GB,HD1 6PG,Stadium Way,53.654649,-1.768924,https://s1.ticketm.net/uk/dbimages/2232v.jpg
+KovZ9177-SV,The Brick Community Stadium,25138,Wigan,,Great Britain,GB,WN50UH,15 Loire Dr,53.54517,-2.654047,https://s1.ticketm.net/uk/dbimages/2774v.jpg
+KovZ9177-U7,Emirates Stadium,60704,London,,Great Britain,GB,N7 7AJ,Queensland Road,51.5541,-0.108782,https://s1.ticketm.net/uk/dbimages/745v.jpg
+KovZ9177-bV,"Allianz Stadium, Twickenham",82000,London,,Great Britain,GB,TW11DZ,Twickenham,51.456379,-0.339243,
+KovZ9177-rV,Swansea.com Stadium,21088,Swansea,,Great Britain,GB,SA1 2FA,Morfa,51.642162,-3.935119,
+KovZ917709f,Toughsheet Community Stadium,40000,Bolton,,Great Britain,GB,BL6 6JW,Burnden Way,53.580173,-2.536279,https://s1.ticketm.net/uk/dbimages/928v.jpg
+KovZ91770If,St James Park,52305,Newcastle Upon Tyne,,Great Britain,GB,NE1 4ST,Barrack Road,54.975203,-1.622355,
+KovZ91771tV,Ewood Park,31367,Blackburn,,Great Britain,GB,BB2 4JF,Nuttall St,53.7277785,-2.489185,
+KovZ91775-V,Fratton Park,20899,Portsmouth,,Great Britain,GB,PO4 8RA,Frogmore Road,50.795932,-1.064893,
+KovZ9177A4f,AO Arena,21000,Manchester,,Great Britain,GB,M3 1AR,"Victoria Station, Hunts Bank",53.488164,-2.244066,https://s1.ticketm.net/uk/dbimages/2577v.jpg
+KovZ9177BnV,The National Bowl,65000,Milton Keynes,,Great Britain,GB,MK5 8AA,Watling Street,52.014768,-0.756174,
+KovZ9177Bx7,AO Arena.,21000,Manchester,,Great Britain,GB,M3 1AR,"Victoria Station, Hunts Bank",53.488164,-2.244066,
+KovZ9177Dv7,Coventry Building Society Arena,40000,Coventry,,Great Britain,GB,CV6 6GE,"Phoenix Way, ",52.448267,-1.497429,https://s1.ticketm.net/uk/dbimages/2643v.jpg
+KovZ9177EEf,Alexander Stadium,30000,Birmingham,,Great Britain,GB,B42 2LR,Walsall Road,52.5299002,-1.9061313,
+KovZ9177EX0,London Stadium,80000,London,,Great Britain,GB,E20 2ST,Stratford,51.536039,-0.014687,
+KovZ9177Ee0,Digital Newcastle,52305,Newcastle Upon Tyne,,Great Britain,GB,NE1 4EP,Times Square,54.967561,-1.621193,
+KovZ9177EgV,Selhurst Park,25486,London,,Great Britain,GB,SE25 6PU,White Horse Lane,51.397894,-0.085924,
+KovZ9177EsV,Oakwell Stadium,23287,Barnsley,,Great Britain,GB,S71 1ET,Grove Street,53.552269,-1.468632,
+KovZ9177Irf,St Andrews at Knighthead Park,29409,Birmingham,,Great Britain,GB,B94RL,St Andrew's Road,52.474943,-1.864039,
+KovZ9177LH0,City Ground,30404,Nottingham,,Great Britain,GB,NG25FJ,Pavilion Road,52.939455,-1.133199,
+KovZ9177ML0,Wembley Stadium,90000,London,,Great Britain,GB,HA9 0WS,Wembley,51.556711,-0.279678,https://s1.ticketm.net/uk/dbimages/2473v.jpg
+KovZ9177N1V,Sunderland Live,49000,Durham,,Great Britain,GB,DH45PH,Mercantile Road,54.8349,1.4813,
+KovZ9177N57,Ascot Racecourse,80000,Ascot,,Great Britain,GB,SL5 7JX,High Street,51.41231419,-0.67942033,
+KovZ9177Nuf,Goodison Park,39572,Liverpool,,Great Britain,GB,L4 4EL,Goodison Road,53.43899,-2.96614,
+KovZ9177OxV,Tottenham Hotspur Stadium,62850,London,,Great Britain,GB,N17 0BX,782 High Rd,51.600819,-0.06787,
+KovZ9177P77,Principality Stadium,78000,Cardiff,,Great Britain,GB,CF10 1NS,Westgate Street,51.477945,-3.18305,https://s1.ticketm.net/uk/dbimages/2416v.jpg
+KovZ9177Sg7,Stadium of Light,60000,Sunderland,,Great Britain,GB,SR5 1SU,Millenium Way,54.914072,-1.389317,
+KovZ9177YEf,Villa Park,42918,Birmingham,,Great Britain,GB,B6 6HE,Trinity Road,52.508486,-1.884946,https://s1.ticketm.net/uk/dbimages/2252v.
+KovZ9177cI0,Donington Park,120000,Derby,,Great Britain,GB,DE74 2RP,Castle Donington,52.828337,-1.372481,https://s1.ticketm.net/uk/dbimages/2455v.jpg
+KovZ9177mPV,Hampden Park National Stadium,51866,Glasgow,,Great Britain,GB,G44 4QG,Letherby Drive,55.825241,-4.253201,
+KovZ9177mh7,Scottish Gas Murrayfield,67144,Edinburgh,,Great Britain,GB,EH12 5PJ,Murrayfield,55.94078064,-3.24194169,https://s1.ticketm.net/uk/dbimages/671v.jpg
+KovZ9177nS7,House of Sport,50817,Cardiff,,Great Britain,GB,CF118AW,Clos Parc Morgannwg,51.47117277,-3.20052302,
+KovZ9177s4f,Queen's Park Recreation Ground,51866,Glasgow,,Great Britain,GB,G42 8QR,Queen's Drive,55.83271,-4.26386,
+ZFr9jZd1A6,Pankritio Stadium,26240,Heraklion,Grevena,Greece,GR,71202,,0.0,0.0,
+ZFr9jZd1AA,Panathinaiko Stadium,60000,Athens,Attiki,Greece,GR,11635,,0.0,0.0,
+ZFr9jZd1AF,Karaiskaki Stadium,33334,Piraeus,Pieria,Greece,GR,185 36,Neo Faliro,0.0,0.0,
+ZFr9jZd1Ak,Panthessaliko Stadium,22189,Volos,Magnisia,Greece,GR,38445,,0.0,0.0,
+ZFr9jZd1e1,Olympic Stadium - Athens,75000,Athens,Arta,Greece,GR,15123,"37 Kifissias Avenue,Athens",0.0,0.0,
+ZFr9jZd1eF,Pampeloponnisiako Stadium,30000,Patras,Achaia,Greece,GR,26334,,0.0,0.0,
+ZFr9jZd1ea,Kaftanzoglio Stadium,27560,Thessaloniki,Thessaloniki,Greece,GR,569,,0.0,0.0,
+ZaqgVMyxrjZ1AeZZJo,OPAP Arena,32500,"Nea Filadelfeia, Athens",,Greece,GR,14341,Fokon 11,38.03674,23.741506,
+ZaqgVMyxrjZ1AeZZak,Georgios Karaiskakis Stadium,33334,Piraeus,,Greece,GR,18547,Karoli Dimitriou & Sofianopoulou,37.94648,23.664315,
+ZaqgVMyxrjZ1kkkk6b4,Toumba Stadium,28703,Thessaloniki,,Greece,GR,54351,Mikras Asias 6,40.613701,22.972252,
+KovZ9177wof,Sziget Festival,92000,Obudai-sziget,,Hungary,HU,XX0 0XX,Budapest,47.551944,19.054659,
+Z198xZQpZkv1,Groupama Arena,23700,Budapest,,Hungary,HU,1091,Üllői út 129.,47.4755,19.09523,
+Z598xZG2Zee6F,Hungaroring,70000,Budapest,,Hungary,HU,2146,Hungaroring Pf. 10,47.58385,19.24892,
+ZFr9jZ1k17,Ferenc Puskas Stadium,100000,Budapest,Budapest,Hungary,HU,1143,1146 Budapest,0.0,0.0,
+ZFr9jZFFva,Hungaroring Circuit,70000,Mogyorod,Budapest,Hungary,HU,2146,Hungaroring Sport Rt,0.0,0.0,
+Z7r9jZad-L,Laugardalsvollur,28321,Reykjavik,Hofudhborgarsvaedhi,Iceland,IS,104,Reykjavik,0.0,0.0,
+Z198xZ52Z7vF,Buddh International Circuit,110000,Greater Noida (Delhi NCR),,India,IN,203201,Uttar Pradesh,28.35072,77.53452,
+ZFr9jZadkF,Punjab Cricket Association Stadium,27000,Chandigarh,Chandigarh,India,IN,160062,"Sector 63, SAS Nagar",0.0,0.0,
+ZFr9jZadvF,Feroz Shah Kotla Ground,35200,New Dehli,Delhi,India,IN,110002,Bahadur Shah Zafar Road,0.0,0.0,
+ZFr9jZadvv,M Chinnaswamy Stadium,40000,Bangalore,Karnataka,India,IN,560001,Cubbon Park & MG Road,0.0,0.0,
+ZFr9jZaeaa,MA Chidambaram Stadium,38200,Chepauk,Tamil Nadu,India,IN,600005,"Chepauk, chennai",0.0,0.0,
+KovZ9177TA7,UPMC Nowlan Park,27000,Kilkenny,Co. Kilkenny,Ireland,IE,,O'Loughlin Road,53.18299866,-8.19900036,
+KovZ9177TSf,Zimmer Biomet Pairc Chiosog,27846,Co. Clare,Co. Clare,Ireland,IE,,Francis Street,52.846152,-8.977208,https://s1.ticketm.net/uk/dbimages/291v.jpg
+KovZ9177Tc0,SuperValu Pairc Ui Chaoimh,45300,Cork,Co. Cork,Ireland,IE,,An Mhuirine,51.89885972,-8.43700647,https://s1.ticketm.net/uk/dbimages/2132v.gif
+KovZ9177Tn7,Aviva Stadium,65000,Dublin,,Ireland,IE,4,Lansdowne Road,53.335237,-6.228468,https://s1.ticketm.net/uk/dbimages/2573v.jpg
+KovZ9177WwV,FBD Semple Stadium,45690,Co. Tipperary,Co. Tipperary,Ireland,IE,,Thurles,52.68243463,-7.82588661,https://s1.ticketm.net/uk/dbimages/259v.jpg
+KovZ9177X37,TUS Gaelic Grounds,49866,Limerick City,Co. Limerick,Ireland,IE,,Ennis Road,52.67016442,-8.65420371,https://s1.ticketm.net/uk/dbimages/255v.jpg
+KovZ9177XEV,Thomond Park Stadium,25600,Limerick City,,Ireland,IE,,Thomond Park,52.67412802,-8.64253879,
+KovZ9177XKV,Croke Park,82300,Dublin,,Ireland,IE,3,James Avenue,53.36086568,-6.25101015,https://s1.ticketm.net/uk/dbimages/1022v.gif
+KovZ9177XhV,St. Tiernachs Park,36500,Co. Monaghan,,Ireland,IE,,Clones,54.18313301,-7.23372459,https://s1.ticketm.net/uk/dbimages/277v.jpg
+KovZ917AYbJ,Palace Venue & Nightclub,23000,Offaly,Co. Offaly,Ireland,IE,,Palace Venue & Nightclub,53.29415683,-7.48864181,
+KovZ917AdA7,Live at the Docklands,56347,Limerick,Co. Limerick,Ireland,IE,V94 E024,Limerick Docks,52.660236,-8.637856,
+KovZ9177KyV,"The Havelock Area, Aviva Stadium",60000,Dublin,Dublin 4,Ireland,IE,,Lansdowne Road,53.334948,-6.228599,
+KovZ9177T1f,Kingspan Breffni,25030,Co. Cavan,Co. Cavan,Ireland,IE,,Park Lane,53.98177113,-7.3603034,https://s1.ticketm.net/uk/dbimages/286v.jpg
+KovZ9177T_V,Laois Hire O'Moore Park,22000,Co. Laois,Co. Laois,Ireland,IE,,Father Brown Ave,53.02701936,-7.30324745,https://s1.ticketm.net/uk/dbimages/445v.jpg
+KovZ9177Ti0,Circuit De Nevers Magny-Cours,139112,Nevers,,Ireland,IE,,58470 Magny-Cours,47.012481,3.070067,
+KovZ9177TkV,One Venue,20000,,,Ireland,IE,,,29.315815,47.993817,
+KovZ9177Ts7,Fitzgerald Stadium,42000,Co. Kerry,,Ireland,IE,,Killarney,52.06657739,-9.50813592,https://s1.ticketm.net/uk/dbimages/257v.jpg
+KovZ9177Tt0,Stade De France,81338,Paris-France,,Ireland,IE,,Rue Henri Delaunay,48.77586,2.342928,
+KovZ9177Tyf,The Venue At Taylors,20000,Dublin,,Ireland,IE,,Taylors Three Rock,,,
+KovZ9177WUf,Citi Bar And Venue,45000,Dublin,,Ireland,IE,,Dame Street,53.349805,-6.26031,
+KovZ9177Wsf,"Stade de France, Paris",81338,Paris France,,Ireland,IE,CF10 1NS,93200 Saint-Denis,43.124228,5.928,
+KovZ9177Wz0,The National Show Centre,73000,Dublin,,Ireland,IE,,Cloghran,53.349805,-6.26031,
+KovZ9177XU0,Gasworks,32609,Dublin,,Ireland,IE,1,O'Connell Street,53.3512039,-6.2609587,
+KovZ9177XWf,Hastings Insurance McHale Park,25369,Co. Mayo,Co. Mayo,Ireland,IE,,Castlebar,53.8536151,-9.28587198,https://s1.ticketm.net/uk/dbimages/279v.jpg
+KovZ9177XX0,Clones Stadium,36500,Co. Monaghan,,Ireland,IE,,Clones,54.179683,-7.230667,
+KovZ9177Xh0,Time Venue,20000,Naas,,Ireland,IE,,Naas,53.365962,-0.007711,
+KovZ917A2Df,Crystal Leisure Centre,24000,Waterford,,Ireland,IE,,Cork Road,52.24329,-7.150439,
+KovZ917AEbO,Connacht GAA Dome,20000,Mayo,Co. Mayo,Ireland,IE,F12 WF21,Cloonacurry,53.77473778,-8.85362,
+KovZ917AJWr,Star Trax Music Venue,23000,Mallow,Co. Cork,Ireland,IE,,Knocknagree,52.13498264,-9.16125827,
+KovZ917APhX,Pearse Park GAA,34000,Arklow,Co. Wicklow,Ireland,IE,,Vale Road,52.24497,-7.11076,
+KovZ917ARgF,Bank Lane,50000,Waterford,Co. Waterford,Ireland,IE,X91HX23,Bank Ln,52.25934,-7.10623,
+KovZ917AZcV,Odessa Club,34164,Dublin,,Ireland,IE,Dublin 2,13 Dame Court,53.3432236,-6.2639308,
+KovZ917AZd0,Pearse Stadium,34000,Co. Galway,,Ireland,IE,,Rockbarton Road,53.26313376,-9.08522129,https://s1.ticketm.net/uk/dbimages/271v.jpg
+KovZ917AZi0,Sports Ground,35000,Offaly,,Ireland,IE,,Banagher,53.186464,-7.995351,
+Z1HyzZmzMZ23,Solomon Club,20000,Eilat,,Israel,IL,,,,,
+Z1HyzZmzMZGp,Bloomfield Stadium,29400,Tel Aviv - Jaffa,,Israel,IL,,,32.051902,34.760766,
+Z598xZG2Zee67,MISANO,60000,MISANO,,Italy,IT,47843,Via Daijiro Kato 10,43.9614,12.68623,
+Z59rmIYnyZ116,Stadio Euganeo,32420,Padova,,Italy,IT,,,0.0,0.0,
+Z59rmIYnyZ1FA,Stadio San Siro,80018,Milano,,Italy,IT,,,0.0,0.0,
+Z59rmIYnyZ1a1,Arena di Verona,22000,Verona,,Italy,IT,,,0.0,0.0,
+Z59rmIYnyZ1a6,Unipol Arena,20000,Casalecchio di Reno,,Italy,IT,,Via Gino Cervi 2,0.0,0.0,
+Z7r9jZaAQJ,Stadio San Siro,80018,Milan,Milan,Italy,IT,20151,"Via Piccolomini, 5, 20151",0.0,0.0,
+ZFr9jZ1a1d,Stadio Nereo Rocco,26566,Trieste,Friuli-Venezia Giulia,Italy,IT,31418,"Via dei Macelli, 5",0.0,0.0,
+ZFr9jZ1d1F,Stadio Euganeo,32420,Padova,Veneto,Italy,IT,35135,Avenue N. Rocco,0.0,0.0,
+ZFr9jZ1vad,Unipol Arena,20000,Bologna,Emilia-Romagna,Italy,IT,40033,Via Gino Cervi 2,0.0,0.0,
+ZFr9jZ71ad,Stadio Olimpico,70634,Roma,Lazio,Italy,IT,00135,Viale dei Gladiatori,0.0,0.0,
+ZFr9jZ761e,Olympic Stadium - Rome,70634,Rome,Sicily,Italy,IT,00135,Viale dei Gladiatori,0.0,0.0,
+ZFr9jZ7a1A,Arena di Verona,22000,Verona,Veneto,Italy,IT,37100,"piazza Bra, 28",0.0,0.0,
+ZFr9jZ7a1d,Stadio Giuseppe Meazza,80018,Milan,Lombardy,Italy,IT,IT-MILA,,0.0,0.0,
+ZFr9jZ7kae,Torino Stadio Olimpico,28177,Torino,Piemonte,Italy,IT,10134,"Via Filadelfia, 96b",0.0,0.0,
+ZFr9jZ7vk1,Autodromo Enzo e Dino Ferrari,78000,Imola,Emilia-Romagna,Italy,IT,40026,"via F.lli Rosselli,2",0.0,0.0,
+ZFr9jZA7d7,Juventus Stadium,41507,Turin,Piedmont,Italy,IT,10100,Corso Gaetano Scirea 50,0.0,0.0,
+ZFr9jZAvae,Friuli Stadium,25144,Udine,Friuli-Venezia Giulia,Italy,IT,83,Piazzale Repubblica Argentina 3,0.0,0.0,
+ZFr9jZFFdd,Stadio Artemio Franchi,43147,Florence,Friuli-Venezia Giulia,Italy,IT,50137,14 Viale Manfredo Fanti,0.0,0.0,
+ZFr9jZFa16,Cathedral Del Duomo di Milano,40000,Milan,Lombardy,Italy,IT,IT-MILA,,0.0,0.0,
+ZFr9jZak7F,Stadio Diego Armando Maradona,54726,Naples,Campania,Italy,IT,80126,"Via Vicinale Paradiso, 70",0.0,0.0,
+ZFr9jZd6ka,Stadio Flamino,30000,Roma,Lazio,Italy,IT,00196,Piazza Maresciallo Pilsudski,0.0,0.0,
+ZFr9jZdF77,Autodromo Di Monza,118865,Milan,Lombardy,Italy,IT,20100,Via vedano 5,0.0,0.0,
+ZG9rmIYnyZe6k7,Bluenergy Stadium - Stadio Friuli,25144,Udine,,Italy,IT,,Piazzale Repubblica Argentina 3,0.0,0.0,
+ZG9rmIYnyZe6kk,Stadio Adriatico,20476,Pescara,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeAF6,Stadio Nereo Rocco,26566,Trieste,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeAFa,Roma,70634,Roma,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeAe7,Bay Arena,30210,Bellaria – Igea Marina,,Italy,IT,,Via Alfonso Pinzon 227,0.0,0.0,
+ZG9rmIYnyZeAed,Stadio Barbera,36365,Palermo,,Italy,IT,,Viale del Fante 11,0.0,0.0,
+ZG9rmIYnyZeAvd,Stadio Arechi,37800,Salerno,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeAve,Stadio Dall'Ara,36000,Bologna,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeAvv,Info Drive Arena,22000,Capo d'Orlando,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeF1d,Rock In Roma,72698,Roma,,Italy,IT,,"Via Appia Nuova, 1245",0.0,0.0,
+ZG9rmIYnyZee61,Gate Milano,80018,Milano,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeekv,BASE Milano,80018,Milano,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZekAk,Autodromo Enzo e Dino Ferrari - Imola,78000,Imola,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZekAv,Stadium,100240,Genova,,Italy,IT,,Lungomare Giuseppe Canepa 155,0.0,0.0,
+ZG9rmIYnyZekee,Stadio Franco Lo Monaco,36365,Palermo,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZekk1,Giuseppe Bondi Arena,21584,Ferrara,,Italy,IT,,Piazzale Atleti Azzurri d'Italia 1,0.0,0.0,
+ZG9rmIYnyZev11,Stadium,100240,Rimini,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZev66,Stadio Cibali,23266,Catania,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZev7A,Stadio Olimpico di Roma,70634,Roma,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZeveA,Stadio Alberto Braglia,21092,Modena,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZevk6,Stadio del Conero,23967,Ancona,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZevkA,Autodromo Enzo e Dino Ferrari - Imola,78000,Imola,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZevkF,Stadio Olimpico di Torino,28177,Torino,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZevka,Stadio Diego Armando Maradona,54726,Napoli,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZevv7,Stadio San Filippo Franco Scoglio,38722,Messina,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZevvA,Stadio Artemio Franchi,43147,Firenze,,Italy,IT,,,0.0,0.0,
+ZG9rmIYnyZevvk,Stadio San Nicola,58270,Bari,,Italy,IT,,,0.0,0.0,
+Z7r9jZadwM,Independence Park,35000,Kingston,Jamaica,Jamaica,JM,K7M8Y5,Kingston,0.0,0.0,
+Z7r9jZa7Fc,Yokohama Stadium,35250,Yokohama,Kanagawa,Japan,JP,231-0022,"Yokohamakoen, Naka Ward",0.0,0.0,
+Z7r9jZa7ou,Ajinomoto Stadium,49970,Tokyo,Tokyo,Japan,JP,182-0032,"376-3 Nishimachi, Chofu",0.0,0.0,
+Z7r9jZadjJ,Level5 Stadium,21562,Fukuoka,Aiti (Aichi),Japan,JP,816-0052,1-1 Higashihirao Koen,0.0,0.0,
+Z7r9jZadjP,Egao Kenko Stadium,30228,Kumamoto,Kumamoto,Japan,JP,861-8012,2776 Hirayamamachi,0.0,0.0,
+Z7r9jZadqe,Kumagaya Rugby Stadium,30000,Saitama,Saitama,Japan,JP,360-0004,300 Kamigawakami,0.0,0.0,
+Z7r9jZadqv,Higashiosaka Hanazono Rugby Stadium,30000,Higashiosaka,Osaka,Japan,JP,578-0923,Osaka Prefecture,0.0,0.0,
+Z7r9jZadwz,Hakatanomori Athletic Stadium,30000,Fukuoka,Aiti (Aichi),Japan,JP,816-0052,"2 Chome-1-2 Higashihiraoken, Hakata Ward",0.0,0.0,
+Z7r9jZaeEK,Saitama Super Arena,36500,Saitama City,Saitama,Japan,JP,330-0051,"Saitama Shintoshin, Chuo-ku",0.0,0.0,
+Z7r9jZaerJ,QVC Marine Field,29635,Chiba,Tiba (Chiba),Japan,JP,261-0022,"1 Mihama, Mihama Ward",0.0,0.0,
+ZFr9jZ71ev,Tokyo National Stadium,48000,TOKYO,Tokyo,Japan,JP,160-0013,Kokuritsu Kyogijo,0.0,0.0,
+ZFr9jZ7dF7,Tokyo Dome,55000,Bunkyo Ward,Tokyo,Japan,JP,112-0001,,0.0,0.0,
+ZFr9jZ7v67,Suzuka Circuit,155000,Suzuka,Mie,Japan,JP,510-0251,7992 Inoucho,0.0,0.0,
+ZFr9jZAkAA,Osaka Dome,55000,Osaka,Osaka,Japan,JP,550-0023,3-Naka 2-1,0.0,0.0,
+ZFr9jZdA61,Sapporo Dome,42270,Sapporo City,Hokkaido,Japan,JP,062-0045,1-3 Hitsujigoaka,0.0,0.0,
+ZFr9jZdA6a,Niigata Stadium Big Swan,41684,Niigata,Niigata,Japan,JP,951-8104,68 Seigoro,0.0,0.0,
+ZFr9jZdAF6,Oita Stadium Big Eye,40000,Kyushu Island,Oita,Japan,JP,8700100,Yokoo Matsuoka,0.0,0.0,
+ZFr9jZdAF7,Noevir Stadium Kobe,30132,Kobe,Hyogo,Japan,JP,652-0855,1 Misaki-cho,0.0,0.0,
+ZFr9jZdAFA,Miyagi Stadium,49133,Miyagi,Miyagi,Japan,JP,880-8570,40-1 Aza-Tate Sugaya,0.0,0.0,
+ZFr9jZdAFF,International Stadium Yokohama,72327,Yokohama,Yamagata,Japan,JP,3300,3302-5 Kozukue,0.0,0.0,
+ZFr9jZdAFd,Shizuoka Stadium Ecopa,50889,Fukuroi City,Sizuoka (Shizuoka),Japan,JP,420-0851,Ogasayama Sports Park,0.0,0.0,
+ZFr9jZdAFe,Saitama Stadium,63700,Urawa-shi,Saitama,Japan,JP,336-0972,Oazamnakanoda-Chinai,0.0,0.0,
+ZFr9jZdAFk,Nagai Stadium,47816,Osaka City,Osaka,Japan,JP,546-0042,1-1 Nagai Koen,0.0,0.0,
+ZFr9jZkv7a,Fuji Speedway,110000,Oyama,Sizuoka (Shizuoka),Japan,JP,410-1307,694 Nakahinata Oyama-Cho Sunto-Gun Shizuoka-Ken,0.0,0.0,
+Z7r9jZadFK,Pyeongchang Olympic Stadium,35000,Daegwallyeong-myeon,Kangwon-do,"Korea, Republic of",KR,25347,Daegwallyeong-myeon,0.0,0.0,
+ZFr9jZdA66,Suwon World Cup Stadium,44031,Paldal-gu Suwon-si,Soul-t'ukpyolsi (Seoul),"Korea, Republic of",KR,442-817,228 Uman-dong,0.0,0.0,
+ZFr9jZdA67,Jeju World Cup Stadium,29791,Seogwipo,"Kyongsang-namdo (South Kyongsang) 
+","Korea, Republic of",KR,11377,914 Beophwan-dong,0.0,0.0,
+ZFr9jZdA6A,Ulsan Munsu Football Stadium,37897,Ulsan,Ulsan-gwangyoksi (Ulsan),"Korea, Republic of",KR,680-080,San 5 Ok-dong,0.0,0.0,
+ZFr9jZdA6F,Seoul World Cup Stadium,66704,Mapo-gu,Soul-t'ukpyolsi (Seoul),"Korea, Republic of",KR,305,515 Seongsan-dong,0.0,0.0,
+ZFr9jZdA6d,Daejeon World Cup Stadium,40535,Daejeon,"Kyongsang-namdo (South Kyongsang) 
+","Korea, Republic of",KR,40535,270 Noeun-dong,0.0,0.0,
+ZFr9jZdA6e,Daegu World Cup Stadium,66422,Daegu,Soul-t'ukpyolsi (Seoul),"Korea, Republic of",KR,706,504 Naehwan-dong,0.0,0.0,
+ZFr9jZdA6k,Incheon Munhak Stadium,49084,Lncheon,Inch'on-gwangyoksi (Inchon),"Korea, Republic of",KR,402,San 8 Munhak-dong,0.0,0.0,
+ZFr9jZdA6v,Jeonju World Cup Stadium,34276,Jeonju,Cholla-bukto (North Cholla),"Korea, Republic of",KR,561-191,763-1 Banwol-dong,0.0,0.0,
+ZFr9jZdAka,Busan Asiad Main Stadium,53769,Busan,"Kyongsang-namdo (South Kyongsang) 
+","Korea, Republic of",KR,4,1300 Geoje-dong,0.0,0.0,
+Z698xZ8KZaeTA,Darius and Girenas stadium,55000,Kaunas,,Lithuania,LT,44221,Perkuno al. 5,54.89852,23.90359,
+Z7r9jZadAR,Zalgiris Arena,20000,Kaunas,Lithuania,Lithuania,LT,49388,,0.0,0.0,
+Z7r9jZaeIY,Sepang International Circuit,130000,Selangor,Selangor,Malaysia,MY,64000,Jalan Pekeliling,0.0,0.0,
+Z7r9jZaAN0,Circuit de Monaco,37000,Monte Carlo,Monaco-Ville,Monaco,MC,98000,"Monte Carlo, Monaco",0.0,0.0,
+ZFr9jZ16aa,Marrakech Stadium,45240,Marrakesh,Morocco,Morocco,MA,40 000,"N9, Ouahat Sidi Brahim",0.0,0.0,
+Z198xZbpZ6Fe,Gelredome,41000,Arnhem,,Netherlands,NL,6841 HN,Batavierenweg 25,51.96359,5.89304,https://media.ticketmaster.eu/netherlands/da2a59d5ef3f256bec09acf5b7113655.jpg
+Z198xZbpZevF,Johan Cruijff ArenA,71000,Amsterdam,,Netherlands,NL,1101 AX,ArenA Boulevard 1,52.31373,4.9405,https://media.ticketmaster.eu/netherlands/6451fd361b45607557f84582e38eb34d.png
+Z598xZbpZAFAF,CM.com Circuit Zandvoort,105000,Zandvoort,,Netherlands,NL,2041 KP,Burgemeester van Alpenstraat 108,52.38906,4.54138,
+KovZ917A73V,AMSTERDAM ARENA,71000,Amsterdam,,Netherlands,NL,,,,,
+KovZ917AdnV,STOCKHOLMS STADION,33000,Amsterdam,,Netherlands,NL,,1 the street,,,
+Z198xZbpZ117,De Kuip (Feyenoord Stadium),51117,Rotterdam,,Netherlands,NL,3077 AA,Van  Zandvlietplein 1,51.8942,4.52474,
+Z198xZbpZ11k,Feyenoord Stadium,51177,Rotterdam,,Netherlands,NL,3077 AA,Van Zandvlietplein 1,51.8942,4.52474,
+Z198xZbpZa7k,Hotel Arena,20300,Amsterdam,,Netherlands,NL,1092 AA,s-Gravesandestraat 51,52.36123,4.91632,https://media.ticketmaster.eu/netherlands/d873ba4f1745aab50410006a9a15d42d.gif
+Z598xZG2Zeakk,Circuit Zandvoort,105000,Zandvoort,,Netherlands,NL,2041 KP,Burgemeester van Alphenstraat 108,52.38906,4.54138,
+Z598xZbpZAeFk,Prins 27,105000,Den Haag,,Netherlands,NL,2512 EW,Prinsegracht 27,52.07493,4.30649,
+Z598xZbpZdA11,Bazart Event Complex,66000,Den Haag,,Netherlands,NL,2571 CZ,Loosduinsekade 725,52.06305,4.26118,
+Z598xZbpZdv61,"TT Circuit Assen, De Haar 9",110000,Assen,,Netherlands,NL,9405 TE,De Haar 9,52.96877,6.53782,https://media.ticketmaster.eu/netherlands/5c580c656c081e1e0eedfcfe906d659f.gif
+Z598xZbpZe66k,Philips Stadion Eindhoven,35119,Eindhoven,,Netherlands,NL,5616 NH,Frederiklaan 10a,51.44122,5.46666,https://media.ticketmaster.eu/netherlands/fa7afc65298482c6a1d1e00fc283e48c.gif
+KovZpZA6t7lA,Go Media Stadium,47000,Auckland,New Zealand,New Zealand,NZ,1061,2 Beasley Avenue,-36.91737579,174.81496221,https://s1.ticketm.net/dbimages/20150v.jpg
+KovZpZA6tatA,Eden Park,60000,Auckland,New Zealand,New Zealand,NZ,1024,Reimers Ave,-36.8761749,174.7436981,https://s1.ticketm.net/dbimages/12272v.jpg
+KovZpZAEekdA,Forsyth Barr Stadium,36000,Dunedin,New Zealand,New Zealand,NZ,9016,130 Anzac Avenue,-45.869296,170.524547,https://s1.ticketm.net/dbimages/18655v.jpg
+KovZ917AJaB,Grandstand HB A&P Showgrounds,42100,Hastings ,New Zealand,New Zealand,NZ,4122,"Kenilworth Road, Mayfair",-39.63019292,176.86283552,
+KovZ917AN7k,Owen Delany Park Taupo,30000,Taupo,New Zealand,New Zealand,NZ,3378,1 Delany Drive,-38.669827,176.101173,
+KovZ917AQ1f,Festival Playground Music Arena,60000,Auckland ,New Zealand,New Zealand,NZ,1010,Silo Park,-36.84034,174.754996,https://s1.ticketm.net/dbimages/20033v.jpg
+KovZ917AYkw,Western Springs Speedway,49000,Auckland,New Zealand,New Zealand,NZ,1022,Stadium Road,-36.86460544,174.7266592,
+KovZ917AmSX,Te Puka Tavern,33987,Tokomaru Bay,New Zealand,New Zealand,NZ,4079,153 Beach Road,-38.11567231,178.32775522,
+KovZ917AtbZ,Queen Elizabeth II Park,25000,Christchurch,New Zealand,New Zealand,NZ,8083,"193 Travis Road, North New Brighton",-43.49145992,172.70710332,
+KovZpZA6nAlA,Cooks Gardens,21000,Wanganui,New Zealand,New Zealand,NZ,4540,Cooks Gardens,-39.9323006,175.048584,
+KovZpZA6nFeA,Legends Bar,30311,Auckland,New Zealand,New Zealand,NZ,0612,2/385 Great North Road,-36.8788605,174.6316833,
+KovZpZA6nkeA,Cooks Gardens Function Centre,21000,Wanganui,New Zealand,New Zealand,NZ,4540,Cooks Gardens,-39.9145813,175.05465698,
+KovZpZA6nkvA,Cooks Gardens Velodrome,21000,Wanganui,New Zealand,New Zealand,NZ,4540,Cooks Gardens,-39.9145813,175.05465698,
+KovZpZA6tAeA,Western Springs Stadium,49000,Auckland,New Zealand,New Zealand,NZ,1022,Stadium Road,-36.8666496,174.7280731,https://s1.ticketm.net/dbimages/20147v.jpg
+KovZpZA6talA,Semenoff Stadium,30000,Whangarei,New Zealand,New Zealand,NZ,0148,Okara Drive,-35.7355423,174.3300171,
+KovZpZA6tanA,Waikato Stadium,25800,Hamilton,New Zealand,New Zealand,NZ,3240,128 Seddon Rd,-37.7817192,175.2678833,https://s1.ticketm.net/dbimages/7294v.gif
+KovZpZA6tltA,Colosseum Bar,64829,Tauranga,New Zealand,New Zealand,NZ,3110,17 Harrington Street,-37.6659508,176.1252136,
+KovZpZA6tndA,Mystery Creek Events Centre,45000,Hamilton,New Zealand,New Zealand,NZ,3881,125 Mystery Creek Road,-37.872921,175.3482208,
+KovZpZA6ttFA,Cooks Gardens Stadium,21000,Wanganui,New Zealand,New Zealand,NZ,4540,Cooks Gardens,-39.9145813,175.05465698,
+KovZpZAJAEJA,Unison Hockey Stadium,102780,Hastings,New Zealand,New Zealand,NZ,4120,Percival Road,-39.6111603,176.8384552,
+KovZpZAa6n7A,Yarrow Stadium,30345,New Plymouth,New Zealand,New Zealand,NZ,4310,Maratahu St,-39.0685272,174.0673981,
+KovZpZAaF7lA,Rotorua International Stadium,30000,Rotorua,New Zealand,New Zealand,NZ,3015,Devon St,-38.1535187,176.2352295,https://s1.ticketm.net/dbimages/11774v.jpg
+KovZpZAd17JA,Westpac Stadium,34500,Wellington,New Zealand,New Zealand,NZ,6011,Waterloo Quay,-41.2776337,174.78302,https://s1.ticketm.net/dbimages/10209v.jpg
+KovZpZAdJveA,"Supertop, Mt Smart Stadium",47000,Auckland,New Zealand,New Zealand,NZ,1061,Maurice Road,-36.9173088,174.8098145,
+KovZpa4hHe,Brewers Stadium,41900,Mount Maunganui,New Zealand,New Zealand,NZ,3175,81 Truman Lane,-37.6849518,176.2278595,
+Z598xZb_ZFeke,"Lerkendal Stadion, Trondheim",21423,Trondheim,,Norway,NO,7031,Klæbuveien 125,63.41228,10.40287,
+Z598xZb_ZaaA1,Unity Arena,25000,Fornebu,,Norway,NO,1360,Widerøeveien 1,59.9022,10.62254,
+Z7r9jZa721,Estadio Universidad San Marcos,32000,Lima,Peru,Peru,PE,15081,Lima District,0.0,0.0,
+Z7r9jZadAM,Estadio Nacional del Peru,50086,Lima,Peru,Peru,PE,15047,Calle de Jose,0.0,0.0,
+Z7r9jZaeyE,Estadio Monumental - Lima,80093,lima,Peru,Peru,PE,7596,"Avenida Prolongaci??n, Javier Prado",0.0,0.0,
+Z198xZQpZeAF,TAURON Arena Kraków,22000,Krakow,Małopolskie,Poland,PL,31-571,ul. Stanisława Lema 7,50.0678,19.9912,https://media.ticketmaster.eu/poland/bb1ad869ffd7a87d394e9b55c34e3f6d.jpg
+Z198xZQpZeke,PGE Narodowy,80000,Warsaw,Mazowieckie,Poland,PL,03-901,Al. Ks. J. Poniatowskiego 1,52.23958,21.04598,
+Z198xZQpZ1a7,Klub Drukarnia,42837,Warsaw,Mazowieckie,Poland,PL,03-828,ul. Mińska 65,52.2506,21.06713,
+Z198xZQpZ1dF,Stadion Miejski,30000,Lesko,,Poland,PL,38-600,Aleje Jana Pawła II,49.47475,22.32298,
+Z198xZQpZ66k,Stadion Śląski,54378,Chorzów,Śląskie,Poland,PL,41-500,Katowicka 10,50.28792,18.96628,
+Z198xZQpZ6A1,Stadion Miejski,30000,Tychy,Śląskie,Poland,PL,43-100,ul. Edukacji 7,50.12388,18.9906,
+Z198xZQpZ76e,Stadion Miejski w Białymstoku,30000,Białystok,Podlaskie,Poland,PL,15-323,ul. Słoneczna 1,53.10603,23.14905,
+Z198xZQpZ7F1,STADION WROCŁAW,42771,Wroclaw,Dolnośląskie,Poland,PL,54-118,Al. Śląska 1,51.14134,16.9439,
+Z198xZQpZAFF,Stadion Energa Gdańsk,41620,Gdansk,Pomorskie,Poland,PL,80-560,ul. Pokoleń Lechii Gdańsk 1,54.3901,18.63916,
+Z198xZQpZAd1,Stadion Legii,31103,Warsaw,Mazowieckie,Poland,PL,00-449,ul. Łazienkowska 3,52.22054,21.04054,
+Z198xZQpZed7,TEST Atlas Arena,20000,Łódź ,Łódzkie,Poland,PL,,,,,
+Z598xZQpZee7e,Stadion Zawiszy,20187,Bydgoszcz,Kujawsko-Pomorskie,Poland,PL,85-631,ul. Gdańska 163,53.14564,18.02041,
+Z598xZQpZek67,Stadion Miejski,30000,Bielsko-Biała,Śląskie,Poland,PL,43-300,ul. Rychlińskiego 19,49.81743,19.05439,
+Z598xZ2qZF6ve,Estádio Cidade de Coimbra,50000,Coimbra,,Portugal,PT,3030-320, R. Dom Manuel I 3,40.2033,-8.40762,
+Z598xZ2qZeavk,Meo Arena,20100,Lisbon,,Portugal,PT,1990-231,Rossio dos Olivais,38.76853,-9.09403,
+Z598xZG2ZeFAF,Estadio da Luz,64642,Lisbon,,Portugal,PT,1500-313,Av. Eusébio da Silva Ferreira,38.75271,-9.18477,
+Z598xZG2ZeFAk,Estadio José Alvalade,50095,Lisbon,,Portugal,PT,1501-806,Rua Professor Fernando da Fonseca,38.76123,-9.1618,
+Z7r9jZadUF,Estadio do Dragao,50033,Porto,Porto,Portugal,PT,4350,Via Futebol Clube do Porto,0.0,0.0,
+ZFr9jZ77v6,Braga Municipal Stadium,30286,Braga,Braga,Portugal,PT,4700,Parque Norte - Dume,0.0,0.0,
+ZFr9jZ77v7,Aveiro Municipal Stadium,32830,Aveiro,Aveiro,Portugal,PT,3800,,0.0,0.0,
+ZFr9jZ77vA,Coimbra City Stadium,50000,Baxio Mondego,Coimbra,Portugal,PT,3000,,0.0,0.0,
+ZFr9jZ77vF,Bessa Stadium,28263,Porto,Porto,Portugal,PT,4100,Rua 1?? de Janeiro,0.0,0.0,
+ZFr9jZ77vd,Algarve Stadium,30305,Faro,Faro,Portugal,PT,8135-014,between Faro and Louie,0.0,0.0,
+ZFr9jZ77vk,Dr. Magalhaes Pessoa Stadium,23888,Leiria,Leiria,Portugal,PT,2400,,0.0,0.0,
+ZFr9jZ7d17,Est??dio da Luz,64642,Lisbon,Lisboa,Portugal,PT,1500-313,"Est??dio do Sport Lisboa e Benfica, Av. General Nor",0.0,0.0,
+ZFr9jZ7d1A,Dragao Stadium,50033,Porto,Porto,Portugal,PT,4100,,0.0,0.0,
+ZFr9jZ7d1d,Jose Alvalade Stadium,50095,Lisbon,Lisboa,Portugal,PT,2580,,0.0,0.0,
+ZFr9jZFa7e,Altice Arena,20100,Lisboa,Lisboa,Portugal,PT,1990,Rossio Dos Olivais S 2-13-01A,0.0,0.0,
+Z598xZ2qZ6eA1,Cluj Arena,30355,Cluj-Napoca,,Romania,RO,400375,Aleea Stadionului 2,46.76833,23.5717,
+ZFr9jZ1vva,National Arena,55634,Bucharest,Bucharest,Romania,RO,70000,37 Basarabia Blvd,0.0,0.0,
+Z7r9jZad11,Samara Arena,44918,Samara Oblast,Moscow,Russian Federation,RU,443072,"Samara, Samara Oblast 443072",0.0,0.0,
+Z7r9jZad74,Krestovsky Stadium,80000,Saint Petersburg,Moscow,Russian Federation,RU,197110,,0.0,0.0,
+Z7r9jZad7f,Cosmos Arena,44918,Samara Oblast,Moscow,Russian Federation,RU,443072,Samara,0.0,0.0,
+Z7r9jZad7p,Rostov Arena,45000,Rostov Oblast,Moscow,Russian Federation,RU,344002,Rostov-on-Don,0.0,0.0,
+Z7r9jZaddS,Ekaterinburg Arena,35061,Sverdlovskaya oblast,Moscow,Russian Federation,RU,620028,"ul. Repina, Yekaterinburg",0.0,0.0,
+Z7r9jZaddV,Kaliningrad Stadium,35016,Kaliningradskaya oblast,Moscow,Russian Federation,RU,236022,"pr. Mira, 8, Konigsberg",0.0,0.0,
+Z7r9jZaddi,Gazprom Arena,80000,Saint Petersburg,Moscow,Russian Federation,RU,190000,,0.0,0.0,
+Z7r9jZaddm,Volgograd Arena,45568,Volgograd,Moscow,Russian Federation,RU,00000,,0.0,0.0,
+Z7r9jZaddn,Kazan Arena,45093,Respublika Tatarstan,Moscow,Russian Federation,RU,421001,pr. Khusaina Yamasheva,0.0,0.0,
+Z7r9jZadds,Mordovia Arena,44442,Respublika Mordoviya,Moscow,Russian Federation,RU,430009,"Volgogradskaya ul., 13, Saransk",0.0,0.0,
+Z7r9jZaddw,Nizhny Novgorod Stadium,44899,Nizhegorodskaya oblast,Moscow,Russian Federation,RU,603159,"Dolzhanskaya ul., 2??1, Nizhnij Novgorod",0.0,0.0,
+ZFr9jZ1AAv,Fisht Olympic Stadium,45994,Sochi,Moscow,Russian Federation,RU,354000,Sochi Olympic Park,0.0,0.0,
+ZFr9jZ1kaa,Lokomotiv Stadium,27320,Moscow,Moscow,Russian Federation,RU,109172,,0.0,0.0,
+ZFr9jZFvFe,Olympic Stadium - Moscow,35000,Moscow,Moscow,Russian Federation,RU,129090,Olympic Avenue Building 16-2,0.0,0.0,
+ZFr9jZa1F6,SKK Arena,25000,Saint Petersburg,Moscow,Russian Federation,RU,190000,8 Gagarina pr.,0.0,0.0,
+ZFr9jZkd1d,Luzhniki Stadium,81000,Moskva,Moscow,Russian Federation,RU,119048,"Spartakovskaya str., 7, Moscow",0.0,0.0,
+Z198xZ52ZAAF,King Fahd International Stadium,70200,Riyadh,,Saudi Arabia,SA,13233,"3398 Prince Bandar Bin Abdulaziz, Al Mai",24.78869,46.83706,
+Z198xZ52ZAFe,Al Ula,30000,Jeddah,,Saudi Arabia,SA,,,26.81729,37.90849,
+Z398xZ52Zad1ZQ5jrb2j,Jeddah Corniche Circuit,50000,Jeddah,Jeddah,Saudi Arabia,SA,1234,,,,
+Z7r9jZa7K9,King Fahd International Stadium,70200,Riyadh,Riyadh,Saudi Arabia,SA,11541,Al Maizilah,0.0,0.0,
+Z7r9jZaeEX,National Stadium - Singapore,55000,Kallang,Singapore,Singapore,SG,397629,1 Stadium Drive,0.0,0.0,
+ZF98xZ05Zk,FNB Stadium,94736,Johannesburg,Gauteng,South Africa,ZA,2147,"Soccer City Avenue, FNB Stadium, Nasrec",-26.23374,27.97973,
+Za98xZ05Ze1,DHL Stadium,58310,Cape Town,Western Cape,South Africa,ZA,8051,"Fritz Sonnenberg Road, Green Point",-33.90434,18.4097,
+Z198xZ05Z7A7,Mbombela Stadium,43500,Nelspruit,Mpumalanga,South Africa,ZA,," 1 Bafana Bafana Rd, Mataffin, Mbombela,",-25.4615,30.92968,
+Z198xZ05Zd6F,DP World Wanderers Stadium,28000,Johannesburg,Gauteng,South Africa,ZA,2196,"Corlett Dr, Illovo, Sandton, 2196",-26.1325,28.05698,
+Z198xZ05Zdd7,Newlands Cricket Ground,25000,Cape Town,Western Cape,South Africa,ZA,7780,"146 Campground Rd, Newlands, Cape Town",-33.973,18.4691,
+Z198xZ05Zde1,The Wanderers Club,28723,Johannesburg,Gauteng,South Africa,ZA,2196,"21 North St, Illovo, Johannesburg",-26.1311,28.05788,
+Z198xZ05Ze7e,Kyalami Grand Prix Circuit,100000,Johannesburg,Gauteng,South Africa,ZA,1684,"Cnr R55 &, Allandale Rd, Kyalami Estate",-25.987,28.0727,
+Z198xZ05Zeve,Up-Sell Cape Town,34000,Cape Town,Western Cape,South Africa,ZA,,,-33.91583,18.4221,
+Z398xZ05Z8bGZQ5jrb2j,FNB Stadium,94736,Johannesburg,,South Africa,ZA,12345,,26.2347521,27.9804667,
+Z398xZ05ZC3pZQ5jrb2j,DHL Stadium,58310,Cape Town,,South Africa,ZA,12345,,-29.8354,31.02803,
+Z7r9jZaeTs,SuperSport Park,22000,Pretoria,Gauteng,South Africa,ZA,0159,283 West Ave & South St,0.0,0.0,
+ZFr9jZ1FAF,Coca-Cola Dome,20000,Johannesburg,Johannesburg,South Africa,ZA,2094,Cnr Northumberland Road & Olievenhout Avenue,0.0,0.0,
+ZFr9jZ6Av6,Free State Stadium,42000,Bloemfontein,Johannesburg,South Africa,ZA,9410,Bloemfontein South Africa,0.0,0.0,
+ZFr9jZ6AvA,Cape Town Stadium,58310,Cape Town,Western Cape,South Africa,ZA,8000,Cape Town South Africa,0.0,0.0,
+ZFr9jZ6AvF,Peter Mokaba Stadium,45500,Polokwane,Johannesburg,South Africa,ZA,0700,Polokwane South Africa,0.0,0.0,
+ZFr9jZ6Avk,Mbombela Stadium,43500,Nelspruit,Johannesburg,South Africa,ZA,B-1200,Nelspruit South Africa,0.0,0.0,
+ZFr9jZ6F71,Nelson Mandela Bay Stadium,46000,Port Elizabeth,Johannesburg,South Africa,ZA,6215,70 Prince Alfred Road,0.0,0.0,
+ZFr9jZ6Fd7,Moses Mabhida Stadium,55500,Durban,Johannesburg,South Africa,ZA,4001,Isaiah Ntshangase Road,0.0,0.0,
+ZFr9jZ6dv1,Royal Bafokeng Stadium,44530,Phokeng,Gauteng,South Africa,ZA,0335,Bafokeng Ave,0.0,0.0,
+ZFr9jZ6dv6,Absa Stadium,60000,Durban,Johannesburg,South Africa,ZA,4001,Jacko Jackson Drive,0.0,0.0,
+ZFr9jZ6dv7,Coca-Cola Park (Ellis Park Stadium),62567,Doornfontein,Johannesburg,South Africa,ZA,2028,44 Staib Street Doornfontein,0.0,0.0,
+ZFr9jZ6dvA,Loftus Versfeld Stadium,51762,Pretoria,Gauteng,South Africa,ZA,0001,Kirkness Street,0.0,0.0,
+ZFr9jZ6dvk,Newlands Rugby Stadium,51900,Cape Town,Western Cape,South Africa,ZA,7700,8 Boundary Road,0.0,0.0,
+ZFr9jZFFa7,"Orlando Stadium, Soweto",37313,Soweto,Johannesburg,South Africa,ZA,1803,,0.0,0.0,
+ZFr9jZkdA7,Soccer City,94736,Johannesburg,Gauteng,South Africa,ZA,2147,Nasrec Road,0.0,0.0,
+Za98xZ05Z11,Up-Sell Cape Town,34000,Cape Town,Western Cape,South Africa,ZA,,,-33.91583,18.4221,
+Za98xZ05Z1F,Dobsonville Stadium,24000,Johannesburg,Gauteng,South Africa,ZA,1863,"Marambu St, Dobsonville, Johannesburg",-26.22267,27.8585,
+Za98xZ05Z1e,Orlando Stadium,37313,Johannesburg,Gauteng,South Africa,ZA,1804,"Martha Louw St & Mooki, Orlando, Soweto",-26.2258,27.9204,
+Za98xZ05ZA7,Loftus Versfeld,51762,Pretoria,Gauteng,South Africa,ZA,0007,"416 Kirkness St, Arcadia",-25.75307,28.22183,
+Za98xZ05ZFk,Athlone Stadium,34000,Cape Town,Western Cape,South Africa,ZA,7764,"Cross Boulevard, Athlone",-33.96198,18.51731,
+Za98xZ05Zae,Up-Sell Cape Town,34000,Cape Town,Western Cape,South Africa,ZA,,,-33.91583,18.4221,
+Za98xZ05Zee,Ticketpro Dome,20000,Johannesburg,Gauteng,South Africa,ZA,2161,Northumberland Rd and Olievenhout Ave,-26.06409,27.94318,
+Za98xZ05Zkk,Up-Sell Cape Town,34000,Cape Town,Western Cape,South Africa,ZA,,,-33.91583,18.4221,
+Z198xZ2qZ1a1,Estadio La Cartuja de Sevilla,57600,Sevilla,Seville,Spain,ES,41092,"Isla de la Cartuja, sector norte",37.39861,-6.00722,https://media.ticketmaster.eu/spain/0c8f8f34a6cb2db431e132247c659fe6.jpg
+Z198xZ2qZF11,La 2 de Apolo,75000,Barcelona,Barcelona,Spain,ES,08004,"Carrer Nou de la Rambla, 113",41.37441,2.16953,https://media.ticketmaster.eu/spain/6b64f47a24fe1459e4931d454af1baf4.jpg
+Z198xZ2qZFFF,Circuit de Barcelona - Catalunya,140700,Montmeló,Barcelona,Spain,ES,08160,Camí Mas Moreneta,41.56823,2.25715,
+Z198xZ2qZk6k,Bizkaia Arena Bec!,26000,Barakaldo,Biscay,Spain,ES,,"Rda. de Azkue, 1",43.29087,-2.98869,https://media.ticketmaster.eu/spain/8f671719abb5956ae35b5ad45191dc56.jpg
+Z598xZ2qZ6Fde,Live Sur Stadium,87523,Sevilla,Seville,Spain,ES,41970,Zona Isla de la Cartuja - Santiponce,37.41969,-6.00416,
+Z598xZ2qZ6Fe1,Estadio Riyadh Air Metropolitano,70692,Madrid,Madrid,Spain,ES,28022,"Av. de Luis Aragonés, 4",40.43624,-3.59947,
+Z598xZ2qZ6v7F,Estadi Ciutat de València,26354,Valencia,Valencia,Spain,ES,46019,"Carrer de Sant Vicent de Paül, 44",39.49489,-0.3647,
+Z598xZ2qZ77dF,Paral·lel 62,75000,Barcelona,Barcelona,Spain,ES,08001,"Av. del Paral.lel, 62",41.3751,2.16973,
+Z598xZ2qZ7A1e,Parc de Can Zam,200000,Santa Coloma de Gramenet,Barcelona,Spain,ES,08924,,41.45632,2.19423,
+Z598xZ2qZF6vk,Estadi Mallorca Son Moix,26020,Palma de Mallorca,Balearic Islands,Spain,ES,07011,"Camí dels Reis, S/N",39.59038,2.62985,
+Z598xZ2qZd7eF,Estadi Olímpic Lluis Companys,55926,Barcelona,Barcelona,Spain,ES,08038,"Passeig Olímpic, 5-7",41.36476,2.15565,
+Z198xZ2qZ16F,Beat Club Segovia,30000,Segovia,Segovia,Spain,ES,40002,"Calle de San Millán, 1",40.94764,-4.12169,
+Z198xZ2qZ1vk,Estadio Chapín,20523,Jerez de la Frontera,Cádiz,Spain,ES,11405,"Avenida Chiribitos, S/N",36.68941,-6.12053,
+Z198xZ2qZF17,B3 Sevilla,45500,Dos Hermanas,Seville,Spain,ES,41700,"Glorieta Comunidad Autónoma Aragón, s/n",37.28832,-5.91518,
+Z198xZG2Z7dk,Santiago Bernabeu Stadium,125000,Madrid,Madrid,Spain,ES,28036,"Avenida de Concha Espina, 1",40.45243,-3.68681,
+Z198xZG2Zd17,Camp Nou Stadium,105000,Barcelona,Barcelona,Spain,ES,08028,Avinguda Aristides Maillol,41.37905,2.12011,
+Z598xZ2qZ66Ak,Fiebre Club,30044,Málaga,Málaga,Spain,ES,29008,"C. Convalecientes, 11",36.73451,-4.44021,
+Z598xZ2qZ66e7,Estadio Abanca Balaídos,24870,Vigo,Pontevedra,Spain,ES,36210,"Av. de Balaídos, s/n",42.21192,-8.73974,
+Z598xZ2qZ6AA7,Golf del Sur,80018,San Miguel de Abona,Santa Cruz de Tenerife,Spain,ES,38639,"Av. J.M. Galván Bello, Nº 1",28.04988,-16.63019,
+Z598xZ2qZ6F6k,Campo de Sport del Sardinero,22308,Santander,Cantabria,Spain,ES,39005,"C/ Real Racing Club, s/n,",43.47632,-3.79331,
+Z598xZ2qZ6Fkk,Slow Barcelona,54367,Barcelona,Barcelona,Spain,ES,08036,"C/ de París, 186",41.39356,2.15339,
+Z598xZ2qZ6d1F,Estadio de San Mamés,39750,Bilbao,Biscay,Spain,ES,48013,Rafael Moreno Pitxitxi s/n,43.26417,-2.94934,
+Z598xZ2qZ6vkk,Estadio Enrique Roca Fernández,30000,Murcia,Murcia,Spain,ES,30110,"Avda. del Estadio, s/n",38.0422,-1.14468,
+Z598xZ2qZ716F,L'auditori Espai 5,55926,Barcelona,Barcelona,Spain,ES,08013,Lepant 150,41.39866,2.18309,
+Z598xZ2qZ71d7,Palacio de los Deportes de León,26000,León,León,Spain,ES,24009,"Av. del Ing. Sáenz de Miera, s/n",42.58912,-5.57713,
+Z598xZ2qZ77k7,Plaza de Toros de Toro,41262,Toro,Zamora,Spain,ES,49800,"Calle Pina, 6",41.52262,-5.39027,
+Z598xZ2qZ7Fe7,Sala La Electra,75000,Valladolid,Valladolid,Spain,ES,47004,"Calle Gamazo, 17",41.64596,-4.72601,
+Z598xZ2qZAAAk,Estadio Nuevo los Cármenes,21600,Granada,Granada,Spain,ES,18007,"Calle Pintor Manuel Maldonado, s/n",37.15292,-3.59575,
+Z598xZ2qZAAa1,Campo de Fútbol Malagón,34253,Malagón,Ciudad Real,Spain,ES,13129,,39.16888,-3.85128,
+Z598xZ2qZAFv7,Estadio Mestalla Valencia C.F.,49430,Valencia,Valencia,Spain,ES,46010,"Av. de Suècia, s/n",39.47457,-0.3582,
+Z598xZ2qZAaF7,L'Aquarium de Barcelona,3700000,Barcelona,Barcelona,Spain,ES,08039,"Moll d''Espanya, del Port Vell, s/n",41.37684,2.18231,
+Z598xZ2qZAaFk,L'Aquarium de Barcelona,3700000,Barcelona,Barcelona,Spain,ES,08039,"Moll d''Espanya, del Port Vell, s/n",41.37684,2.18231,
+Z598xZq2Za7e1,Strawberry Arena,65000,Stockholm,,Sweden,SE,16979,Råsta Strandväg 1,59.37254,18.00041,https://media.ticketmaster.eu/sweden/122f43a4ccab78c61c968b868ca34ff5.png
+Z698xZq2Za7Yu,3Arena (Tele2 Arena),45000,Stockholm,,Sweden,SE,12177,Arenaslingan 14,59.29045,18.08558,
+KovZ917A7Kf,Ullevi Arena,75000,Göteborg,,Sweden,SE,40125,"Box 349 (Skånegatan), 40125 Göteborg",,,
+Z598xZq2Z7Ae7,Stockholms Stadion,33000,Stockholm,,Sweden,SE,114 33,Lidingövägen 1-3,59.34677,18.08075,
+Z598xZq2Z7kA1,Råsunda Stadion,36608,Solna,,Sweden,SE,.,.,59.35868,18.00281,
+Z598xZq2Zaa67,Strawberry Arena,65000,Solna,,Sweden,SE,,-,59.35868,18.00281,
+Z598xZq2Zd66e,Swedbank Stadion-Restaurang 1910,22500,Malmö,,Sweden,SE,217 62,Eric Perssons väg 31,55.58387,12.98664,
+Z598xZq2ZdaA1,Swedbank Stadion,22500,Malmö,,Sweden,SE,21762,Stadiongatan 40B,55.58125,12.98638,
+Z598xZq2Zdee7,Råsunda Stadion,36608,Solna,,Sweden,SE,,,59.35868,18.00281,https://media.ticketmaster.eu/sweden/708af046e1596414dfedf1ba678b975f.jpg
+Z598xZq2ZdeeF,Råsunda Stadion,36608,Solna,,Sweden,SE,,,59.35868,18.00281,
+Z698xZq2ZaACR,Tierp Arena,20000,Tierp,,Sweden,SE,81591,Arenavägen 10,60.34204,17.43954,
+ZFr9jZ1d1v,Friends Arena,65000,Solna,Stockholms l??n,Sweden,SE,169 79,"Solna Municipality, Stockholm Couny",0.0,0.0,
+ZFr9jZ77F1,Ullevi Stadium,75000,Goteborg,V??stra G??talands l??n,Sweden,SE,411 39,Ullevigatan 5,0.0,0.0,
+Z198xZu3Zkve,Dynamo Werk 21,22012,Zürich,,Switzerland,CH,8006,Wasserwerkstrasse 21,47.38342,8.53939,https://media.ticketmaster.eu/switzerland/d02d07a035572ff3dd529b9a94274839.jpg
+Z198xZu3ZdFk,Letzigrund,50044,Zürich,,Switzerland,CH,8048,Badenerstrasse 500,47.38481,8.50407,
+Z198xZu3Zdde,FIFA World Museum AG,65000,Zürich,,Switzerland,CH,8002,Seestrasse 27,47.36382,8.53175,
+Z198xZu3Zk6e,Stadion Wankdorf,45000,Bern,,Switzerland,CH,3014,Papiermühlestrasse 71,46.96317,7.46487,
+ZFr9jZ76aa,Letzigrund Stadium - Zurich,50044,Zurich,Z??rich,Switzerland,CH,8048,"Badenerstrasse 500, 8048",0.0,0.0,
+ZFr9jZkd7e,Stade de Geneve,30084,Lancy,Gen??ve,Switzerland,CH,1227,Route des Jeunes,0.0,0.0,
+ZFr9jZkd7v,Stade de Suisse Wankdorf,45000,Bern,Bern,Switzerland,CH,3014,Papierm??hlestrasse 71,0.0,0.0,
+ZFr9jZAF77,Queens Park Oval,20000,St Clair,Port of Spain,Trinidad and Tobago,TT,00000,Elizabeth St,0.0,0.0,
+ZFr9jZFAde,Hasely Crawford Stadium,22575,Port of Spain,Port of Spain,Trinidad and Tobago,TT,0000,Trinidad and Tobago,0.0,0.0,
+ZaHyzZyMZ1e,Kulüp Edirne,42590,Edirne,,Turkey,TR,22100,"Sabuni, Saraçlar Cd. Ptt Yanı, 22100",41.676869,26.553245,
+ZaHyzZyMZKb,BJK Tüpraş Stadyumu,42590,İstanbul,,Turkey,TR,,,41.039469,28.994455,
+ZaHyzZyMZQj,Volkswagen Arena,30000,İstanbul,,Turkey,TR,34396,UNIQ İstanbul - Huzur Mah. Maslak Ayazağa Cad. Ayazağa Cendere Yolu No: 4,41.108902,29.007638,
+ZFr9jZ7aFd,Ataturk Olympic Stadium,80597,Istanbul,Istanbul,Turkey,TR,34600,,0.0,0.0,
+ZFr9jZFvFk,Fenerbahce Sukru Saracoglu Stadium,47430,Kadik??y,Istanbul,Turkey,TR,34000,Kadikoy,0.0,0.0,
+ZFr9jZa1Fk,Turk Telekom Arena,53978,Istanbul,Istanbul,Turkey,TR,34600,Yer Seyrantepe,0.0,0.0,
+ZaHyzZyMZ5o,Corendon Airlines Park Antalya Stadyumu,32537,Antalya,,Turkey,TR,07030,,36.88829589559521,30.66844706036776,
+ZaHyzZyMZ8G,Fenerbahçe Şükrü Saracoğlu Stadyumu,47430,İstanbul,,Turkey,TR,34724,Recep Peker Cad.,40.987792,29.037017,
+ZaHyzZyMZ8e,Intercity İstanbul Park,125000,İstanbul,,Turkey,TR,34959,"Istanbul Park Pisti, Göçbeyli Bulvarı No:1",40.95135,29.400339,
+ZaHyzZyMZ9F,Lucky's Club,66704,Aydın,,Turkey,TR,09400,"Yavansu Mevkii, Süleyman Demirel Blv.",37.823955,27.259584,
+ZaHyzZyMZ_q,Atatürk Olympic Park,80597,İstanbul,,Turkey,TR,34490,Ziyagökalp Mah.,41.07423130726253,28.765604397226543,
+ZaHyzZyMZd-,Tatavla Stage,32500,İstanbul,,Turkey,TR,34433,"Firuzağa Mah. Taktaki Yokuşu, No: 2B",41.031779,28.981486,
+ZaHyzZyMZej,Babil Cafe,32200,İzmir,,Turkey,TR,35330,"İnciraltı, İnciraltı Cd. No:49",38.409869,27.033989,
+Z7r9jZadQn,Olimpiyskiy National Sports Complex,100062,Kiev,Ukraine,Ukraine,UA,02000,Velyka Vasylkivska St 55,0.0,0.0,
+ZFr9jZa76F,NSC Olympiyskiy Stadium - Kyiv,100062,Kiev,Ukraine,Ukraine,UA,01000,55 Velyka Vasylkivska street,0.0,0.0,
+ZFr9jZa76k,Donbass Arena,52187,Donetsk,Ukraine,Ukraine,UA,83000,189e Cheluskintsev Street,0.0,0.0,
+ZFr9jZa7aF,Arena Lviv,34915,Lviv,Ukraine,Ukraine,UA,79000UKR,Strijska Street-Kiltseva Street,0.0,0.0,
+ZFr9jZa7ak,Metalist Stadium,41307,Kharkiv,Ukraine,Ukraine,UA,61001UKR,65 Piekhanivska Street,0.0,0.0,
+Z198xZ52ZAa1,"Etihad Park, Yas Drive",40000,Abu Dhabi,,United Arab Emirates,AE,,,24.48028,54.60249,
+Z198xZ52ZkAk,Yas Marina Circuit,60000,Abu Dhabi,,United Arab Emirates,AE,130001,Yas Island Abu Dhabi,24.47292,54.60638,
+Za98xZ52Z7e,Yas Marina Circuit,60000,Abu Dhabi,,United Arab Emirates,AE,130001,Yas Island Abu Dhabi,24.47292,54.60638,https://media.ticketmaster.eu/unitedarabemirates/f51641bcc4ed91c03f7d9d448b88c342.jpg
+Z198xZ52Z717,Zayed Sports City,44260,Abu Dhabi,,United Arab Emirates,AE,,,24.41694,54.44945,
+Z198xZ52Z7d1,Bin Hamoodah Fort,23905,Al Ain,,United Arab Emirates,AE,,,24.25592,55.74806,
+Z198xZ52Z7d7,Hazza Bin Zayed Stadium,25053,Al Ain,,United Arab Emirates,AE,,,24.24472,55.71712,
+Z198xZ52Z7de,Zayed Sports City Stadium,44260,Abu Dhabi,,United Arab Emirates,AE,,,24.4161,54.4536,
+Z198xZ52Zd1F,Mohammed Bin Zayed Stadium,42056,Abu Dhabi,,United Arab Emirates,AE,,,24.4528,54.3922,
+Z198xZ52Zd1e,Mohammed Bin Zayed Stadium,42056,Abu Dhabi,,United Arab Emirates,AE,1234,Sultan Bin Zayed The First St - Zone 1 -,24.45276,54.38999,
+Z198xZ52ZdA1,Al Jazira Sports Club,36186,Abu Dhabi,,United Arab Emirates,AE,,Rashid bin Saeed Al amkthoum Street,24.45232,54.39108,https://media.ticketmaster.eu/unitedarabemirates/ef2441c1d0428312e0dec08c18f34553.jpg
+Z198xZ52Ze17,du Arena,40000,Abu Dhabi,,United Arab Emirates,AE,,,24.46919,54.37174,
+Z198xZ52Ze1F,Zayed Sports City,44260,Abu Dhabi,,United Arab Emirates,AE,,Airport Road - Al Rawdah,24.42046,54.44789,https://media.ticketmaster.eu/unitedarabemirates/2c13ae9181f14619879cca302eb5936e.jpg
+Z198xZ52Ze6k,Meydan Racecourse,60000,Dubai,,United Arab Emirates,AE,,,25.16382,55.31919,
+Z198xZ52ZeAe,Yas Viceroy,60000,Abu Dhabi,,United Arab Emirates,AE,,Yas Island,24.4674,54.60606,
+Z198xZ52ZeFe,Hazza Bin Zayed Stadium,25053,Al Ain,,United Arab Emirates,AE,,,24.24472,55.71712,https://media.ticketmaster.eu/unitedarabemirates/39145a71d65d41e4d8fa84e9119dad33.jpg
+Z198xZ52ZedF,Hazza Bin Zayed Stadium,25053,Al Ain,,United Arab Emirates,AE,,,24.24472,55.71712,https://media.ticketmaster.eu/unitedarabemirates/7bb608077d6e848399a3f6a69142c5e0.jpg
+Z198xZ52Zekk,Emirates Golf Club,80018,Dubai,,United Arab Emirates,AE,,Nakheel Metro Station,25.0889,55.15802,
+Z198xZ52ZevF,Dubai International Stadium,25000,Dubai,,United Arab Emirates,AE,,Dubai Sports City,25.04674,55.21901,https://media.ticketmaster.eu/unitedarabemirates/50c6dd48fe9f7c458ce0b9e0c35d689e.jpg
+Z198xZ52Zevk,Zayed Cricket Stadium,20000,Abu Dhabi,,United Arab Emirates,AE,,,24.39574,54.5403,
+Z198xZ52ZkdF,Al Ain Square,23905,Al Ain,,United Arab Emirates,AE,,Al Tiwayya,24.24405,55.71193,
+Z198xZ52Zkde,Abu Dhabi Hill,60000,Abu Dhabi,,United Arab Emirates,AE,,,24.47249,54.60499,
+Z398xZ52Zad7ZQ5jrb2j,Yas Marina Circuit,60000,Abu Dhabi,Abu Dhabi,United Arab Emirates,AE,1234,,,,
+Z398xZ52ZadAZQ5jrb2j,Hazza Bin Zayed Stadium,25053,Al Ain,Al Ain,United Arab Emirates,AE,1234,,,,
+Z398xZ52ZaddZQ5jrb2j,Zayed Sports City Tennis Stadium,50000000,Abu Dhabi,Abu Dhabi,United Arab Emirates,AE,1234,,,,
+Z398xZ52ZadkZQ5jrb2j,Mohamed Bin Zayed Stadium,42056,Abu Dhabi,Abu Dhabi,United Arab Emirates,AE,1234,,,,
+Z7r9jZaAzC,Zayed Sports City Stadium,44260,Abu Dhabi,United Arab Emirates,United Arab Emirates,AE,128717,CF83+CCV Zayed Sports City,0.0,0.0,
+Z7r9jZadC4,Hazza Bin Zayed Stadium,25053,Al Ain,United Arab Emirates,United Arab Emirates,AE,15258,"Al Tawia,Al Ain - Abu Dhabi",0.0,0.0,
+Z7r9jZadkm,Emirates Golf Club,80018,Dubai,United Arab Emirates,United Arab Emirates,AE,24040,"Emirates Hills 2, Near Nakheel Metro - Dubai, UAE",0.0,0.0,
+Z7r9jZaesj,Yas Island Marina Circuit,60000,Abu Dhabi,United Arab Emirates,United Arab Emirates,AE,128717,Yas Island,0.0,0.0,
+Za98xZ52Z77,Yas Marina Circuit,60000,Abu Dhabi,,United Arab Emirates,AE,,Yas Island,24.47474,54.60597,https://media.ticketmaster.eu/unitedarabemirates/62905ebfed6067472d19f7974b73c584.jpg
+Za98xZ52ZA1,Zayed Sports City,44260,Abu Dhabi,,United Arab Emirates,AE,,,24.42046,54.44789,
+Za98xZ52Za1,Meydan Racecourse,60000,Dubai,,United Arab Emirates,AE,,,25.15912,55.30882,https://media.ticketmaster.eu/unitedarabemirates/74692e237d140883f24b18f2c38f6f0c.jpg
+Za98xZ52ZaF,Meydan Racecourse,60000,Dubai,,United Arab Emirates,AE,,,25.16382,55.31919,https://media.ticketmaster.eu/unitedarabemirates/1b7c7267fed3f29991893cf28e753ded.jpg
+Za98xZ52ZkF,Zayed Sports City Tennis Stadium,50000000,Abu Dhabi,,United Arab Emirates,AE,,,24.41288,54.46057,https://media.ticketmaster.eu/unitedarabemirates/2936384b96320df84d4b154eeaba2c26.jpg
+Za98xZ52Zke,Yas Marina,60000,Abu Dhabi,,United Arab Emirates,AE,,,24.47292,54.60638,https://media.ticketmaster.eu/unitedarabemirates/30a90bc08f3a4b276c8f6958df06c96d.png
+ZFr9jZ1akF,Estadio Centenario,60235,Montevideo,Uruguay,Uruguay,UY,11400,Av Dr. Americo Ricaldoni,0.0,0.0,
+ZFr9jZk67a,Estadio Jose Pachencho Romero,40800,Maracaibo,Zulia,Venezuela,VE,4005,,0.0,0.0,
+ZFr9jZkd76,Estadio Monumental de Maturin,52000,Maturin,Cojedes,Venezuela,VE,58291,"Maturin, Venezuela",0.0,0.0,
+ZFr9jZkd7F,Estadio Olimpico Luis Ramos,37485,Puerto La Cruz,Anzoategui,Venezuela,VE,38400,,0.0,0.0,

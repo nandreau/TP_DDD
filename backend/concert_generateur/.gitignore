@@ -1,0 +1,66 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === ENVIRONNEMENT VIRTUEL ===
+env/
+.venv/
+ENV/
+env.bak/
+venv/
+
+# === FICHIERS TEMPORAIRES ===
+*.log
+*.pot
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+
+# === BASE DE DONNÉES ===
+db.sqlite3
+*.sqlite3
+
+# === MIGRATIONS PYTHON ===
+**/migrations/*.py
+!**/migrations/__init__.py
+**/migrations/__pycache__/
+
+# === STATIC / MEDIA ===
+staticfiles/
+media/
+
+# === CONFIG PERSONNELLES ===
+*.env
+.env.*
+.local/
+.vscode/
+.idea/
+*.code-workspace
+
+# === FICHIERS DJANGO SECRET ===
+secret*.json
+settings_local.py
+
+# === COVERAGE / TESTS ===
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+.cache/
+
+# === DJANGO COMPILÉS ===
+*.mo
+
+# === FICHIERS JUPYTER (si analyse) ===
+*.ipynb_checkpoints
+
+# === POETRY / PIPENV ===
+poetry.lock
+Pipfile.lock
+
+# === GIT ===
+*.orig

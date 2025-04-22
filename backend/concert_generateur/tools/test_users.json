@@ -1,0 +1,5 @@
+[
+  { "login": "admin", "password": "azerty", "role": "admin" },
+  { "login": "testuser", "password": "motdepasse123", "role": "artist" },
+  { "login": "testuser2", "password": "motdepasse123", "role": "organizer" }
+]

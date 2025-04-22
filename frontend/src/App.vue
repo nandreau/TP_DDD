@@ -1,15 +1,12 @@
 <template>
-  <div class="p-4">
-    <h1>✨ PrimeVue 4 + Aura Theme</h1>
-    <Button label="Click me" icon="pi pi-check" />
-  </div>
+    <ConfirmDialog></ConfirmDialog>
+    <Toast />
+    <router-view />
 </template>
 
 <script setup>
-</script>
+import { initToast } from '@/composables/usePrimeToast'
 
-<style scoped>
-h1 {
-  margin-bottom: 1rem;
-}
-</style>
+initToast()
+</script>
+  
