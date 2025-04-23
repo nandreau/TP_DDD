@@ -3,7 +3,6 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 from rest_framework.routers import DefaultRouter
-from rest_framework.authtoken.views import obtain_auth_token
 from core.views import (
     UserRegistrationView,
     UserAdminViewSet,
@@ -20,6 +19,7 @@ from core.views.artists import ArtistListCreateView, AdminArtistDetailView, Publ
 from core.views.tracks import TrackListView, TrackDetailView, TrackByArtistView
 from core.views.genres import GenreAdminViewSet, GenreFamilyAdminViewSet, GenreListView, GenreFamilyListView
 from core.views.generate import GenerateEventView, ValidateEventView
+from core.views.login import CustomLoginView
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -55,7 +55,7 @@ urlpatterns = [
 
     # Auth et dashboard
     path('register/', UserRegistrationView.as_view(), name='user-registration'),
-    path('login/', obtain_auth_token, name='api_token_auth'),
+    path('login/', CustomLoginView.as_view(), name='custom-login'),
     path('dashboard/', DashboardView.as_view(), name='dashboard'),
 
     # Endpoint read-only : pays + données démographiques combinées

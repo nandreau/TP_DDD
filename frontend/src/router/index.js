@@ -36,7 +36,7 @@ const router = createRouter({
             path: '/auth/register',
             name: 'register',
             component: () => import('@/views/pages/auth/Register.vue')
-        },          
+        },
         {
             path: '/auth/access',
             name: 'accessDenied',
@@ -52,7 +52,7 @@ const router = createRouter({
 
 router.beforeEach(async (to, from, next) => {
     const token = localStorage.getItem('authToken');
-    const publicPages = ['/auth/login', '/auth/register', '/auth/error', '/auth/access'];
+    const publicPages = ['/auth/login', '/auth/register/', '/auth/error', '/auth/access'];
     const authRequired = !publicPages.includes(to.path);
 
     if (authRequired && !token) {

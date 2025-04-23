@@ -21,21 +21,23 @@ const handleLogin = async () => {
 
     const token = response.data.token
     localStorage.setItem('authToken', token)
+    const user = response.data.user
 
     toast.add({
       severity: 'success',
       summary: 'Login Successful',
-      detail: 'Welcome back!',
+      detail: 'Welcome back ' + user.username + '!',
       life: 3000
     });
 
     router.push('/');
   } catch (error) {
     console.error('Login failed:', error);
+    const errorMessage = error.response.data.detail
     toast.add({
       severity: 'error',
       summary: 'Login Failed',
-      detail: 'Please check your credentials.',
+      detail: errorMessage,
       life: 3000
     });
   } finally {
@@ -67,7 +69,7 @@ const handleLogin = async () => {
                                 <Checkbox v-model="checked" id="rememberme1" binary class="mr-2"></Checkbox>
                                 <label for="rememberme1">Remember me</label>
                             </div>
-                            <router-link to="/auth/register" class="font-medium no-underline ml-2 text-right cursor-pointer text-primary">No account?</router-link>
+                            <router-link to="/auth/register/" class="font-medium no-underline ml-2 text-right cursor-pointer text-primary">No account?</router-link>
                         </div>
                         <Button label="Sign In" class="w-full" :disabled="loading" @click="handleLogin"></Button>
                     </div>

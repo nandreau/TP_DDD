@@ -5,14 +5,14 @@ from rest_framework.permissions import IsAdminUser
 from core.models.countries import Country
 from core.serializers.countries import CountrySerializer
 from core.permission import HasPermissions
+from core.views.base import BaseSafeModelViewSet, BaseSafeRetrieveAPIView
 
-
-class CountryAdminViewSet(viewsets.ModelViewSet):
+class CountryAdminViewSet(BaseSafeModelViewSet):
     queryset = Country.objects.all()
     serializer_class = CountrySerializer
     permission_classes = [IsAdminUser]
 
-class CountryReadOnlyView(RetrieveAPIView):
+class CountryReadOnlyView(BaseSafeRetrieveAPIView):
     queryset = Country.objects.all()
     serializer_class = CountrySerializer
     permission_classes = [HasPermissions]

@@ -3,14 +3,15 @@ from rest_framework.permissions import IsAdminUser
 from core.models import Genre, GenreFamily
 from core.serializers.genres import GenreSerializer, GenreFamilySerializer
 from core.permission import HasPermissions
+from core.views.base import BaseSafeModelViewSet, BaseSafeRetrieveAPIView, BaseSafeListAPIView
 
 # Admins only
-class GenreAdminViewSet(viewsets.ModelViewSet):
+class GenreAdminViewSet(BaseSafeModelViewSet):
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
     permission_classes = [IsAdminUser]
 
-class GenreFamilyAdminViewSet(viewsets.ModelViewSet):
+class GenreFamilyAdminViewSet(BaseSafeModelViewSet):
     queryset = GenreFamily.objects.all()
     serializer_class = GenreFamilySerializer
     permission_classes = [IsAdminUser]
