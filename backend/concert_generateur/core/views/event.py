@@ -4,9 +4,10 @@ from django_filters.rest_framework import DjangoFilterBackend
 from core.models.event import Event
 from core.serializers.event import EventSerializer
 from core.permission import HasPermissions
+from core.views.base import BaseSafeModelViewSet, BaseSafeRetrieveAPIView, BaseSafeListAPIView
 
 # CRUD admin via ViewSet
-class EventAdminViewSet(viewsets.ModelViewSet):
+class EventAdminViewSet(BaseSafeModelViewSet):
     queryset = Event.objects.all()
     serializer_class = EventSerializer
     permission_classes = [HasPermissions]
@@ -20,7 +21,7 @@ class EventAdminViewSet(viewsets.ModelViewSet):
 
 
 # Vue publique pour la liste complète
-class EventListView(generics.ListAPIView):
+class EventListView(BaseSafeListAPIView):
     serializer_class = EventSerializer
     permission_classes = [HasPermissions]
     required_permissions = ['core.view_event']
@@ -48,7 +49,7 @@ class EventListView(generics.ListAPIView):
         return Event.objects.all()
 
 # Read-only pour les autres utilisateurs
-class EventReadOnlyView(generics.RetrieveAPIView):
+class EventReadOnlyView(BaseSafeRetrieveAPIView):
     serializer_class = EventSerializer
     permission_classes = [HasPermissions]
     required_permissions = ['core.view_event']
@@ -62,7 +63,7 @@ class EventReadOnlyView(generics.RetrieveAPIView):
         return Event.objects.all()
 
 # Vue par country_code
-class EventByCountryView(generics.ListAPIView):
+class EventByCountryView(BaseSafeListAPIView):
     serializer_class = EventSerializer
     permission_classes = [HasPermissions]
     required_permissions = ['core.view_event']

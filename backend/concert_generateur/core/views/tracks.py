@@ -4,8 +4,9 @@ from core.models import Track
 from core.serializers.tracks import TrackSerializer, TrackDetailSerializer, TrackListSerializer, TrackByArtistSerializer
 from core.permission import HasPermissions
 from django_filters.rest_framework import DjangoFilterBackend
+from core.views.base import BaseSafeModelViewSet, BaseSafeRetrieveAPIView, BaseSafeListAPIView, BaseSafeListCreateAPIView
 
-class TrackListCreateView(generics.ListCreateAPIView):
+class TrackListCreateView(BaseSafeListCreateAPIView):
     queryset = Track.objects.all()
     serializer_class = TrackSerializer
     permission_classes = [HasPermissions]
@@ -16,7 +17,7 @@ class TrackListCreateView(generics.ListCreateAPIView):
     ordering_fields = ['title', 'artist__name', 'release_date', 'entry_date', 'entry_rank', 'current_rank', 'peak_rank', 'peak_date', 'appearances', 'consecutive_appearances', 'streams', 'source_date']
     ordering = ['title']
 
-class TrackDetailView(generics.RetrieveAPIView):
+class TrackDetailView(BaseSafeRetrieveAPIView):
     queryset = Track.objects.all()
     serializer_class = TrackDetailSerializer
     permission_classes = [HasPermissions]
@@ -29,7 +30,7 @@ class TrackDetailView(generics.RetrieveAPIView):
             raise PermissionDenied("Seul un admin peut supprimer un morceau.")
         return super().delete(request, *args, **kwargs)
 
-class TrackByArtistView(generics.ListAPIView):
+class TrackByArtistView(BaseSafeListAPIView):
     serializer_class = TrackByArtistSerializer
     permission_classes = [HasPermissions]
     required_permissions = ['core.view_track']
@@ -52,7 +53,7 @@ class TrackByArtistView(generics.ListAPIView):
         kwargs['context'] = self.get_serializer_context()
         return self.serializer_class(*args, **kwargs)
 
-class TrackListView(generics.ListAPIView):
+class TrackListView(BaseSafeListAPIView):
     serializer_class = TrackListSerializer
     permission_classes = [HasPermissions]
     required_permissions = ['core.view_track']

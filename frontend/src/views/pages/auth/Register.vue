@@ -25,7 +25,7 @@ const handleRegister = async () => {
 
   loading.value = true
   try {
-    await ApiService.post('/register', {
+    await ApiService.post('/register/', {
       username: username.value,
       email: email.value,
       password: password.value
