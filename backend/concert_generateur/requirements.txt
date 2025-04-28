@@ -4,6 +4,7 @@ charset-normalizer==3.4.1
 colorama==0.4.6
 Django==5.2
 django-filter==25.1
+django_extensions
 djangorestframework==3.16.0
 drf-yasg==1.21.10
 idna==3.10
@@ -24,3 +25,4 @@ uritemplate==4.1.1
 urllib3==2.4.0
 pycountry==24.6.1
 django_cors_headers==4.7.0
+python-dateutil
