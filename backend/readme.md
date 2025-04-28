@@ -43,9 +43,9 @@ pip install -r requirements.txt
 
 ```bash
 python manage.py load_latest_backup
+python manage.py makemigrations core
+python manage.py migrate
 ```
-<!-- python manage.py makemigrations core
-python manage.py migrate -->
 
 #### Version lente (load data)
 
