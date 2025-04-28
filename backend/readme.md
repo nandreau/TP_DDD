@@ -43,9 +43,9 @@ pip install -r requirements.txt
 
 ```bash
 python manage.py load_latest_backup
-python manage.py makemigrations core
-python manage.py migrate
 ```
+<!-- python manage.py makemigrations core
+python manage.py migrate -->
 
 #### Version lente (load data)
 
@@ -204,5 +204,5 @@ cd backend/concert_generateur
 python manage.py runserver
 ```
 
-- Swagger : http://127.0.0.1:8000/swagger/
-- Redoc : http://127.0.0.1:8000/redoc/
+- Swagger : http://127.0.0.1:8000/api/swagger/
+- Redoc : http://127.0.0.1:8000/api/redoc/
