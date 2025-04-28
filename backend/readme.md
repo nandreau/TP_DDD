@@ -75,6 +75,18 @@ python manage.py runserver
 - Interface admin : http://127.0.0.1:8000/admin/
 - API navigable : endpoints sous /api/
 
+## Sauvegarder la base de données
+
+```bash
+python manage.py backup
+```
+
+## Restaurer la base de données
+
+```bash
+python manage.py load_latest_backup
+```
+
 ## Générer un événement
 
 Dans Postman, créer une requête POST sur l'endpoint : http://127.0.0.1:8000/api/generate-event/
