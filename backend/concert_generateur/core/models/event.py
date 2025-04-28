@@ -36,3 +36,9 @@ class Event(models.Model):
 
     def __str__(self):
         return str(self.title) if self.title else "Event sans titre"
+
+    class Meta:
+        permissions = (
+            ('generate_event', 'Peut générer un événement'),
+            ('validate_event', 'Peut valider un événement'),
+        )
