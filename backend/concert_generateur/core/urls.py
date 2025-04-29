@@ -15,7 +15,7 @@ from core.views.countries import CountryAdminViewSet, CountryReadOnlyView
 from core.views.event import EventAdminViewSet, EventReadOnlyView, EventListView, EventByCountryView, OrganizerEventUpdateView, OrganizerEventCreateView
 from core.views.groups import GroupAdminViewSet
 from core.views.tokens import TokenProxyView
-from core.views.artists import ArtistListCreateView, AdminArtistDetailView, PublicArtistListView, PublicArtistDetailView
+from core.views.artists import ArtistListCreateView, AdminArtistDetailView, PublicArtistListView, PublicArtistDetailView, ArtistUpdateView
 from core.views.tracks import TrackListView, TrackDetailView, TrackByArtistView
 from core.views.genres import GenreAdminViewSet, GenreFamilyAdminViewSet, GenreListView, GenreFamilyListView
 from core.views.generate import GenerateEventView, ValidateEventView
@@ -69,6 +69,7 @@ urlpatterns = [
     # Routes publiques
     path('artists/', PublicArtistListView.as_view(), name='artist-list'),
     path('artists/<str:name>/', PublicArtistDetailView.as_view(), name='artist-detail'),
+    path('artists/id/<int:id>/', ArtistUpdateView.as_view({'get': 'retrieve', 'put': 'update', 'patch': 'partial_update', 'delete': 'destroy'}), name='artist-update'),
 
     # Endpoint pour récupérer/mettre à jour les infos de l'utilisateur connecté
     path('profile/', UserProfileView.as_view(), name='user-profile'),

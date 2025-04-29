@@ -8,6 +8,8 @@ from core.permission import HasPermissions
 from core.exceptions import handle_api_error, APIException
 from django.core.exceptions import ObjectDoesNotExist
 from core.views.base import BaseSafeModelViewSet, BaseSafeRetrieveAPIView, BaseSafeListAPIView
+from django.core.exceptions import PermissionDenied
+
 
 # Base config for all list views
 BASE_FILTERS = [filters.SearchFilter, filters.OrderingFilter, DjangoFilterBackend]
@@ -68,3 +70,28 @@ class AdminArtistDetailView(BaseSafeModelViewSet):
     required_permissions = ['core.view_artist']
     permission_logic = 'all'
     lookup_field = 'name'
+
+class ArtistUpdateView(BaseSafeModelViewSet):
+    queryset = Artist.objects.all()
+    serializer_class = ArtistSerializer
+    permission_classes = [HasPermissions]
+    required_permissions = ['core.change_artist']
+    permission_logic = 'all'
+    lookup_field = 'id'
+    http_method_names = ['get', 'put', 'patch', 'delete']
+
+    def get_queryset(self):
+        # Un artiste ne peut voir/modifier que ses propres informations
+        if not self.request.user.is_staff:
+            return Artist.objects.filter(id=self.request.user.artist.id)
+        return Artist.objects.all()
+
+    def update(self, request, *args, **kwargs):
+        if not request.user.is_staff and request.user.artist.id != int(kwargs['id']):
+            raise PermissionDenied("Vous ne pouvez modifier que vos propres informations.")
+        return super().update(request, *args, **kwargs)
+
+    def delete(self, request, *args, **kwargs):
+        if not request.user.is_staff and request.user.artist.id != int(kwargs['id']):
+            raise PermissionDenied("Vous ne pouvez supprimer que votre propre compte.")
+        return super().delete(request, *args, **kwargs)
