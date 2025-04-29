@@ -11,7 +11,7 @@ from core.views import (
 )
 from core.views.demographics import CountryDemographicsViewSet, CountryDemographicsReadOnlyView
 from core.views.concerthall import ConcertHallReadOnlyView, ConcertHallAdminViewSet, ConcertHallListView, ConcertHallByCountryView
-from core.views.countries import CountryAdminViewSet, CountryReadOnlyView
+from core.views.countries import CountryAdminViewSet, CountryReadOnlyView, CountryListView
 from core.views.event import EventAdminViewSet, EventReadOnlyView, EventListView, EventByCountryView, OrganizerEventUpdateView, OrganizerEventCreateView
 from core.views.groups import GroupAdminViewSet
 from core.views.tokens import TokenProxyView
@@ -59,6 +59,7 @@ urlpatterns = [
     path('dashboard/', DashboardView.as_view(), name='dashboard'),
 
     # Endpoint read-only : pays + données démographiques combinées
+    path('countries/', CountryListView.as_view(), name='country-list'),
     path('country/<str:code>/', CountryReadOnlyView.as_view(), name='country-detail'),
     path('demographics/<str:country>/', CountryDemographicsReadOnlyView.as_view(), name='countrydemographics-detail'),
 

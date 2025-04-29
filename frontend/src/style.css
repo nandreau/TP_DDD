@@ -48,7 +48,7 @@ body {
 
 .layout-main-container {
     min-height: calc(100vh - 4rem);
-    padding: 2rem 2rem 0;
+    padding: 6rem 2rem 0;
     transition: margin-left var(--layout-section-transition-duration);
 }
 
@@ -66,7 +66,11 @@ body {
     background-color: var(--card-bg);
     transition: left var(--layout-section-transition-duration);
     display: flex;
-    align-items: center
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    max-width: -webkit-fill-available;
+    z-index: 10;
 }
 
 .layout-topbar .layout-topbar-logo-container {
@@ -137,7 +141,6 @@ body {
 }
 
 .layout-topbar .layout-topbar-actions {
-    margin-left: auto;
     display: flex;
     gap: 1rem
 }

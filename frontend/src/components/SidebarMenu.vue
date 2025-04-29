@@ -25,14 +25,6 @@
               </template>
             </template>
           </ul>
-  
-          <div class="mt-auto">
-            <hr class="mb-4 mx-4 border-t border-0 border-surface-200 dark:border-surface-700" />
-            <a v-ripple class="m-4 flex items-center cursor-pointer p-4 gap-2 rounded text-surface-700 hover:bg-surface-100 dark:text-surface-0 dark:hover:bg-surface-800 transition-colors duration-150">
-              <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
-              <span class="font-bold">Amy Elsner</span>
-            </a>
-          </div>
         </div>
       </template>
     </Drawer>
@@ -59,9 +51,14 @@
       label: 'Home',
       items: [
         { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' },
-        { label: 'Admin', icon: 'pi pi-fw pi-users', to: '/Admin' }
-    ]
-    },
+        { label: 'Generate Event', icon: 'pi pi-fw pi-calendar-plus', to: '/Generate-event' },
+        { label: 'Events', icon: 'pi pi-fw pi-calendar', to: '/Events' },
+        { label: 'Admin', icon: 'pi pi-fw pi-user-edit', to: '/Admin' },
+        { label: 'Artists', icon: 'pi pi-fw pi-star', to: '/Artists' },
+        { label: 'Concert Halls', icon: 'pi pi-fw pi-building', to: '/Concerthalls' },
+        { label: 'Tracks', icon: 'pi pi-fw pi-headphones', to: '/Tracks' }
+      ]
+    }
   ]);
   </script>
   
