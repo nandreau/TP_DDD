@@ -57,3 +57,15 @@ class BaseSafeListCreateAPIView(generics.ListCreateAPIView):
     @handle_api_error
     def create(self, request, *args, **kwargs):
         return super().create(request, *args, **kwargs)
+
+class BaseSafeRetrieveUpdateAPIView(generics.RetrieveUpdateAPIView):
+    """
+    Vue sécurisée pour les endpoints publics avec gestion d’erreurs.
+    """
+    @handle_api_error
+    def retrieve(self, request, *args, **kwargs):
+        return super().retrieve(request, *args, **kwargs)
+
+    @handle_api_error
+    def update(self, request, *args, **kwargs):
+        return super().update(request, *args, **kwargs)

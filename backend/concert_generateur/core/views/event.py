@@ -2,6 +2,7 @@ from rest_framework import viewsets, generics, filters
 from rest_framework.exceptions import PermissionDenied
 from django_filters.rest_framework import DjangoFilterBackend
 from core.models.event import Event
+from core.models.artists import Artist
 from core.serializers.event import EventSerializer
 from core.permission import HasPermissions
 from core.views.base import BaseSafeModelViewSet, BaseSafeRetrieveAPIView, BaseSafeListAPIView
@@ -44,7 +45,11 @@ class EventListView(BaseSafeListAPIView):
 
         # Si l'utilisateur est un artiste, on ne lui montre que ses événements
         if hasattr(user, 'role') and user.role == 'artist':
-            return Event.objects.filter(artists=user)
+            try:
+                artist = Artist.objects.get(name=user.username)
+                return Event.objects.filter(artists=artist)
+            except Artist.DoesNotExist:
+                return Event.objects.none()
 
         return Event.objects.all()
 
@@ -59,7 +64,11 @@ class EventReadOnlyView(BaseSafeRetrieveAPIView):
     def get_queryset(self):
         user = self.request.user
         if user.role == "artist":
-            return Event.objects.filter(artists=user)
+            try:
+                artist = Artist.objects.get(name=user.username)
+                return Event.objects.filter(artists=artist)
+            except Artist.DoesNotExist:
+                return Event.objects.none()
         return Event.objects.all()
 
 # Vue par country_code
@@ -74,7 +83,11 @@ class EventByCountryView(BaseSafeListAPIView):
         base_queryset = Event.objects.filter(concert_hall__country_code=code)
 
         if self.request.user.role == "artist":
-            return base_queryset.filter(artists=self.request.user)
+            try:
+                artist = Artist.objects.get(name=self.request.user.username)
+                return base_queryset.filter(artists=artist)
+            except Artist.DoesNotExist:
+                return Event.objects.none()
 
         return base_queryset
 

@@ -20,7 +20,7 @@ class ConcertHallSerializer(serializers.ModelSerializer):
         return value
 
     def validate(self, attrs):
-        required_fields = ['name', 'city', 'country_code', 'capacity', 'address']
+        required_fields = ['name', 'city', 'country_code', 'capacity']
         errors = {}
 
         for field in required_fields:
