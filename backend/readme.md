@@ -59,13 +59,14 @@ python manage.py migrate
 
 ### 5. Créer un superutilisateur (accès à l’admin)
 
-
+(Optionnel)
 ```bash
 python manage.py createsuperuser
 
 ```
 
 ### 6. Lancer le serveur de développement
+
 ```bash
 python manage.py runserver
 
