@@ -31,15 +31,6 @@ const handleLogin = async () => {
     });
 
     router.push('/');
-  } catch (error) {
-    console.error('Login failed:', error);
-    const errorMessage = error.response.data.detail
-    toast.add({
-      severity: 'error',
-      summary: 'Login Failed',
-      detail: errorMessage,
-      life: 3000
-    });
   } finally {
     loading.value = false;
   }

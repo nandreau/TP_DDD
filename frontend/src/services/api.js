@@ -16,20 +16,18 @@ api.interceptors.request.use(config => {
   return config
 })
 
-/*
-// Optional: Handle API errors with toast
 api.interceptors.response.use(
   response => response,
   error => {
     const toast = getToast()
-    const message =
-      error?.response?.data?.message || error.message || 'An unexpected error occurred'
+    const title = error?.response?.data?.error || 'API Error'
+    const details = error?.response?.data?.detail || 'An unexpected error occurred'
 
     if (toast) {
       toast.add({
         severity: 'error',
-        summary: 'API Error',
-        detail: message,
+        summary: title,
+        detail: details,
         life: 4000
       })
     }
@@ -37,7 +35,6 @@ api.interceptors.response.use(
     return Promise.reject(error)
   }
 )
-*/
 
 export const ApiService = {
   get(url, config = {}) {

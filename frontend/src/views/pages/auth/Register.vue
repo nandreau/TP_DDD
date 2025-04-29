@@ -4,6 +4,11 @@ import { useRouter } from 'vue-router'
 import { ApiService } from '@/services/api'
 import { getToast } from '@/composables/usePrimeToast'
 
+const roles = ref([
+    { name: 'Artist', value: 'artist' },
+    { name: 'Organizer',  value: 'organizer' },
+]);
+const selectedRole = ref(roles.value[0])
 const username = ref('')
 const email = ref('')
 const password = ref('')
@@ -28,7 +33,8 @@ const handleRegister = async () => {
     await ApiService.post('/register/', {
       username: username.value,
       email: email.value,
-      password: password.value
+      password: password.value,
+      role: selectedRole.value.value
     })
 
     toast.add({
@@ -39,13 +45,6 @@ const handleRegister = async () => {
     })
 
     router.push('/login')
-  } catch (error) {
-    toast.add({
-      severity: 'error',
-      summary: 'Registration Failed',
-      detail: error?.response?.data?.message || 'Something went wrong.',
-      life: 3000
-    })
   } finally {
     loading.value = false
   }
@@ -63,6 +62,9 @@ const handleRegister = async () => {
           </div>
 
           <div>
+            <label for="email" class="block text-surface-900 dark:text-surface-0 text-xl font-medium mb-2">Role</label>
+            <Select v-model="selectedRole" :options="roles" optionLabel="name" placeholder="Select a Role" class="w-full md:w-[30rem] mb-6" />
+
             <label for="email" class="block text-surface-900 dark:text-surface-0 text-xl font-medium mb-2">Email</label>
             <InputText id="email" type="text" placeholder="Email address" class="w-full md:w-[30rem] mb-6" v-model="email" />
 

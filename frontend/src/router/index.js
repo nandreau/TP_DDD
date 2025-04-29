@@ -20,6 +20,36 @@ const router = createRouter({
                     component: () => import('@/views/pages/Admin.vue'),
                     meta: { requiresAdmin: true },
                 },
+                {
+                    path: '/dashboard',
+                    name: 'dashboard',
+                    component: () => import('@/views/pages/Dashboard.vue')
+                },
+                {
+                    path: '/events',
+                    name: 'events',
+                    component: () => import('@/views/pages/Events.vue')
+                },
+                {
+                    path: '/my-events',
+                    name: 'my-events',
+                    component: () => import('@/views/pages/Events.vue')
+                },
+                {
+                    path: '/artists',
+                    name: 'artists',
+                    component: () => import('@/views/pages/Artists.vue')
+                },
+                {
+                    path: '/concerthalls',
+                    name: 'concerthalls',
+                    component: () => import('@/views/pages/Concerthalls.vue')
+                },
+                {
+                    path: '/tracks',
+                    name: 'tracks',
+                    component: () => import('@/views/pages/Tracks.vue')
+                },
             ]
         },
         {

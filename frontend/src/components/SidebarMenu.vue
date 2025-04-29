@@ -59,9 +59,14 @@
       label: 'Home',
       items: [
         { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' },
-        { label: 'Admin', icon: 'pi pi-fw pi-users', to: '/Admin' }
-    ]
-    },
+        { label: 'Generate Event', icon: 'pi pi-fw pi-calendar', to: '/Generate-event' },
+        { label: 'Events', icon: 'pi pi-fw pi-calendar-plus', to: '/Events' },
+        { label: 'Admin', icon: 'pi pi-fw pi-user-edit', to: '/Admin' },
+        { label: 'Artists', icon: 'pi pi-fw pi-star', to: '/Artists' },
+        { label: 'Concert Halls', icon: 'pi pi-fw pi-building', to: '/Concerthalls' },
+        { label: 'Tracks', icon: 'pi pi-fw pi-headphones', to: '/Tracks' }
+      ]
+    }
   ]);
   </script>
   
