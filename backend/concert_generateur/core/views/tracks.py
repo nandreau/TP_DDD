@@ -17,13 +17,20 @@ class TrackListCreateView(BaseSafeListCreateAPIView):
     ordering_fields = ['title', 'artist__name', 'release_date', 'entry_date', 'entry_rank', 'current_rank', 'peak_rank', 'peak_date', 'appearances', 'consecutive_appearances', 'streams', 'source_date']
     ordering = ['title']
 
-class TrackDetailView(BaseSafeRetrieveAPIView):
+class TrackDetailView(BaseSafeModelViewSet):
     queryset = Track.objects.all()
     serializer_class = TrackDetailSerializer
     permission_classes = [HasPermissions]
     required_permissions = ['core.view_track']
     permission_logic = 'all'
     lookup_field = 'id'
+    http_method_names = ['get', 'delete']  # Limite les méthodes HTTP autorisées
+
+    def get_permissions(self):
+        if self.action == 'destroy':
+            self.required_permissions = ['core.delete_track']
+            self.permission_logic = 'all'
+        return super().get_permissions()
 
     def delete(self, request, *args, **kwargs):
         if not request.user.is_staff:

@@ -97,6 +97,6 @@ urlpatterns = [
 
     # Endpoint pour les tracks
     path('tracks/', TrackListView.as_view(), name='track-list'),
-    path('tracks/<int:id>/', TrackDetailView.as_view(), name='track-detail'),
+    path('tracks/<int:id>/', TrackDetailView.as_view({'get': 'retrieve', 'delete': 'destroy'}), name='track-detail'),
     path('tracks/by-artist/<str:name>/', TrackByArtistView.as_view(), name='track-by-artist'),
 ]
