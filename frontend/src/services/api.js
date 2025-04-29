@@ -20,8 +20,18 @@ api.interceptors.response.use(
   response => response,
   error => {
     const toast = getToast()
-    const title = error?.response?.data?.error || 'API Error'
-    const details = error?.response?.data?.detail || 'An unexpected error occurred'
+    let title = 'API Error';
+    let details = 'An unexpected error occurred';
+    
+    if (error.response) {
+      if (error.response.status === 500) {
+        title = 'Server Error';
+        details = 'This API is not implemented yet.';
+      } else {
+        title = error.response.data?.error || 'API Error';
+        details = error.response.data?.detail || 'An unexpected error occurred';
+      }
+    }    
 
     if (toast) {
       toast.add({

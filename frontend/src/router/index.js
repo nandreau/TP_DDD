@@ -26,6 +26,11 @@ const router = createRouter({
                     component: () => import('@/views/pages/Dashboard.vue')
                 },
                 {
+                    path: '/generate-event',
+                    name: 'generate-event',
+                    component: () => import('@/views/pages/Generate-event.vue')
+                },
+                {
                     path: '/events',
                     name: 'events',
                     component: () => import('@/views/pages/Events.vue')
@@ -94,6 +99,8 @@ router.beforeEach(async (to, from, next) => {
             const response = await ApiService.get('/profile/');
             const user = response.data;
 
+            localStorage.setItem('userProfile', JSON.stringify(user));
+
             if (user.role === 'admin') {
                 return next();
             } else {
@@ -107,6 +114,7 @@ router.beforeEach(async (to, from, next) => {
 
     next();
 });
+
 
 
 export default router;

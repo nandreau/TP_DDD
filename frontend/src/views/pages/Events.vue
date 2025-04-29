@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { FilterMatchMode } from '@primevue/core/api';
 import { useConfirm } from 'primevue/useconfirm';
 import { useToast } from 'primevue/usetoast';
@@ -26,6 +26,9 @@ const selectedEventId = ref(null);
 const filters = ref({
   global: { value: null, matchMode: FilterMatchMode.CONTAINS }
 });
+
+const user = JSON.parse(localStorage.getItem('userProfile'));
+const isAdmin = computed(() => user?.role === 'admin');
 
 const loadEvents = async () => {
   loading.value = true;
@@ -126,7 +129,7 @@ const saveEventUpdate = async () => {
     >
       <template #header>
         <div class="flex justify-between items-center">
-          <div class="flex gap-2">
+          <div v-if="isAdmin" class="flex gap-2">
             <Button @click="openUpdateDialog" label="Update" severity="warn" :disabled="!selectedEvents || selectedEvents.length !== 1" />
             <Button @click="deleteEvents" label="Delete" severity="danger" :disabled="!selectedEvents || selectedEvents.length < 1" />
           </div>
@@ -139,7 +142,7 @@ const saveEventUpdate = async () => {
         </div>
       </template>
 
-      <Column selectionMode="multiple" headerStyle="width: 3rem" />
+      <Column v-if="isAdmin" selectionMode="multiple" headerStyle="width: 3rem" />
       <Column field="id" header="ID" sortable />
       <Column field="title" header="Title" sortable />
       <Column header="Image">
@@ -158,7 +161,6 @@ const saveEventUpdate = async () => {
       <Column field="event_end" header="End Date" sortable />
     </DataTable>
 
-    <!-- Update Dialog -->
     <Dialog v-model:visible="visibleUpdate" modal header="Update Event" :style="{ width: '30rem' }">
       <span class="text-surface-500 dark:text-surface-400 block mb-8">Update event information.</span>
 

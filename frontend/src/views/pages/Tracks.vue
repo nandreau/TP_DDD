@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { FilterMatchMode } from '@primevue/core/api';
 import { useConfirm } from 'primevue/useconfirm';
 import { useToast } from 'primevue/usetoast';
@@ -16,6 +16,9 @@ const loading = ref(false);
 const filters = ref({
   global: { value: null, matchMode: FilterMatchMode.CONTAINS }
 });
+
+const user = JSON.parse(localStorage.getItem('userProfile'));
+const isAdmin = computed(() => user?.role === 'admin');
 
 const loadTracks = async () => {
   loading.value = true;
@@ -80,13 +83,13 @@ const deleteTracks = () => {
       removableSort
       paginator
       :rows="5"
-      :rowsPerPageOptions="[5, 10, 20, 50]"
+      :rowsPerPageOptions="[5, 10, 20]"
       tableStyle="min-width: 60rem"
       :globalFilterFields="['title', 'artist_name', 'release_date', 'current_rank', 'streams']"
     >
       <template #header>
         <div class="flex justify-between items-center">
-          <div class="flex gap-2">
+          <div v-if="isAdmin" class="flex gap-2">
             <Button
               @click="deleteTracks"
               label="Delete"
@@ -103,7 +106,7 @@ const deleteTracks = () => {
         </div>
       </template>
 
-      <Column selectionMode="multiple" headerStyle="width: 3rem" />
+      <Column v-if="isAdmin" selectionMode="multiple" headerStyle="width: 3rem" />
       <Column field="id" header="ID" sortable />
       <Column field="title" header="Title" sortable />
       <Column field="artist_name" header="Artist Name" sortable />
