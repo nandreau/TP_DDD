@@ -15,6 +15,11 @@ import AppState from './plugins/appState.js';
 import HeaderComponent from './components/HeaderComponent.vue';
 import Emerald from './presets/Emerald.js';
 
+import 'leaflet/dist/leaflet.css';
+import 'vue-map-ui/dist/normalize.css';
+import 'vue-map-ui/dist/style.css';
+import 'vue-map-ui/dist/theme-all.css';
+
 const app = createApp(App);
 
 app.use(PrimeVue, {

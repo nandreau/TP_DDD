@@ -15,6 +15,7 @@
     "autoprefixer": "^10",
     "axios": "^1.8.4",
     "date-fns": "^4.1.0",
+    "leaflet": "^1.9.4",
     "postcss": "^8.4.31",
     "primeicons": "latest",
     "primevue": "4.3.3",
@@ -23,6 +24,7 @@
     "unplugin-vue-components": "latest",
     "vite": "^4.0.0",
     "vue": "^3.2.45",
+    "vue-map-ui": "^0.0.18",
     "vue-router": "^4.5.0"
   },
   "main": "src/App.vue"
