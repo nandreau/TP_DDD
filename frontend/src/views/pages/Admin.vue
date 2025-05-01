@@ -14,7 +14,7 @@ const filters = ref({
     global: { value: null, matchMode: FilterMatchMode.CONTAINS }
 });
 const visibleUpdate = ref(false);
-const visibleAdd = ref(false); // <-- ADD THIS
+const visibleAdd = ref(false);
 const formUser = ref({
     username: '',
     email: '',
@@ -23,14 +23,13 @@ const formUser = ref({
 });
 const selectedUserId = ref(null);
 
-// For Add Dialog Roles
 const roles = ref([
     { name: 'Admin', value: 'admin' },
     { name: 'Artist', value: 'artist' },
     { name: 'Organizer', value: 'organizer' }
 ]);
 
-const selectedRole = ref(roles.value[0]); // <-- For role selection in Add
+const selectedRole = ref(roles.value[0]);
 
 const loadUsers = async () => {
     try {
