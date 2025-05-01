@@ -44,7 +44,7 @@ Concert Generator est une application qui utilise l'intelligence qui a découlé
 
 ### Frontend
 
-- Framework : React
+- Framework : Vue
 - Styling : Tailwind CSS
 - Interface utilisateur moderne et responsive
 
