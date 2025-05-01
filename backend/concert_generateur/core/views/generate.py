@@ -13,6 +13,7 @@ from dateutil.parser import parse as parse_datetime
 
 class GenerateEventView(APIView):
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.generate_event']
 
     def post(self, request):
@@ -34,6 +35,7 @@ class GenerateEventView(APIView):
 
 class ValidateEventView(APIView):
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.validate_event']
 
     def post(self, request):

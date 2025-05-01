@@ -21,6 +21,7 @@ class TrackDetailView(BaseSafeModelViewSet):
     queryset = Track.objects.all()
     serializer_class = TrackDetailSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer', 'artist']
     required_permissions = ['core.view_track']
     permission_logic = 'all'
     lookup_field = 'id'
@@ -40,6 +41,7 @@ class TrackDetailView(BaseSafeModelViewSet):
 class TrackByArtistView(BaseSafeListAPIView):
     serializer_class = TrackByArtistSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer', 'artist']
     required_permissions = ['core.view_track']
     permission_logic = 'all'
     filter_backends = [filters.SearchFilter, filters.OrderingFilter, DjangoFilterBackend]
@@ -63,6 +65,7 @@ class TrackByArtistView(BaseSafeListAPIView):
 class TrackListView(BaseSafeListAPIView):
     serializer_class = TrackListSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer', 'artist']
     required_permissions = ['core.view_track']
     permission_logic = 'all'
     filter_backends = [filters.SearchFilter, filters.OrderingFilter, DjangoFilterBackend]

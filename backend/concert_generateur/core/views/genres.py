@@ -21,6 +21,7 @@ class GenreListView(viewsets.ReadOnlyModelViewSet):
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_genre']
     permission_logic = 'all'
 
@@ -28,5 +29,6 @@ class GenreFamilyListView(viewsets.ReadOnlyModelViewSet):
     queryset = GenreFamily.objects.all()
     serializer_class = GenreFamilySerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_genrefamily']
     permission_logic = 'all'

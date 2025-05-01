@@ -93,9 +93,23 @@ const validateEvent = async () => {
       artist_ids: generatedEvent.value.casting.map(artist => artist.id)
     };
     await ApiService.post('/validate-event/', payload);
-    toast.add({ severity: 'success', summary: 'Success', detail: 'Event validated!', life: 3000 });
+    toast.add({ severity: 'success', summary: 'Success', detail: 'Event Created!', life: 3000 });
     showValidationDialog.value = false;
+    resetForm();
 };
+
+const resetForm = () => {
+  selectedCountry.value = null;
+  selectedConcertHall.value = null;
+  selectedGenreFamily.value = null;
+  eventStart.value = new Date();
+  castingSize.value = 2;
+  qualityScore.value = 5;
+  customTitle.value = '';
+  generatedEvent.value = null;
+  concertHalls.value = [];
+};
+
 
 onMounted(async () => {
   await loadCountries();

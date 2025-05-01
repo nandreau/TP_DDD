@@ -40,6 +40,7 @@ class ConcertHallReadOnlyView(generics.RetrieveAPIView):
     queryset = ConcertHall.objects.all()
     serializer_class = ConcertHallSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_concerthall']
     permission_logic = 'all'
     lookup_field = 'id'
@@ -53,6 +54,7 @@ class ConcertHallListView(generics.ListAPIView):
     queryset = ConcertHall.objects.all()
     serializer_class = ConcertHallSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_concerthall']
     permission_logic = 'all'
     filter_backends = CONCERTHALL_FILTERS
@@ -69,6 +71,7 @@ class ConcertHallListView(generics.ListAPIView):
 class ConcertHallByCountryView(generics.ListAPIView):
     serializer_class = ConcertHallSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_concerthall']
     permission_logic = 'all'
 

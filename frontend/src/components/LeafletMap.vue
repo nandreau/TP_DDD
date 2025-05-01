@@ -26,12 +26,7 @@ export default {
     },
     methods: {
         initMap() {
-            const leafletMap = L.map(this.mapId, {
-                center: [50, 10],
-                zoom: 3,
-                zoomControl: true,
-                zoomAnimation: false
-            });
+            const leafletMap = L.map(this.mapId, {});
 
             const tile = L.tileLayer(
                 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

@@ -7,7 +7,7 @@ import LeafletMap from '@/components/LeafletMap.vue';
 import L from 'leaflet';
 
 const toast = useToast();
-
+const hasZoomedInitially = ref(false);
 const leafletMap = ref(null);
 const geoJsonLayer = ref(null);
 const legendControl = ref(null);
@@ -37,7 +37,7 @@ const getFeatureCode = (f) => f.properties.iso_a2_eh || f.properties.iso_a2 || f
 
 const onMapReady = (mapInstance) => {
   leafletMap.value = mapInstance;
-  renderBaseLayer(); // show basic map
+  renderBaseLayer();
 };
 
 const loadCountries = async () => {
@@ -53,37 +53,6 @@ const loadCountries = async () => {
     loadingCountries.value = false;
   }
 };
-
-const ensureHatchPattern = () => {
-  if (document.getElementById('diagonalHatch')) return;
-
-  const svgNS = "http://www.w3.org/2000/svg";
-  const svg = document.createElementNS(svgNS, 'svg');
-  svg.setAttribute('height', 0);
-  svg.setAttribute('width', 0);
-  svg.style.position = 'absolute';
-
-  const defs = document.createElementNS(svgNS, 'defs');
-  const pattern = document.createElementNS(svgNS, 'pattern');
-  pattern.setAttribute('id', 'diagonalHatch');
-  pattern.setAttribute('patternUnits', 'userSpaceOnUse');
-  pattern.setAttribute('width', '8');
-  pattern.setAttribute('height', '8');
-  pattern.setAttribute('patternTransform', 'rotate(45)');
-
-  const rect = document.createElementNS(svgNS, 'rect');
-  rect.setAttribute('width', '4');
-  rect.setAttribute('height', '8');
-  rect.setAttribute('transform', 'translate(0,0)');
-  rect.setAttribute('fill', 'black');
-
-  pattern.appendChild(rect);
-  defs.appendChild(pattern);
-  svg.appendChild(defs);
-  svg.setAttribute('id', 'diagonalHatch');
-  document.body.appendChild(svg);
-};
-
 
 const updateSelectCountry = (code) => {
   if (!leafletMap.value) return;
@@ -118,18 +87,6 @@ const handleFeatureClick = (feature, layer) => {
     selectedCountry.value = match.value;
     demographics.value = match.demographics;
     updateSelectCountry(match.value);
-
-    if (selectedDemographic.value) {
-      const featureMatch = customGeoJson.features.find(f => {
-        const featureCode = getFeatureCode(f)?.trim().toUpperCase();
-        return featureCode === match.value;
-      });
-
-      if (featureMatch && leafletMap.value) {
-        const bounds = L.geoJSON(featureMatch).getBounds();
-        leafletMap.value.fitBounds(bounds, { maxZoom: 6 });
-      }
-    }
   });
 };
 
@@ -151,7 +108,10 @@ const renderBaseLayer = () => {
     onEachFeature: handleFeatureClick,
   }).addTo(leafletMap.value);
 
-  leafletMap.value.fitBounds(geoJsonLayer.value.getBounds());
+  if (!hasZoomedInitially.value) {
+    leafletMap.value.setView([50, 20], 4);
+    hasZoomedInitially.value = true;
+  }
 };
 
 const renderChoroplethLayer = (metric) => {
@@ -245,7 +205,7 @@ const onCountryChange = (e) => {
 
     if (feature && leafletMap.value) {
       const layer = L.geoJSON(feature);
-      leafletMap.value.fitBounds(layer.getBounds(), { maxZoom: 6 });
+      leafletMap.value.fitBounds(layer.getBounds(), { maxZoom: 5 });
     }
   }
 };

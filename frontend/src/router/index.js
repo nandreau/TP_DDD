@@ -12,7 +12,8 @@ const router = createRouter({
                 {
                     path: '/pages/empty',
                     name: 'empty',
-                    component: () => import('@/views/pages/Empty.vue')
+                    component: () => import('@/views/pages/Empty.vue'),
+                    meta: { requiresAuth: true },
                 },
                 {
                     path: '/admin',
@@ -23,37 +24,44 @@ const router = createRouter({
                 {
                     path: '/',
                     name: 'dashboard',
-                    component: () => import('@/views/pages/Dashboard.vue')
+                    component: () => import('@/views/pages/Dashboard.vue'),
+                    meta: { requiresAuth: true },
                 },
                 {
                     path: '/generate-event',
                     name: 'generate-event',
-                    component: () => import('@/views/pages/Generate-event.vue')
+                    component: () => import('@/views/pages/Generate-event.vue'),
+                    meta: { requiresAuth: true },
                 },
                 {
                     path: '/events',
                     name: 'events',
-                    component: () => import('@/views/pages/Events.vue')
+                    component: () => import('@/views/pages/Events.vue'),
+                    meta: { requiresAuth: true },
                 },
                 {
                     path: '/my-events',
                     name: 'my-events',
-                    component: () => import('@/views/pages/Events.vue')
+                    component: () => import('@/views/pages/Events.vue'),
+                    meta: { requiresAuth: true },
                 },
                 {
                     path: '/artists',
                     name: 'artists',
-                    component: () => import('@/views/pages/Artists.vue')
+                    component: () => import('@/views/pages/Artists.vue'),
+                    meta: { requiresAuth: true },
                 },
                 {
                     path: '/concerthalls',
                     name: 'concerthalls',
-                    component: () => import('@/views/pages/Concerthalls.vue')
+                    component: () => import('@/views/pages/Concerthalls.vue'),
+                    meta: { requiresAuth: true },
                 },
                 {
                     path: '/tracks',
                     name: 'tracks',
-                    component: () => import('@/views/pages/Tracks.vue')
+                    component: () => import('@/views/pages/Tracks.vue'),
+                    meta: { requiresAuth: true },
                 },
             ]
         },
@@ -94,17 +102,18 @@ router.beforeEach(async (to, from, next) => {
         return next('/auth/login');
     }
 
-    if (to.meta.requiresAdmin) {
+    if (to.meta.requiresAdmin || to.meta.requiresAuth) {
         try {
             const response = await ApiService.get('/profile/');
             const user = response.data;
 
             localStorage.setItem('userProfile', JSON.stringify(user));
-
-            if (user.role === 'admin') {
-                return next();
-            } else {
-                return next('/auth/access');
+            if (to.meta.requiresAdmin) {
+                if (user.role === 'admin') {
+                    return next();
+                } else {
+                    return next('/auth/access');
+                }
             }
         } catch (error) {
             console.error('Error fetching user profile:', error);

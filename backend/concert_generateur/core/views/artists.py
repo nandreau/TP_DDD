@@ -42,6 +42,7 @@ class PublicArtistListView(BaseSafeListAPIView):
     queryset = Artist.objects.all()
     serializer_class = ArtistSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'artist'] 
     required_permissions = ['core.view_artist']
     permission_logic = 'all'
     filter_backends = BASE_FILTERS
@@ -58,6 +59,7 @@ class PublicArtistDetailView(BaseSafeRetrieveAPIView):
     queryset = Artist.objects.all()
     serializer_class = ArtistSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'artist']
     required_permissions = ['core.view_artist']
     permission_logic = 'all'
     lookup_field = 'name'

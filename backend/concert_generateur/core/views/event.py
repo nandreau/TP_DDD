@@ -25,6 +25,7 @@ class EventAdminViewSet(BaseSafeModelViewSet):
 class EventListView(BaseSafeListAPIView):
     serializer_class = EventSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_event']
     permission_logic = 'all'
 
@@ -57,6 +58,7 @@ class EventListView(BaseSafeListAPIView):
 class EventReadOnlyView(BaseSafeRetrieveAPIView):
     serializer_class = EventSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_event']
     permission_logic = 'all'
     lookup_field = 'id'
@@ -75,6 +77,7 @@ class EventReadOnlyView(BaseSafeRetrieveAPIView):
 class EventByCountryView(BaseSafeListAPIView):
     serializer_class = EventSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_event']
     permission_logic = 'all'
 

@@ -16,12 +16,14 @@ class CountryListView(BaseSafeListAPIView):
     queryset = Country.objects.all()
     serializer_class = CountrySerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_country']
     permission_logic = 'all'
 
 class CountryReadOnlyView(BaseSafeRetrieveAPIView):
     serializer_class = CountrySerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_country']
     permission_logic = 'all'
     lookup_field = 'code'

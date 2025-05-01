@@ -31,7 +31,7 @@
   </template>
   
   <script setup>
-  import { ref } from 'vue';
+  import { ref, computed } from 'vue';
   import { useRoute } from 'vue-router';
   
   const props = defineProps({ visible: Boolean });
@@ -46,19 +46,49 @@
     return route.path === item.to;
   }
   
-  const model = ref([
+  // Get current user
+  const user = JSON.parse(localStorage.getItem('userProfile') || '{}');
+  const role = user?.role || null;
+  
+  // Full menu model
+  const fullMenu = [
+    { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' },
+    { label: 'Generate Event', icon: 'pi pi-fw pi-calendar-plus', to: '/Generate-event' },
+    { label: 'Events', icon: 'pi pi-fw pi-calendar', to: '/Events' },
+    { label: 'Admin', icon: 'pi pi-fw pi-user-edit', to: '/Admin' },
+    { label: 'Artists', icon: 'pi pi-fw pi-star', to: '/Artists' },
+    { label: 'Concert Halls', icon: 'pi pi-fw pi-building', to: '/Concerthalls' },
+    { label: 'Tracks', icon: 'pi pi-fw pi-headphones', to: '/Tracks' }
+  ];
+  console.log(role)
+  // Role-based filtering
+  const filteredItems = computed(() => {
+    if (role === 'admin') {
+      return fullMenu;
+    }
+  
+    if (role === 'artist') {
+      return fullMenu.filter(item =>
+        ['/', '/Concerthalls', '/Tracks'].includes(item.to)
+      );
+    }
+    console.log(role)
+    if (role === 'organizer') {
+      return fullMenu.filter(item =>
+        ['/', '/Generate-event', '/Events', '/Concerthalls', '/Artists', '/Tracks'].includes(item.to)
+      );
+    }
+  
+    return [];
+  });
+  
+  const model = computed(() => [
     {
       label: 'Home',
-      items: [
-        { label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' },
-        { label: 'Generate Event', icon: 'pi pi-fw pi-calendar-plus', to: '/Generate-event' },
-        { label: 'Events', icon: 'pi pi-fw pi-calendar', to: '/Events' },
-        { label: 'Admin', icon: 'pi pi-fw pi-user-edit', to: '/Admin' },
-        { label: 'Artists', icon: 'pi pi-fw pi-star', to: '/Artists' },
-        { label: 'Concert Halls', icon: 'pi pi-fw pi-building', to: '/Concerthalls' },
-        { label: 'Tracks', icon: 'pi pi-fw pi-headphones', to: '/Tracks' }
-      ]
+      items: filteredItems.value
     }
   ]);
+
   </script>
+  
   

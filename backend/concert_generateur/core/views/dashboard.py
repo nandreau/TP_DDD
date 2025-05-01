@@ -5,6 +5,7 @@ from core.permission import HasPermissions
 
 class DashboardView(APIView):
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer', 'artist']
     required_permissions = ['core.can_view_dashboard']
     permission_logic = 'all'
 

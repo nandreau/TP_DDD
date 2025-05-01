@@ -16,6 +16,7 @@ class CountryDemographicsReadOnlyView(BaseSafeRetrieveAPIView):
     queryset = CountryDemographics.objects.all()
     serializer_class = CountryDemographicsSerializer
     permission_classes = [HasPermissions]
+    allowed_roles = ['admin', 'organizer']
     required_permissions = ['core.view_countrydemographics']
     permission_logic = 'all'
     lookup_field = 'country'

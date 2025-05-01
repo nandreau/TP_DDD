@@ -4,26 +4,25 @@ from rest_framework.permissions import BasePermission
 class HasPermissions(BasePermission):
     """
     Vérifie que l'utilisateur possède les permissions définies dans l'attribut
-    `required_permissions` de la vue.
-
-    Tu peux définir en plus l'attribut `permission_logic` dans la vue :
-      - "all" (par défaut) : L'utilisateur doit avoir TOUTES les permissions listées.
-      - "any" : L'utilisateur doit avoir AU MOINS UNE des permissions listées.
+    `required_permissions` ou `allowed_roles` de la vue.
     """
+
     def has_permission(self, request, view):
         perms = getattr(view, 'required_permissions', [])
         logic = getattr(view, 'permission_logic', 'all')
+        allowed_roles = getattr(view, 'allowed_roles', [])
+
         if not request.user or not request.user.is_authenticated:
             return False
+        
+        if allowed_roles and request.user.role in allowed_roles:
+            return True
 
-        # Si aucune permission n'est spécifiée, autorise par défaut
         if not perms:
             return True
 
         if logic == 'all':
             return request.user.has_perms(perms)
         elif logic == 'any':
-            return any(request.user.has_perm(perm) for perm in perms)
-        else:
-            # Si on donne un mode non reconnu, refuse l'accès
-            return False
+            return any(request.user.has_perm(p) for p in perms)
+        return False
